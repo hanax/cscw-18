@@ -1,9 +1,18 @@
 import 'normalize-css';
-import '../styles/index.styl';
+import '../styles/main.styl';
 
 $(() => {
   const windowHeight = $(window).height();
   const windowWidth = $(window).width();
+
+  const currentSession = location.href.substring(
+    location.href.lastIndexOf("/") + 1,
+    location.href.lastIndexOf(".")
+  );
+  console.log(currentSession)
+  if (currentSession.length > 0) {
+    $('#' + currentSession).addClass('nav-current');
+  }
 
   $('#importantNow')
     .on('click', '.q', function(e) {

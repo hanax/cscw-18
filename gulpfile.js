@@ -33,6 +33,7 @@ gulp.task('jade', function() {
     .pipe($.plumber())
     .pipe($.jade({
       data: mergeData([
+        require(paths.src + '/data/shared'),
         require(paths.src + '/data/home'),
         require(paths.src + '/data/committee'),
         require(paths.src + '/data/submit')

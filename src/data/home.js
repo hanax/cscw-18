@@ -8,23 +8,6 @@ marked.setOptions({
   smartLists: true,
 });
 
-var homeNavi = {
-  content: [
-    {
-      link: "index.html",
-      title: "home"
-    },
-    {
-      link: "submit.html",
-      title: "submit"
-    },
-    {
-      link: "committee.html",
-      title: "committee"
-    }
-  ]
-};
-
 var homeHeader = {
   h1: "The 21st ACM Conference on Computer-Supported Cooperative Work and Social Computing",
   h2: "Oct/Nov 2018, Location TBD"
@@ -87,12 +70,10 @@ var homeCommittee = {
   title: "Organizing committee",
   content: [
     {
-      name: "name",
-      link: "link"
+      name: "Vanessa Evers"
     },
     {
-      name: "name",
-      link: "link"
+      name: "Mor Naaman"
     }
   ]
 };
@@ -105,7 +86,6 @@ homeCfp.content = marked(homeCfp.content);
 homeSponsors.content = marked(homeSponsors.content);
 
 module.exports = {
-  homeNavi: homeNavi,
   homeHeader: homeHeader,
   homeWelcome: homeWelcome,
   homeImportantNow: homeImportantNow,

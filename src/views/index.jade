@@ -24,13 +24,13 @@ html
 
 	body
 
-	ul.nav
+	ul.nav.stick-to-top
 		.content-wrapper
-			each n in homeNavi.content
+			each n in sharedNavi.content
 				a(href=n.link)
 					li= n.title
 
-	.section#header
+	.section.header
 		.overlay-gradient
 		.content-wrapper
 			img(src='./assets/logo-home-header.png')
@@ -38,7 +38,7 @@ html
 				p= homeHeader.h1
 				p= homeHeader.h2
 
-	.section#welcome
+	.section.welcome
 		.title= homeWelcome.title
 		.separator
 			span.fa.fa-circle
@@ -46,7 +46,7 @@ html
 			span.fa.fa-circle
 		.content!= homeWelcome.content
 
-	.section#importantNow
+	.section.importantNow
 		.title= homeImportantNow.title
 		.separator.separator--w
 			span.fa.fa-circle
@@ -61,7 +61,7 @@ html
 					.a
 						p!= f.a
 
-	.section#news
+	.section.news
 		.column
 			a.twitter-timeline(href='https://twitter.com/ACM_CSCW') Tweets by ACM_CSCW
 			script(async='', src='//platform.twitter.com/widgets.js', charset='utf-8')
@@ -71,7 +71,7 @@ html
 				each n in homeNews.content
 					li!= n
 
-	.section#cfp
+	.section.cfp
 		.title= homeCfp.title
 		.separator
 			span.fa.fa-circle
@@ -81,7 +81,7 @@ html
 		.link-more
 			a(href='submit.html') More Information
 
-	.section#sponsors
+	.section.sponsors
 		.title= homeSponsors.title
 		.separator.separator--w
 			span.fa.fa-circle
@@ -89,7 +89,7 @@ html
 			span.fa.fa-circle
 		.content!= homeSponsors.content
 
-	.section#committee
+	.section.committee
 		.title= homeCommittee.title
 		.separator
 			span.fa.fa-circle
@@ -101,7 +101,7 @@ html
 		.link-more
 			a(href='committee.html') More Information
 
-	.section#footer
+	.section.footer
 		p
 			a(href='mailto: web2018@cscw.acm.org') web2018@cscw.acm.org
 		p CSCW 2018 | Copyright © 2016
