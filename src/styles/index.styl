@@ -1,0 +1,217 @@
+@import 'nib';
+@import './font-awesome.css';
+
+dark-grey = #151515
+light-grey = #F8F8F8
+theme-blue = #344591
+theme-red = #A23024
+theme-yellow = #E5CF00
+
+*
+  box-sizing border-box
+
+body
+  font-size 14px
+  font-family 'Avenir', 'Open Sans', sans-serif
+  font-weight 300
+  color dark-grey
+  background-color #fff
+  width 100vw
+
+a
+  outline 0
+  transition all .2s
+  color dark-grey
+  text-decoration underline
+  &, &:active, &:focus
+    outline none
+
+input
+  text-decoration none
+  outline 0
+  border none
+  &, &:active, &:focus
+    outline none
+
+h1,
+h2,
+h3,
+h4
+  margin 0
+
+h3
+  font-size 16px
+  text-align center
+  font-weight 300  
+  margin 30px 0
+
+h4
+  display inline
+  font-weight 500
+
+ul
+  margin 0
+  padding 0
+  list-style-type none
+  li
+    margin-left 0
+
+.title
+  text-align center
+  font-size 24px
+  font-weight 700
+
+.separator
+  margin 30px 0
+  width 100%
+  text-align center
+  letter-spacing 10px
+  font-size 10px
+  .fa:nth-child(1)
+    color theme-yellow
+  .fa:nth-child(2)
+    color theme-red
+  .fa:nth-child(3)
+    color theme-blue
+
+.separator--w
+  .fa:nth-child(n)
+    color #fff
+
+.column
+  float left
+  width 30%
+
+@media screen and (max-width: 900px)
+  .column
+    float none
+    display block
+    width 100%
+
+.section
+  min-height 200px
+  width 100%
+  padding 50px 70px 70px 70px
+  overflow hidden
+  @media screen and (max-width: 900px)
+    padding 30px
+
+.content-wrapper
+  position relative
+  left 50%
+  top 50%
+  transform translate(-50%, -50%)
+  text-align center
+
+.link-more
+  text-align right
+
+ul.nav
+  position fixed
+  z-index 10
+  width 100%
+  background-color rgba(255, 255, 255, .6)
+  height 45px
+  line-height 45px
+  text-transform uppercase
+  padding 0 70px
+  font-size 12px
+  font-weight 500
+  transition all .3s
+  .content-wrapper
+    height 100%
+  &:hover
+    background-color rgba(255, 255, 255, .8)
+  a
+    text-decoration none
+    height 100%
+  li
+    display inline-block
+    width 120px
+    text-align center
+    transition all .3s
+    &:hover
+      background-color light-grey
+
+#header
+  background url('/assets/bg-home-header.png') no-repeat
+  background-size 100%
+  height 80vh
+  .content-wrapper
+    z-index 1
+  img
+    width 60%
+    margin 30px 0
+  .overlay-gradient
+    width 100%
+    height 80vh
+    position absolute
+    z-index 0
+    top 0
+    left 0
+    background linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1))
+
+#welcome
+  background-color light-grey
+
+#importantNow
+  background-color theme-blue
+  color #fff
+  ul
+    margin-top 30px
+  .q
+    line-height 50px
+    display block
+    cursor pointer
+    span
+      transition all .1s
+      font-size 20px
+      margin-right 10px
+  .a
+    padding-left 15px
+    display none
+
+.rotate-chevron
+  transform rotate(90deg)
+
+#news
+  .column
+    background-color light-grey
+    overflow scroll
+    height 350px
+  .column:nth-child(1)
+    margin-right 4%
+    width 40%
+    border 2px solid light-grey
+  .column:nth-child(2)
+    width 56%
+    padding 30px
+    .title
+      text-align left
+  ul
+    margin 30px 0
+    list-style-type disc
+    li
+      margin-left 15px
+      margin-bottom 10px
+
+#cfp
+  background-color light-grey
+
+#sponsors
+  background-color theme-yellow
+  color #fff
+
+#footer
+  background-color light-grey
+  padding 15px 0
+  min-height 0
+  text-align center
+  color text-light-grey
+  a
+    &,
+    &:hover
+      color text-light-grey
+  p
+    font-size 12px
+    

@@ -1,0 +1,107 @@
+doctype html
+html
+	head
+		meta(charset='utf-8')
+		meta(name='viewport' content='width=device-width,initial-scale=1')
+
+		title CSCW 2018
+
+		meta(name='description' content='CSCW - 2018')
+		meta(name='keywords' content='CSCW')
+		
+		meta(property="og:url" content="https://cscw.acm.org/2018/")
+		meta(property="og:type" content="website")
+		meta(property="og:site_name" content="CSCW - 2018")
+		meta(property="og:title" content="CSCW - 2018")
+		meta(property="og:description" content="CSCW 2018")
+		meta(property="og:image" content="")
+		meta(property="og:locale" content="en_US")
+
+		link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,700', rel='stylesheet')
+
+		script(src='//code.jquery.com/jquery-2.1.4.min.js')
+		script(src='./main.js')
+
+	body
+
+	ul.nav
+		.content-wrapper
+			each n in homeNavi.content
+				a(href=n.link)
+					li= n.title
+
+	.section#header
+		.overlay-gradient
+		.content-wrapper
+			img(src='./assets/logo-home-header.png')
+			h3
+				p= homeHeader.h1
+				p= homeHeader.h2
+
+	.section#welcome
+		.title= homeWelcome.title
+		.separator
+			span.fa.fa-circle
+			span.fa.fa-circle
+			span.fa.fa-circle
+		.content!= homeWelcome.content
+
+	.section#importantNow
+		.title= homeImportantNow.title
+		.separator.separator--w
+			span.fa.fa-circle
+			span.fa.fa-circle
+			span.fa.fa-circle
+		ul
+			each f in homeImportantNow.content
+				li
+					.q
+						span.fa.fa-caret-right
+						h4= f.q
+					.a
+						p!= f.a
+
+	.section#news
+		.column
+			a.twitter-timeline(href='https://twitter.com/ACM_CSCW') Tweets by ACM_CSCW
+			script(async='', src='//platform.twitter.com/widgets.js', charset='utf-8')
+		.column
+			.title= homeNews.title
+			ul.content
+				each n in homeNews.content
+					li!= n
+
+	.section#cfp
+		.title= homeCfp.title
+		.separator
+			span.fa.fa-circle
+			span.fa.fa-circle
+			span.fa.fa-circle
+		.content!= homeCfp.content
+		.link-more
+			a(href='submit.html') More Information
+
+	.section#sponsors
+		.title= homeSponsors.title
+		.separator.separator--w
+			span.fa.fa-circle
+			span.fa.fa-circle
+			span.fa.fa-circle
+		.content!= homeSponsors.content
+
+	.section#committee
+		.title= homeCommittee.title
+		.separator
+			span.fa.fa-circle
+			span.fa.fa-circle
+			span.fa.fa-circle
+		.content
+			each c in homeCommittee.content
+				p!= c.name
+		.link-more
+			a(href='committee.html') More Information
+
+	.section#footer
+		p
+			a(href='mailto: web2018@cscw.acm.org') web2018@cscw.acm.org
+		p CSCW 2018 | Copyright © 2016
