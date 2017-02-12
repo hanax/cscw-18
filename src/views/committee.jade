@@ -1,36 +1,12 @@
 doctype html
 html
 	head
-		meta(charset='utf-8')
-		meta(name='viewport' content='width=device-width,initial-scale=1')
-
 		title Committee - CSCW 2018
-
-		meta(name='description' content='CSCW - 2018')
-		meta(name='keywords' content='CSCW')
-		
-		meta(property="og:url" content="https://cscw.acm.org/2018/")
-		meta(property="og:type" content="website")
-		meta(property="og:site_name" content="CSCW - 2018")
-		meta(property="og:title" content="CSCW - 2018")
-		meta(property="og:description" content="CSCW 2018")
-		meta(property="og:image" content="")
-		meta(property="og:locale" content="en_US")
-
-		link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,700', rel='stylesheet')
-
-		script(src='//code.jquery.com/jquery-2.1.4.min.js')
-		script(src='./main.js')
+		include shared-head
 
 	body
 
-	.section.small-header
-		img(src='./assets/logo-home-header.png')
-
-	ul.nav
-		each n in sharedNavi.content
-			a(href=n.link)
-				li(id=n.title)= n.title
+	include shared-small-header
 
 	.section.main
 		.main-right-content.main-right-content--full
@@ -49,7 +25,4 @@ html
 							span
 								a(href='mailto:' + c.email)= c.email
 
-	.section.footer.dark
-		p
-			a(href='mailto: web2018@cscw.acm.org') web2018@cscw.acm.org
-		p CSCW 2018 | Copyright © 2016
+	include shared-footer

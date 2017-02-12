@@ -1,4 +1,6 @@
 var gulp = require('gulp');
+var babel = require('gulp-babel');
+var concat = require("gulp-concat");
 var gutil = require('gulp-util');
 var $ = require('gulp-load-plugins')();
 var webpack = require('webpack');
@@ -10,17 +12,6 @@ var paths = {
   dist: './dist',
 };
 
-var mergeData = function(objs) {
-  var res = {};
-  for (var i in objs) {
-    Object.keys(objs[i]).forEach(
-      function(key) {
-        res[key] = objs[i][key];
-    });
-  }
-  return res;
-};
-
 gulp.task('webpack', function(callback) {
   webpack(require('./webpack.config'), function(err) {
     if (err) { throw new gutil.PluginError('webpack', err); }
@@ -28,17 +19,23 @@ gulp.task('webpack', function(callback) {
   });
 });
 
-gulp.task('jade', function() {
+gulp.task('data', function() {
+  return gulp.src([
+      paths.src + '/data/header.js',
+      paths.src + '/data/data-*.js',
+      paths.src + '/data/export.js',
+    ])
+    .pipe(babel({
+        presets: ['es2015']
+    }))
+    .pipe(concat("tmp/data.js"))
+    .pipe(gulp.dest(paths.src));
+});
+
+gulp.task('jade', ['data'], function() {
   return gulp.src(paths.src + '/views/*.jade')
     .pipe($.plumber())
-    .pipe($.jade({
-      data: mergeData([
-        require(paths.src + '/data/shared'),
-        require(paths.src + '/data/home'),
-        require(paths.src + '/data/committee'),
-        require(paths.src + '/data/submit')
-      ]),
-    }))
+    .pipe($.jade({ data: require(paths.src + '/tmp/data.js') }))
     .pipe(gulp.dest(paths.dist));
 });
 

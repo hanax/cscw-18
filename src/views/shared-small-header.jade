@@ -1,0 +1,16 @@
+.shared-small-header
+	.section.small-header
+		img(src='./assets/logo-home-header.png')
+
+	ul.nav.stick-to-top.collapsed-nav
+		.nav-mobile
+			span.fa.fa-list-ul
+		.content-wrapper
+			each n in sharedNavi.content
+				a(href=n.link)
+					li= n.title
+
+	ul.nav.full-nav
+		each n in sharedNavi.content
+			a(href=n.link)
+				li(id=n.title)= n.title

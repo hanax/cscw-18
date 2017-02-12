@@ -1,13 +1,3 @@
-var marked = require('marked');
-
-marked.setOptions({
-  renderer: new marked.Renderer(),
-  gfm: true,
-  tables: true,
-  breaks: true,
-  smartLists: true,
-});
-
 var homeHeader = {
   h1: "The 21st ACM Conference on Computer-Supported Cooperative Work and Social Computing",
   h2: "Oct/Nov 2018, Location TBD"
@@ -84,13 +74,3 @@ homeImportantNow.content = homeImportantNow.content.map(function(n) {
 });
 homeCfp.content = marked(homeCfp.content);
 homeSponsors.content = marked(homeSponsors.content);
-
-module.exports = {
-  homeHeader: homeHeader,
-  homeWelcome: homeWelcome,
-  homeImportantNow: homeImportantNow,
-  homeNews: homeNews,
-  homeCfp: homeCfp,
-  homeSponsors: homeSponsors,
-  homeCommittee: homeCommittee,
-};

@@ -9,17 +9,22 @@ $(() => {
     location.href.lastIndexOf("/") + 1,
     location.href.lastIndexOf(".")
   );
-  console.log(currentSession)
   if (currentSession.length > 0) {
     $('#' + currentSession).addClass('nav-current');
   }
 
-  $('#importantNow')
+  $('.importantNow')
     .on('click', '.q', function(e) {
       const $ans = $(this).closest('li').find('.a');
       const $chevron = $(this).find('.fa');
       $ans.toggle('display');
       $chevron.toggleClass('rotate-chevron');
+    });
+
+  $('.nav-mobile')
+    .on('click', function(e) {
+      const $navContent = $(this).closest('.nav').find('.content-wrapper');
+      $navContent.fadeToggle('display');
     });
 
   // Smooth Scrolling

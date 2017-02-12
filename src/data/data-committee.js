@@ -1,13 +1,3 @@
-var marked = require('marked');
-
-marked.setOptions({
-  renderer: new marked.Renderer(),
-  gfm: true,
-  tables: true,
-  breaks: true,
-  smartLists: true,
-});
-
 var committeeChairs = [
   {
     title: "General chairs",
@@ -119,7 +109,3 @@ committeeChairs = committeeChairs.map(function(c) {
   });
   return c;
 });
-
-module.exports = {
-  committeeChairs: committeeChairs,
-};

@@ -12,7 +12,7 @@ shadow-grey = #B3B3B3
   box-sizing border-box
 
 body
-  font-size 14px
+  font-size 15px
   font-family 'Avenir', 'Open Sans', sans-serif
   font-weight 300
   color dark-grey
@@ -83,19 +83,11 @@ ul
 .column
   float left
 
-@media screen and (max-width: 900px)
-  .column
-    float none
-    display block
-    width 100%
-
 .section
   min-height 200px
   width 100%
   padding 50px 70px 70px 70px
   overflow hidden
-  @media screen and (max-width: 900px)
-    padding 30px
 
 .content-wrapper
   position relative
@@ -131,6 +123,13 @@ ul.nav
     transition all .3s
     &:hover
       background-color light-grey
+
+.nav-mobile
+  display none
+  text-align right
+
+.collapsed-nav
+  display none
 
 .nav-current
   background-color light-grey
@@ -195,21 +194,22 @@ ul.nav
     background-color light-grey
     overflow scroll
     height 350px
-  .column:nth-child(1)
-    margin-right 4%
-    width 40%
-    border 2px solid light-grey
-  .column:nth-child(2)
-    width 56%
-    padding 30px
-    .title
-      text-align left
   ul
     margin 30px 0
     list-style-type disc
     li
       margin-left 15px
       margin-bottom 10px
+
+.news-twitter
+  margin-right 4%
+  width 40%
+  border 2px solid light-grey
+.news-local
+  width 56%
+  padding 30px
+  .title
+    text-align left
 
 .cfp
   background-color light-grey
@@ -249,6 +249,12 @@ ul.nav
     text-align left
   .content-item
     margin-bottom 50px
+  ul
+    margin 30px 0
+    list-style-type disc
+    li
+      margin-left 15px
+      margin-bottom 10px
 
 .main-right-content--full
   width 100%
@@ -274,4 +280,39 @@ ul.nav
   color #fff
   a
     color #fff
-  
+
+@media screen and (max-width: 900px)
+  .column
+    float none
+    display block
+    width 100%
+    margin-bottom 30px
+  .section
+    padding 30px
+  .nav-mobile
+    display block
+  ul.nav
+    padding 0 30px
+    .content-wrapper
+      display none
+      position absolute
+      top 45px
+      left 0
+      width 100vw
+      height 100vh
+      transform none
+      background-color rgba(255,255,255,.8)
+    li
+      display inline-block
+      height 50px
+      line-height 50px
+      width 100%
+      text-align center
+  .small-header
+    display none
+  .full-nav
+    display none
+  .collapsed-nav
+    display block
+  .main
+    padding-top 45px
