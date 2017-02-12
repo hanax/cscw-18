@@ -1,6 +1,13 @@
 import 'normalize-css';
 import '../styles/main.styl';
 
+// const fillBlue = '#344591';
+// const fillRed = '#A23024';
+// const fillYellow = '#E5CF00';
+// const fillGrey = '#D9D7BD';
+const fillColors = ['#344591', '#A23024', '#E5CF00', '#E5CF00', '#E5CF00', '#E5CF00', '#D9D7BD'];
+const smallRectSize = 16;
+
 $(() => {
   const windowHeight = $(window).height();
   const windowWidth = $(window).width();
@@ -10,7 +17,9 @@ $(() => {
     location.href.lastIndexOf(".")
   );
   if (currentSession.length > 0) {
-    $('#' + currentSession).addClass('nav-current');
+    try {
+      $('#' + currentSession).addClass('nav-current');
+    } catch(e) {};
   }
 
   $('.importantNow')
@@ -27,18 +36,88 @@ $(() => {
       $navContent.fadeToggle('display');
     });
 
-  // Smooth Scrolling
-  $('a[href*=#]:not([href=#])').click(function(){
-    if (window.location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && window.location.hostname == this.hostname) {
-      let target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top - 70
-        }, 700);
-        return false;
-      }
-    }
+  drawHeaderAnimation();
+
+  // Debounce window resize and redraw
+  let resizeTimer;
+  $(window).on('resize', function(e) {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function() {
+      drawHeaderAnimation();
+    }, 250);
   });
 
+  $('.header').on('mousemove', function(e) {
+    const sW = $('#snap-pg').width();
+    const mX = e.pageX < sW / 2
+      ? e.pageX - e.pageX % smallRectSize
+      : sW - ((sW - e.pageX) - (sW - e.pageX) % smallRectSize);
+    const mY = e.pageY - e.pageY % smallRectSize;
+
+    const scaleOffset = parseInt(Math.random() * 3) * smallRectSize;
+    $('#' + mX + '__' + mY)
+      .animate({
+        x: mX - scaleOffset,
+        y: mY - scaleOffset,
+        width: (scaleOffset * 2) + smallRectSize,
+        height: (scaleOffset * 2) + smallRectSize
+      }, 300)
+      .removeAttr('id');
+  });
 });
+
+const drawHeaderAnimation = function() {
+  const s = Snap('#snap-pg');
+  s.clear();
+  const sW = $('#snap-pg').width();
+  const sH = $('#snap-pg').height();
+
+  for (let i = 0; i < sH; i += smallRectSize) {
+    if (Math.random() < 0.15) continue;
+
+    const centerBase = Math.random() * sW / 4;
+    const centerOffset = (1 - Math.abs((i + 100) / sH - 0.5) * 2) / 3 * sW;
+
+    for (let j = 0; j < sW / 4 - centerOffset + centerBase; j += smallRectSize) {
+      drawSquare(s, j, i, 0);
+    }
+    for (let j = sW; j >= sW / 2 + centerOffset + centerBase; j -= smallRectSize) {
+      drawSquare(s, j, i, sW);
+    }
+  }
+}
+
+const drawSquare = function(s, x, y, startBase) {
+  const shouldAnimPos = Math.random() < 0.2;
+  const shouldAnimOpacity = Math.random() < 0.15;
+
+  const square = s
+    .rect(shouldAnimPos ? startBase : x, y, smallRectSize, smallRectSize)
+    .attr({
+      'id': x + '__' + y,
+      fill: fillColors[parseInt(fillColors.length * Math.random())],
+      'fill-opacity': Math.random() * 0.6,
+      'stroke': 'rgba(255,255,255,.2)',
+      'strokeWidth': parseInt(Math.random() * 10)
+    });
+  if (shouldAnimPos) square.animate({x: x}, 800);
+  if (shouldAnimOpacity) {
+    setTimeout(squareFadeIn(square)(), Math.random() * 1000);
+  }
+};
+
+const squareFadeIn = function(sq) {
+  return function() {
+    Snap.animate(0.2, 0.8, function(v) {
+      sq.attr('fill-opacity', v);
+    }, Math.max(500, Math.random() * 3000), squareFadeOut(sq));
+  };
+};
+
+const squareFadeOut = function(sq) {
+  return function() {
+    Snap.animate(0.8, 0.2, function(v) {
+      sq.attr('fill-opacity', v);
+    }, Math.max(500, Math.random() * 3000), squareFadeIn(sq));
+  };
+};

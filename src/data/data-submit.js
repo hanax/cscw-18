@@ -1,4 +1,4 @@
-var submitContents = {
+const submitContents = {
   items: [
     {
       title: "overview",
@@ -168,7 +168,7 @@ TBD
   ]
 };
 
-submitContents.items = submitContents.items.map(function(n) {
+submitContents.items = submitContents.items.map((n) => {
   n.content = marked(n.content);
   return n;
 });

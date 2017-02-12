@@ -1,4 +1,4 @@
-var sharedNavi = {
+const sharedNavi = {
   content: [
     {
       link: "index.html",

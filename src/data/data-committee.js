@@ -1,4 +1,4 @@
-var committeeChairs = [
+const committeeChairs = [
   {
     title: "General chairs",
     names: [
@@ -100,10 +100,8 @@ var committeeChairs = [
     ],
     email: "sv2018@cscw.acm.org"
   }
-];
-
-committeeChairs = committeeChairs.map(function(c) {
-  c.names = c.names.map(function(n) {
+].map((c) => {
+  c.names = c.names.map((n) => {
     n = marked(n);
     return n;
   });

@@ -1,14 +1,14 @@
-var homeHeader = {
+const homeHeader = {
   h1: "The 21st ACM Conference on Computer-Supported Cooperative Work and Social Computing",
   h2: "Oct/Nov 2018, Location TBD"
 };
 
-var homeWelcome = {
+const homeWelcome = {
   title: "Welcome to CSCW 2018!",
   content: "CSCW is the premier venue for presenting research in the design and use of technologies that affect groups, organizations, communities, and networks. Bringing together top researchers and practitioners from academia and industry, CSCW explores the technical, social, material, and theoretical challenges of designing technology to support collaborative work and life activities. CSCW welcomes a diverse range of topics and research methodologies. Studies often involve the development and application of novel technologies and/or ethnographic studies that inform design practice or theory. Joins us as we explore how technologies can enable new ways of living and working together."
 };
 
-var homeImportantNow = {
+const homeImportantNow = {
   title: "What\'s important now?",
   content: [
     {
@@ -35,9 +35,9 @@ var homeImportantNow = {
         + "It is the intention to move all future CSCW conferences to the PACM publishing model. </p>"
     }
   ]
-}
+};
 
-var homeNews = {
+const homeNews = {
   title: "News",
   content: [
     "CSCW is moving to a fall schedule. The CSCW 2018 conference will take place around early November 2018, most likely in the New York area.",
@@ -46,17 +46,21 @@ var homeNews = {
   ]
 };
 
-var homeCfp = {
+const homeCfp = {
   title: "Call for participation",
-  content: "CSCW invite submission to a wide range of venues including papers, posters, demos, panels, workshops, and a doctoral consortium. The scope of CSCW spans socio-technical domains including work, home, education, healthcare, the arts, leisure, and entertainment. The conference seeks novel research results or new ways of thinking about, studying, or supporting shared activities in these and related areas. We are currently accepting paper submissions for an early, Online First, deadline. See more information on [this page]('submit.html')."
+  content: marked(
+    "CSCW invite submission to a wide range of venues including papers, posters, demos, panels, workshops, and a doctoral consortium. The scope of CSCW spans socio-technical domains including work, home, education, healthcare, the arts, leisure, and entertainment. The conference seeks novel research results or new ways of thinking about, studying, or supporting shared activities in these and related areas. We are currently accepting paper submissions for an early, Online First, deadline. See more information on [this page]('submit.html')."
+  )
 };
 
-var homeSponsors = {
+const homeSponsors = {
   title: "Call for sponsors",
-  content: "placeholder"
+  content: marked(
+    "placeholder"
+  )
 };
 
-var homeCommittee = {
+const homeCommittee = {
   title: "Organizing committee",
   content: [
     {
@@ -68,9 +72,7 @@ var homeCommittee = {
   ]
 };
 
-homeImportantNow.content = homeImportantNow.content.map(function(n) {
+homeImportantNow.content = homeImportantNow.content.map((n) => {
   n.a = marked(n.a);
   return n;
 });
-homeCfp.content = marked(homeCfp.content);
-homeSponsors.content = marked(homeSponsors.content);
