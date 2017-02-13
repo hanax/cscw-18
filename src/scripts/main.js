@@ -1,12 +1,9 @@
 import 'normalize-css';
 import '../styles/main.styl';
 
-// const fillBlue = '#344591';
-// const fillRed = '#A23024';
-// const fillYellow = '#E5CF00';
-// const fillGrey = '#D9D7BD';
-const fillColors = ['#344591', '#A23024', '#E5CF00', '#E5CF00', '#E5CF00', '#E5CF00', '#D9D7BD'];
-const smallRectSize = 16;
+// Higher possibility for yellow
+const fillColors = ['#E5CF00', '#E5CF00', '#E5CF00', '#E5CF00', '#344591', '#A23024', '#D9D7BD'];
+const smallRectSize = 18;
 
 $(() => {
   const windowHeight = $(window).height();
@@ -47,6 +44,7 @@ $(() => {
     }, 250);
   });
 
+  // A hack to svg hover event
   $('.header').on('mousemove', function(e) {
     const sW = $('#snap-pg').width();
     const mX = e.pageX < sW / 2
@@ -89,7 +87,7 @@ const drawHeaderAnimation = function() {
 
 const drawSquare = function(s, x, y, startBase) {
   const shouldAnimPos = Math.random() < 0.2;
-  const shouldAnimOpacity = Math.random() < 0.15;
+  const shouldAnimOpacity = Math.random() < 0.1;
 
   const square = s
     .rect(shouldAnimPos ? startBase : x, y, smallRectSize, smallRectSize)
@@ -108,7 +106,7 @@ const drawSquare = function(s, x, y, startBase) {
 
 const squareFadeIn = function(sq) {
   return function() {
-    Snap.animate(0.2, 0.8, function(v) {
+    Snap.animate(0.2, 1, function(v) {
       sq.attr('fill-opacity', v);
     }, Math.max(500, Math.random() * 3000), squareFadeOut(sq));
   };
@@ -116,7 +114,7 @@ const squareFadeIn = function(sq) {
 
 const squareFadeOut = function(sq) {
   return function() {
-    Snap.animate(0.8, 0.2, function(v) {
+    Snap.animate(1, 0.2, function(v) {
       sq.attr('fill-opacity', v);
     }, Math.max(500, Math.random() * 3000), squareFadeIn(sq));
   };
