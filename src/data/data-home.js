@@ -5,7 +5,7 @@ const homeHeader = {
 
 const homeWelcome = {
   title: "Welcome to CSCW 2018!",
-  content: "CSCW is the premier venue for presenting research in the design and use of technologies that affect groups, organizations, communities, and networks. Bringing together top researchers and practitioners from academia and industry, CSCW explores the technical, social, material, and theoretical challenges of designing technology to support collaborative work and life activities. CSCW welcomes a diverse range of topics and research methodologies. Studies often involve the development and application of novel technologies and/or ethnographic studies that inform design practice or theory. Joins us as we explore how technologies can enable new ways of living and working together."
+  content: "CSCW is the premier venue for research in the design and use of technologies that affect groups, organizations, communities, and networks. Bringing together top researchers and practitioners, CSCW explores the technical, social, material, and theoretical challenges of designing technology to support collaborative work and life activities. Join us as we explore how technologies can enable new ways of living and working together."
 };
 
 const homeImportantNow = {
@@ -64,10 +64,10 @@ const homeCommittee = {
   title: "Organizing committee",
   content: [
     {
-      name: "Vanessa Evers"
+      name: "Vanessa Evers (University of Twente)"
     },
     {
-      name: "Mor Naaman"
+      name: "Mor Naaman (Cornell Tech)"
     }
   ]
 };

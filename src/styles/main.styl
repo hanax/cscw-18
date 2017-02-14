@@ -12,8 +12,8 @@ shadow-grey = #B3B3B3
   box-sizing border-box
 
 body
-  font-size 15px
-  font-family 'Avenir', 'Open Sans', sans-serif
+  font-size 18px
+  font-family 'Muli', 'Avenir', sans-serif
   font-weight 300
   color dark-grey
   background-color #fff
@@ -39,11 +39,13 @@ h2,
 h3,
 h4
   margin 0
+  font-family 'Ubuntu'
+  letter-spacing 1px
 
 h3
   font-size 24px
   text-align center
-  font-weight 700  
+  font-weight 500  
   margin 30px 0
 
 h4
@@ -60,11 +62,13 @@ ul
 .title
   text-transform capitalize
   text-align center
-  font-size 24px
-  font-weight 700
+  font-size 28px
+  font-weight 900
+  font-family 'Ubuntu'
+  letter-spacing 1px
 
 .separator
-  margin 30px 0
+  margin 50px 0
   width 100%
   text-align center
   letter-spacing 10px
@@ -80,13 +84,19 @@ ul
   .fa:nth-child(n)
     color #fff
 
+.separator-bar
+  margin 0 auto 70px auto
+  width 50px
+  height 4px
+  background-color dark-grey
+
 .column
   float left
 
 .section
   min-height 200px
   width 100%
-  padding 50px 70px 70px 70px
+  padding 70px
   overflow hidden
 
 .content-wrapper
@@ -98,16 +108,28 @@ ul
 
 .link-more
   text-align right
+  a
+    display inline-block
+    transition all .3s
+    .fa
+      margin-right 6px
+      transition all .3s
+    &:hover
+      transform translateX(2px)
+      .fa
+        margin-right 8px
+        transform translateX(-3px)
 
 ul.nav
   width 100%
   background-color rgba(255, 255, 255, .6)
-  height 45px
-  line-height 45px
+  height 55px
+  line-height 55px
   text-transform uppercase
   padding 0 70px
-  font-size 12px
-  font-weight 500
+  font-size 14px
+  letter-spacing 1px
+  font-weight 700
   transition all .3s
   .content-wrapper
     height 100%
@@ -171,18 +193,18 @@ ul.nav
     background linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1))
 
 .welcome
-  background-color light-grey
+  padding 0 140px 70px 140px
+  text-align center
 
 .importantNow
-  background-color theme-blue
-  color #fff
+  background-color light-grey
   ul
     margin-top 30px
   .q
     line-height 50px
     display block
     cursor pointer
-    span
+    .fa
       transition all .1s
       font-size 20px
       margin-right 10px
@@ -209,11 +231,66 @@ ul.nav
   margin-right 4%
   width 40%
   border 2px solid light-grey
+  iframe
+    height 350px !important
 .news-local
   width 56%
   padding 30px
   .title
     text-align left
+
+.subscribe
+  background-color theme-blue
+  color #fff
+  text-align center
+  transition all .3s
+
+#mailchimp
+  #mc_embed_signup_scroll
+    *
+      display inline-block
+    .mc-field-group
+      *
+        height 50px
+        line-height 50px
+        padding 0 15px
+        margin 0
+  #mce-EMAIL,
+  #mc-embedded-subscribe
+    height 50px
+  #mce-responses
+    margin-top 15px
+    color #fff
+    font-size 12px
+  a
+    color #fff
+  .email
+    background-color #fff
+    color dark-grey
+    font-size 16px
+    width 400px
+  .mce_inline_error
+    font-size 16px
+    font-weight 300
+  .button
+    padding 0 20px
+    background-color rgba(0,0,0,0)
+    border 1px solid #fff
+    color #fff
+    transition all .2s
+    font-size 16px
+    &:hover
+      background-color rgba(255,255,255,.3)
+  @media screen and (max-width: 900px)
+    #mc_embed_signup_scroll
+      *
+        display block
+      .mc-field-group
+        *
+          width 80vw
+    #mce-EMAIL,
+    #mc-embedded-subscribe
+      width 80vw
 
 .cfp
   background-color light-grey
@@ -296,6 +373,9 @@ ul.nav
     margin-bottom 30px
   .section
     padding 30px
+  .welcome
+    h3
+      font-size 16px
   .nav-mobile
     display block
   ul.nav
@@ -303,7 +383,7 @@ ul.nav
     .content-wrapper
       display none
       position absolute
-      top 45px
+      top 55px
       left 0
       width 100vw
       height 100vh
@@ -322,4 +402,4 @@ ul.nav
   .collapsed-nav
     display block
   .main
-    padding-top 45px
+    padding-top 55px
