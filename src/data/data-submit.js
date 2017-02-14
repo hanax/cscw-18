@@ -23,7 +23,7 @@ August 6, 2017: Final notifications *CSCW 2018 Online First*
 
 Camera ready date and publication dates for *Online First* papers will be published soon. 
 
-**Call for Papers**
+## Call for Papers
 
 CSCW is an international and interdisciplinary peer reviewed conference seeking the best research on all topics relevant to collaborative and social computing.  We invite authors to submit papers that inform the design or deployment of collaborative or social systems; introduce novel systems, interaction techniques, or algorithms; or study existing collaborative or social practices. The scope of CSCW *Online First* includes social computing and social media, crowdsourcing, open collaboration, technologically-enabled or enhanced communication, CSCL, MOOCs, and related educational technologies, multi-user input technologies, collaboration, awareness, information sharing, and coordination. This scope spans socio-technical domains of work, home, education, healthcare, the arts, socializing, and entertainment. Papers can report on novel research results, systems, or new ways of thinking about, studying, or supporting shared activities.
 
