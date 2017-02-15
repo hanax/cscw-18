@@ -40,9 +40,8 @@ const homeImportantNow = {
 const homeNews = {
   title: "News",
   content: [
-    "CSCW is moving to a fall schedule. The CSCW 2018 conference will take place around early November 2018, most likely in the New York area.",
-    "To bridge the year-and-a-half gap between CSCW 2017 and CSCW 2018, we will have two submission deadlines in spring 2017 and spring 2018.",
-    "The spring 2017 Online First deadline is Thursday April 27, with abstracts due April 20. First-round reviews will be sent on June 12th; and revisions will be due July 10th."
+    "The Online First paper submission deadline is Thursday, April 27 2017, with abstracts due April 20. For more details, see http://cscw.acm.org/2018/submit.html",
+    "The CSCW Web site is officially launched; stay tuned or sign up for the mailing list below for news and updates."
   ]
 };
 
@@ -56,7 +55,7 @@ const homeCfp = {
 const homeSponsors = {
   title: "Call for sponsors",
   content: marked(
-    "placeholder"
+    "Sponsorships are a unique opportunity to support the CSCW conference including student attendees, and benefit the research community. Moreover, sponsorships help organizations be recognized and gain visibility in the community, creating ties and providing a backdrop for recruitment. Sponsorship benefits include acknowledgment in conference materials, website, and presentations; support in hosting special events for all conference participants; and opportunities to provide information and demonstrations directly to CSCW attendees. More information about sponsorship level, starting at $5000, is coming soon; email chairs2018@acm.cscw.org for details." 
   )
 };
 
