@@ -49,7 +49,7 @@ const homeNews = {
 const homeCfp = {
   title: "Call for participation",
   content: marked(
-    "CSCW invite submission to a wide range of venues including papers, posters, demos, panels, workshops, and a doctoral consortium. The scope of CSCW spans socio-technical domains including work, home, education, healthcare, the arts, leisure, and entertainment. The conference seeks novel research results or new ways of thinking about, studying, or supporting shared activities in these and related areas. We are currently accepting paper submissions for an early, Online First, deadline. See more information on [this page]('submit.html')."
+    "CSCW invite submission to a wide range of venues including papers, posters, demos, panels, workshops, and a doctoral consortium. The scope of CSCW spans socio-technical domains including work, home, education, healthcare, the arts, leisure, and entertainment. The conference seeks novel research results or new ways of thinking about, studying, or supporting shared activities in these and related areas. We are currently accepting paper submissions for an early, Online First, deadline. See more information on [this page](submit.html)."
   )
 };
 
