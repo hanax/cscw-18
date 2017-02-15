@@ -44,7 +44,7 @@ $(() => {
     }, 250);
   });
 
-  // A hack to svg hover event
+  // A hack to hover event
   $('.header').on('mousemove', function(e) {
     const sW = $('#snap-pg').width();
     const mX = e.pageX < sW / 2
@@ -55,8 +55,8 @@ $(() => {
     const scaleOffset = parseInt(Math.random() * 3) * smallRectSize;
     $('#' + mX + '__' + mY)
       .animate({
-        x: mX - scaleOffset,
-        y: mY - scaleOffset,
+        left: mX - scaleOffset,
+        top: mY - scaleOffset,
         width: (scaleOffset * 2) + smallRectSize,
         height: (scaleOffset * 2) + smallRectSize
       }, 300)
@@ -65,10 +65,10 @@ $(() => {
 });
 
 const drawHeaderAnimation = function() {
-  const s = Snap('#snap-pg');
-  s.clear();
-  const sW = $('#snap-pg').width();
-  const sH = $('#snap-pg').height();
+  const $s = $('#anim-pg');
+  $s.empty();
+  const sW = $s.width();
+  const sH = $s.height();
 
   for (let i = 0; i < sH; i += smallRectSize) {
     if (Math.random() < 0.15) continue;
@@ -77,45 +77,30 @@ const drawHeaderAnimation = function() {
     const centerOffset = (1 - Math.abs((i + 100) / sH - 0.5) * 2) / 3 * sW;
 
     for (let j = 0; j < sW / 4 - centerOffset + centerBase; j += smallRectSize) {
-      drawSquare(s, j, i, 0);
+      drawSquare($s, j, i, 0);
     }
     for (let j = sW; j >= sW / 2 + centerOffset + centerBase; j -= smallRectSize) {
-      drawSquare(s, j, i, sW);
+      drawSquare($s, j, i, sW);
     }
   }
 }
 
-const drawSquare = function(s, x, y, startBase) {
+const drawSquare = function($s, x, y, startBase) {
   const shouldAnimPos = Math.random() < 0.2;
   const shouldAnimOpacity = Math.random() < 0.1;
-
-  const square = s
-    .rect(shouldAnimPos ? startBase : x, y, smallRectSize, smallRectSize)
-    .attr({
-      'id': x + '__' + y,
-      fill: fillColors[parseInt(fillColors.length * Math.random())],
-      'fill-opacity': Math.random() * 0.6,
-      'stroke': 'rgba(255,255,255,.2)',
-      'strokeWidth': parseInt(Math.random() * 10)
-    });
-  if (shouldAnimPos) square.animate({x: x}, 800);
+  const $square = $('<div class="square" />')
+    .attr('id', x + '__' + y)
+    .css({
+      left: shouldAnimPos ? startBase : x,
+      top: y,
+      width: smallRectSize,
+      height: smallRectSize,
+      'background-color': fillColors[parseInt(fillColors.length * Math.random())],
+      'opacity': Math.random() * 0.6,
+    })
+    .appendTo($s);
+  if (shouldAnimPos) $square.animate({left: x}, 1000);
   if (shouldAnimOpacity) {
-    setTimeout(squareFadeIn(square)(), Math.random() * 1000);
+    $square.addClass('square--blink');
   }
-};
-
-const squareFadeIn = function(sq) {
-  return function() {
-    Snap.animate(0.2, 1, function(v) {
-      sq.attr('fill-opacity', v);
-    }, Math.max(500, Math.random() * 3000), squareFadeOut(sq));
-  };
-};
-
-const squareFadeOut = function(sq) {
-  return function() {
-    Snap.animate(1, 0.2, function(v) {
-      sq.attr('fill-opacity', v);
-    }, Math.max(500, Math.random() * 3000), squareFadeIn(sq));
-  };
 };

@@ -61,7 +61,7 @@ A second CSCW 2018 review process will take place in Spring 2018 (date to be ann
 
 The CSCW 2018 *Online First* published papers will be archived in the ACM Digital Library and will be free for download for up to two years after publication. For more information on this open access model, see:  
 
-http://www.sigchi.org/news/open-table-of-contents-a-new-way-to-access-acm-sigchi-publications). 
+http://www.sigchi.org/news/open-table-of-contents-a-new-way-to-access-acm-sigchi-publications.
 
 CSCW does not accept submissions that were published previously in formally reviewed publications or that are currently submitted elsewhere.
 

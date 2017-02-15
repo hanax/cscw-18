@@ -195,9 +195,23 @@ ul.nav
     left 0
   .header-animation
     z-index 0
+    overflow hidden
   .overlay-gradient
     z-index 1
     background linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1))
+
+.square
+  position absolute
+  border 3px solid rgba(255,255,255,.2)
+
+.square--blink
+  animation anim-blink 2s linear infinite
+
+@keyframes anim-blink
+    0, 100%
+      opacity 0.2
+    50%
+      opacity 0.8
 
 .welcome
   padding 0 140px 70px 140px
@@ -343,6 +357,9 @@ ul.nav
     li
       margin-left 15px
       margin-bottom 10px
+  h1,
+  h2
+    margin-top 50px
 
 .main-right-content--full
   width 100%
