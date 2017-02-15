@@ -3,7 +3,7 @@ const submitContents = {
     {
       title: "overview",
       content: `
-**CSCW 2018 _Online First_ Call for Paper Participation**
+## CSCW 2018 _Online First_ Call for Paper Participation**
 
 The ACM conference on Computer-Supported Cooperative Work and Social Computing is an international and interdisciplinary conference focused on how technology intersects with social practices.  
 
@@ -13,17 +13,21 @@ This is an interim deadline for CSCW 2018 papers —  papers submitted for this 
 
 *Online First* paper deadlines and decision notification dates are as follows. Note that this year, abstract submissions are required one week prior to the paper submission.
 
-IMPORTANT DATES
-April 20, 2017: Abstract due (5:00pm PDT)
+### IMPORTANT DATES
 
-April 27, 2017: Submission due (5:00pm PDT)
-June 12, 2017: First-round notifications (Revise & Resubmit or Reject)
-July 10, 2017: Revised papers due (5:00pm PDT)
-August 6, 2017: Final notifications *CSCW 2018 Online First*
+* *April 20, 2017*: Abstract due (5:00pm PDT)
+
+* *April 27, 2017*: Submission due (5:00pm PDT)
+
+* *June 12, 2017*: First-round notifications (Revise & Resubmit or Reject)
+
+* *July 10, 2017*: Revised papers due (5:00pm PDT)
+
+* *August 6, 2017*: Final notifications *CSCW 2018 Online First*
 
 Camera ready date and publication dates for *Online First* papers will be published soon. 
 
-**Call for Papers**
+### Call for Papers
 
 CSCW is an international and interdisciplinary peer reviewed conference seeking the best research on all topics relevant to collaborative and social computing.  We invite authors to submit papers that inform the design or deployment of collaborative or social systems; introduce novel systems, interaction techniques, or algorithms; or study existing collaborative or social practices. The scope of CSCW *Online First* includes social computing and social media, crowdsourcing, open collaboration, technologically-enabled or enhanced communication, CSCL, MOOCs, and related educational technologies, multi-user input technologies, collaboration, awareness, information sharing, and coordination. This scope spans socio-technical domains of work, home, education, healthcare, the arts, socializing, and entertainment. Papers can report on novel research results, systems, or new ways of thinking about, studying, or supporting shared activities.
 
@@ -51,22 +55,19 @@ Contributions to CSCW across a variety of research techniques, approaches, and d
 
 * Crossing boundaries. Studies, prototypes, or other investigations that explore interactions across disciplines, distance, languages, generations, and cultures, to help better understand how to transcend social, temporal, and/or spatial boundaries.
 
-**SUBMISSIONS
-**Paper submissions must be made via the Precision Conference System
-(https://precisionconference.com/~sigchi/) by 5:00pm Pacific Daylight
-Time (PDT) on April 27th 2017 (abstracts due the week before, April 20th 2017). 
-
 Note that CSCW is moving all publications to the Proceedings of the ACM (PACM). Hence, papers for this interim *Online First* call will be part of Proceedings of the ACM : Human-Computer Interaction: Volume 1: Issue 1: Computer-Supported Cooperative Work and Social Computing 2017. This will be the inaugural issue of the PACM.
 
-**_Note: A second CSCW 2018 review process will take place in Spring 2018 (date to be announced). Papers submitted to that deadline will be referred to as Spring 2018 papers._**
+A second CSCW 2018 review process will take place in Spring 2018 (date to be announced). Papers submitted to that deadline will be referred to as Spring 2018 papers.
 
-The CSCW 2018 *Online First *published papers will be archived in the ACM Digital Library and will be free for download for up to two years after publication. (For more information on this open access model, see:  
+The CSCW 2018 *Online First* published papers will be archived in the ACM Digital Library and will be free for download for up to two years after publication. For more information on this open access model, see:  
 
-http://www.sigchi.org/news/open-table-of-contents-a-new-way-to-access-acm-sigchi-publications). CSCW *Online First *does not accept submissions that were published previously in formally reviewed publications or that are currently submitted elsewhere.
+http://www.sigchi.org/news/open-table-of-contents-a-new-way-to-access-acm-sigchi-publications). 
+
+CSCW does not accept submissions that were published previously in formally reviewed publications or that are currently submitted elsewhere.
 
 Send queries about Paper submissions to papers2018@cscw.acm.org.
 
-**Papers Co-Chairs**
+### Papers Co-Chairs
 
 Geraldine Fitzpatrick, TU Wien (Vienna University of Technology)
 
@@ -74,9 +75,9 @@ Karrie Karahalios, University of Illinois
 
 papers2018@cscw.acm.org
 
-# **Format and Submission Process Details**
+## **Format and Submission Process Details**
 
-## **Submission Process**
+### **Submission Process**
 
 Abstracts must be submitted via the Precision Conference System (PCS) by 5:00 pm Pacific Daylight Time (PDT) on Thursday, April 20, 2017. Papers must be submitted via PCS by 5:00 pm Pacific Daylight TIme (PDT) on Thursday, April 27, 2017. Papers in the "Revise & Resubmit" category must be re-submitted via the PCS system by 11:59 PM PDT on July 10, 2017.
 
@@ -98,25 +99,25 @@ Regarding the re-publication in English of work previously published in another 
 
 Confidentiality of submitted material will be maintained. Upon acceptance, the titles, authorship, and abstracts of papers will be used in the Advance Program. Submissions should contain no information or material that will be proprietary or confidential at the time of publication, and should cite no publication that will be proprietary or confidential at that time. Final versions of accepted papers must be formatted according to detailed instructions provided by the publisher. Copyright release forms must be signed for inclusion in the proceedings and the ACM Digital Library.
 
-## **Formatting and Length**
+### **Formatting and Length**
 
 Please use the SIGCHI papers template to format your submission (there is a [Word version](https://cscw.acm.org/2017/submit/sigchi-word-proceedings.zip) and a [Latex version](https://github.com/sigchi/Document-Formats)). Papers should be converted to PDF before submission.
 
 There is no minimum or maximum length imposed on papers. Rather, reviewers will be instructed to weigh the contribution of a paper relative to its length. Papers should report research thoroughly but succinctly: brevity is a virtue. A typical length is 10 pages (formerly the maximum length limit), but may be shorter if the contribution can be described and supported in fewer pages — shorter, more focused papers (called Notes in prior years) are encouraged and will be reviewed like any other paper. While we will review papers longer than 10 pages, the contribution must warrant the extra length. Papers whose length is incommensurate with their contribution will be rejected.
 
-## **Blind Review Policy**
+### **Blind Review Policy**
 
 Papers are subject to blind reviewing. Your submission should have authors' names and affiliations removed, and avoid obvious identifying statements. Citations to your own relevant work should not be anonymous, but rather should be done without identifying yourself as the author. For example, say "Prior work by [authors]" instead of "In our prior work."
 
-## **Video Figures**
+### **Video Figures**
 
 Consider submitting a video that illustrates your work, either as a video figure judged as part of your submission (no more than three minutes long and 50MB in size), or as a longer stand-alone submission to the video track. Videos are not required for paper submissions, but are strongly encouraged, particularly for papers contributing novel systems or interaction techniques.
 
-**CSCW 2018 _Online First_ Review process**
+## CSCW 2018 _Online First_ Review process
 
 *Note: The review process described below applies to the Online First submissions only, not CSCW Spring 2018 submissions.*
 
-**Revision Cycle**
+### Revision Cycle
 
 Papers will undergo two review cycles. After the first round of review, a submission will receive either a "Revise & Resubmit" or a "Reject" notification (along with the reviews themselves). Authors of papers designated "Revise & Resubmit" will have two weeks to revise their paper in response to the reviewers' comments. Authors will need to allocate time for possible revisions during the period between June 12th and July 10, 2017. Revised papers must be re-submitted via the PCS system by 11:59 PM PDT on July 10, 2017. Note that an invitation to "Revise & Resubmit" is not a guarantee of acceptance--the revision will be re-reviewed as the basis for the final decision. This is similar to a journal process, except that it is limited to a single revision with a strict deadline.
 
@@ -126,7 +127,7 @@ With the resubmission of R&R papers, authors are asked to provide a letter expla
 
 This is not an invitation to submit extended abstracts or incomplete papers; please submit only work of publishable quality. Incomplete or otherwise inappropriate submissions will be desk-rejected without review. Based on prior years’ experience with this process, we anticipate that roughly half of submissions will be rejected after the first round of this process. Note that the dual-round review process is not inherently tied to any target acceptance rates.
 
-**Review Criteria**
+### Review Criteria
 
 Authors will be able to indicate the primary methodological orientation of their paper, when they upload the paper to the PCS reviewing system:
 
@@ -146,11 +147,11 @@ Authors will be able to indicate the primary methodological orientation of their
 
 Greenberg, S., and Buxton, B. "Usability evaluation considered harmful (Some of the time)" in: CHI, ACM, Florence, Italy, 2008, pp. 111-120.
 
-**"Best of CSCW 2018" Awards**
+### "Best of CSCW 2018" Awards
 
 CSCW 2018 *Online First* papers will be considered for "Best of CSCW" awards with the full set of 2018 accepted papers in accordance with SIGCHI guidelines. Papers that have been nominated as noteworthy by reviewers or Program Committee members will receive additional review by the Best Papers Committee, who will identify "Honorable Mention" and "Best" awards. Approximately 5% of submissions may be nominated and 1% of total submissions awarded Best Paper. 
 
-**Accepted Papers**
+### Accepted Papers
 
 Authors will be expected to prepare a camera-ready version of their paper in accordance with ACM’s Digital Library formatting guidelines. Authors may be asked to identify funding sources (to assist in compliance with government access mandates). Further information will be provided at the time of acceptance.
 
@@ -160,7 +161,7 @@ At least one author of each accepted CSCW 2018* Online First *paper must registe
 
 Authors of accepted papers will have to choose whether to pay for open-access publication (this decision is made after acceptance and will not affect the review decision). Authors also will have to choose among three options for rights management: copyright transfer (or government copyright), a limited exclusive right to publish, or author-retained rights (only for author-paid open access articles). All authors of ACM-published articles retain substantial rights, see http://authors.acm.org for more details.
 
-**Program Committee Members**
+### Program Committee Members
 
 TBD
       `
