@@ -11,7 +11,8 @@ const committeeChairs = [
     title: "Paper chairs",
     names: [
       "Karrie Karahalios (University of Illinois)",
-      "Geraldine Fitzpatrick (Vienna University of Technology)"
+      "Geraldine Fitzpatrick (Vienna University of Technology)",
+      "Andrés Monroy-Hernández (Microsoft Research)"
     ],
     email: "papers2018@cscw.acm.org"
   },
@@ -73,10 +74,11 @@ const committeeChairs = [
   {
     title: "Proceedings and Publications co-chairs",
     names: [
-      "Alyson Young (IUPUI) (University of Lausanne)",
+      "Mauro Cherubini (University of Lausanne)",
       "Andrew Miller (IUPUI)",
       "Alyson Young (IUPUI)"
     ],
+    email: "pubs2018@cscw.acm.org"
   },
   {
     title: "Local Arrangements co-chairs",
