@@ -46,7 +46,7 @@ $(() => {
 
   // A hack to hover event
   $('.header').on('mousemove', function(e) {
-    const sW = $('#snap-pg').width();
+    const sW = $('#anim-pg').width();
     const mX = e.pageX < sW / 2
       ? e.pageX - e.pageX % smallRectSize
       : sW - ((sW - e.pageX) - (sW - e.pageX) % smallRectSize);
