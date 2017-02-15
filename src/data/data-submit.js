@@ -3,7 +3,7 @@ const submitContents = {
     {
       title: "overview",
       content: `
-## CSCW 2018 _Online First_ Call for Paper Participation**
+## CSCW 2018 _Online First_ Call for Paper Participation
 
 The ACM conference on Computer-Supported Cooperative Work and Social Computing is an international and interdisciplinary conference focused on how technology intersects with social practices.  
 
@@ -75,9 +75,9 @@ Karrie Karahalios, University of Illinois
 
 papers2018@cscw.acm.org
 
-## **Format and Submission Process Details**
+## Format and Submission Process Details
 
-### **Submission Process**
+### Submission Process
 
 Abstracts must be submitted via the Precision Conference System (PCS) by 5:00 pm Pacific Daylight Time (PDT) on Thursday, April 20, 2017. Papers must be submitted via PCS by 5:00 pm Pacific Daylight TIme (PDT) on Thursday, April 27, 2017. Papers in the "Revise & Resubmit" category must be re-submitted via the PCS system by 11:59 PM PDT on July 10, 2017.
 
@@ -99,17 +99,17 @@ Regarding the re-publication in English of work previously published in another 
 
 Confidentiality of submitted material will be maintained. Upon acceptance, the titles, authorship, and abstracts of papers will be used in the Advance Program. Submissions should contain no information or material that will be proprietary or confidential at the time of publication, and should cite no publication that will be proprietary or confidential at that time. Final versions of accepted papers must be formatted according to detailed instructions provided by the publisher. Copyright release forms must be signed for inclusion in the proceedings and the ACM Digital Library.
 
-### **Formatting and Length**
+### Formatting and Length
 
 Please use the SIGCHI papers template to format your submission (there is a [Word version](https://cscw.acm.org/2017/submit/sigchi-word-proceedings.zip) and a [Latex version](https://github.com/sigchi/Document-Formats)). Papers should be converted to PDF before submission.
 
 There is no minimum or maximum length imposed on papers. Rather, reviewers will be instructed to weigh the contribution of a paper relative to its length. Papers should report research thoroughly but succinctly: brevity is a virtue. A typical length is 10 pages (formerly the maximum length limit), but may be shorter if the contribution can be described and supported in fewer pages — shorter, more focused papers (called Notes in prior years) are encouraged and will be reviewed like any other paper. While we will review papers longer than 10 pages, the contribution must warrant the extra length. Papers whose length is incommensurate with their contribution will be rejected.
 
-### **Blind Review Policy**
+### Blind Review Policy
 
 Papers are subject to blind reviewing. Your submission should have authors' names and affiliations removed, and avoid obvious identifying statements. Citations to your own relevant work should not be anonymous, but rather should be done without identifying yourself as the author. For example, say "Prior work by [authors]" instead of "In our prior work."
 
-### **Video Figures**
+### Video Figures
 
 Consider submitting a video that illustrates your work, either as a video figure judged as part of your submission (no more than three minutes long and 50MB in size), or as a longer stand-alone submission to the video track. Videos are not required for paper submissions, but are strongly encouraged, particularly for papers contributing novel systems or interaction techniques.
 
