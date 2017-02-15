@@ -52,21 +52,14 @@ $(() => {
       : sW - ((sW - e.pageX) - (sW - e.pageX) % smallRectSize);
     const mY = e.pageY - e.pageY % smallRectSize;
 
-    const scaleOffset = parseInt(Math.random() * 3) * smallRectSize;
     $('#' + mX + '__' + mY)
-      .animate({
-        left: mX - scaleOffset,
-        top: mY - scaleOffset,
-        width: (scaleOffset * 2) + smallRectSize,
-        height: (scaleOffset * 2) + smallRectSize
-      }, 300)
+      .addClass('square--hover')
       .removeAttr('id');
   });
 });
 
 const drawHeaderAnimation = function() {
-  const $s = $('#anim-pg');
-  $s.empty();
+  const $s = $('#anim-pg').empty();
   const sW = $s.width();
   const sH = $s.height();
 
@@ -86,20 +79,21 @@ const drawHeaderAnimation = function() {
 }
 
 const drawSquare = function($s, x, y, startBase) {
-  const shouldAnimPos = Math.random() < 0.2;
-  const shouldAnimOpacity = Math.random() < 0.1;
   const $square = $('<div class="square" />')
     .attr('id', x + '__' + y)
     .css({
-      left: shouldAnimPos ? startBase : x,
+      left: x,
       top: y,
-      width: smallRectSize,
-      height: smallRectSize,
       'background-color': fillColors[parseInt(fillColors.length * Math.random())],
       'opacity': Math.random() * 0.6,
     })
     .appendTo($s);
-  if (shouldAnimPos) $square.animate({left: x}, 1000);
+
+  const shouldAnimPos = Math.random() < 0.2;
+  const shouldAnimOpacity = Math.random() < 0.1;
+  if (shouldAnimPos) {
+    $square.addClass('square--appear');
+  }
   if (shouldAnimOpacity) {
     $square.addClass('square--blink');
   }
