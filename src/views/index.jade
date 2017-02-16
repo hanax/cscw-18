@@ -19,7 +19,9 @@ html
 		.bg-layer.overlay-gradient
 		.bg-layer.bg-extend
 		.content-wrapper
-			img(src='./assets/logo-home-header.svg')
+			.logo
+				img(src='./assets/logo-mask.png')
+			//- img(src='./assets/logo-home-header.svg')
 			h3= homeHeader.h1
 			p= homeHeader.h2
 
@@ -33,14 +35,9 @@ html
 			span.fa.fa-circle
 			span.fa.fa-circle
 			span.fa.fa-circle
-		ul
-			each f in homeImportantNow.content
-				li
-					.q
-						span.fa.fa-caret-right
-						span= f.q
-					.a
-						p!= f.a
+		ul.content
+			each n in homeImportantNow.content
+				li!= n
 
 	.section.news
 		.column.news-twitter
@@ -52,13 +49,18 @@ html
 
 		.column.news-local
 			.title= homeNews.title
-			ul.content
-				each n in homeNews.content
-					li!= n
+			ul
+				each f in homeNews.content
+					li
+						.q
+							span.fa.fa-caret-right
+							span= f.q
+						.a
+							p!= f.a
 
 	.section.subscribe
 		.content
-			p Want more information? Please sign up for our mailing list!
+			p Sign up for the CSCW 2018 mailing list to get all important updates!
 			#mailchimp
 				// Begin MailChimp Signup Form
 				#mc_embed_signup
@@ -93,7 +95,7 @@ html
 
 	.section.sponsors
 		.title= homeSponsors.title
-		.separator.separator--w
+		.separator
 			span.fa.fa-circle
 			span.fa.fa-circle
 			span.fa.fa-circle
@@ -107,7 +109,9 @@ html
 			span.fa.fa-circle
 		.content
 			each c in homeCommittee.content
-				p!= c.name
+				h3= c.title
+				each n in c.names
+					p!= n
 		.link-more
 			a(href='committee.html')
 				span.fa.fa-angle-right

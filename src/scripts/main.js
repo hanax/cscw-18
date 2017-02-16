@@ -1,6 +1,12 @@
 import 'normalize-css';
 import '../styles/main.styl';
 
+const backgroundImages = [
+  'https://upload.wikimedia.org/wikipedia/commons/3/30/Piet_Mondrian,_1942_-_Broadway_Boogie_Woogie.jpg',
+  'http://www.newyorker.com/wp-content/uploads/2015/12/Veix-Goodbye-New-York-Color-1200.jpg',
+  'http://cdn.images.cunard.com/webimage/HeroImage/Global/Images/Destinations/New-York2.jpg',
+  'https://upload.wikimedia.org/wikipedia/commons/e/ee/New_York_City-Manhattan-Central_Park_(Gentry).jpg'
+];
 // Higher possibility for yellow
 const fillColors = ['#E5CF00', '#E5CF00', '#E5CF00', '#E5CF00', '#344591', '#A23024', '#D9D7BD'];
 const smallRectSize = 18;
@@ -19,7 +25,7 @@ $(() => {
     } catch(e) {};
   }
 
-  $('.importantNow')
+  $('.news')
     .on('click', '.q', function(e) {
       const $ans = $(this).closest('li').find('.a');
       const $chevron = $(this).find('.fa');
@@ -32,6 +38,9 @@ $(() => {
       const $navContent = $(this).closest('.nav').find('.content-wrapper');
       $navContent.fadeToggle('display');
     });
+
+  $('.logo')
+    .css('background-image', `url(${backgroundImages[parseInt(Math.random() * backgroundImages.length)]})`);
 
   drawHeaderAnimation();
 

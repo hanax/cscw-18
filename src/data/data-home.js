@@ -11,6 +11,14 @@ const homeWelcome = {
 const homeImportantNow = {
   title: "What\'s important now?",
   content: [
+    "The Online First paper submission deadline is Thursday, April 27 2017, with abstracts due April 20. For more details, see http://cscw.acm.org/2018/submit.html",
+    "The CSCW Web site is officially launched; stay tuned or sign up for the mailing list below for news and updates."
+  ]
+};
+
+const homeNews = {
+  title: "New for 2018",
+  content: [
     {
       q: "Why did CSCW move to the Fall?",
       a: "<p>This change has been considered over many years. Prior to 2010, CSCW occurred in the Fall, moving to the Spring when it became an annual conference. The Spring time frame was problematic, however, for two reasons:"
@@ -37,25 +45,17 @@ const homeImportantNow = {
   ]
 };
 
-const homeNews = {
-  title: "News",
-  content: [
-    "The Online First paper submission deadline is Thursday, April 27 2017, with abstracts due April 20. For more details, see http://cscw.acm.org/2018/submit.html",
-    "The CSCW Web site is officially launched; stay tuned or sign up for the mailing list below for news and updates."
-  ]
-};
-
 const homeCfp = {
   title: "Call for participation",
   content: marked(
-    "CSCW invite submission to a wide range of venues including papers, posters, demos, panels, workshops, and a doctoral consortium. The scope of CSCW spans socio-technical domains including work, home, education, healthcare, the arts, leisure, and entertainment. The conference seeks novel research results or new ways of thinking about, studying, or supporting shared activities in these and related areas. We are currently accepting paper submissions for an early, Online First, deadline. See more information on [this page](submit.html)."
+    "CSCW invites submission to a wide range of venues including papers, posters, demos, panels, workshops, and a doctoral consortium. The scope of CSCW spans socio-technical domains including work, home, education, healthcare, the arts, leisure, and entertainment. The conference seeks novel research results or new ways of thinking about, studying, or supporting shared activities in these and related areas. We are currently accepting paper submissions for an early, Online First, deadline. See more information on [this page](submit.html)."
   )
 };
 
 const homeSponsors = {
   title: "Call for sponsors",
   content: marked(
-    "Sponsorships are a unique opportunity to support the CSCW conference including student attendees, and benefit the research community. Moreover, sponsorships help organizations be recognized and gain visibility in the community, creating ties and providing a backdrop for recruitment. Sponsorship benefits include acknowledgment in conference materials, website, and presentations; support in hosting special events for all conference participants; and opportunities to provide information and demonstrations directly to CSCW attendees. More information about sponsorship level, starting at $5000, is coming soon; email chairs2018@acm.cscw.org for details." 
+    "Sponsorships are a unique opportunity to support the CSCW conference including student attendees, and benefit the research community. Moreover, sponsorships help organizations be recognized and gain visibility in the community, creating ties and providing a backdrop for recruitment. Sponsorship benefits include acknowledgment in conference materials, website, and presentations; support in hosting special events for all conference participants; and opportunities to provide information and demonstrations directly to CSCW attendees. More information about sponsorship level, starting at $5000, is coming soon; email [chairs2018@acm.cscw.org](mailto:chairs2018@acm.cscw.org) for details." 
   )
 };
 
@@ -63,15 +63,29 @@ const homeCommittee = {
   title: "Organizing committee",
   content: [
     {
-      name: "Vanessa Evers (University of Twente)"
+      title: "General chairs",
+      names:[
+        "Vanessa Evers (University of Twente)",
+        "Mor Naaman (Cornell Tech)"
+      ]
     },
     {
-      name: "Mor Naaman (Cornell Tech)"
+      title: "Paper chairs",
+      names: [
+        "Karrie Karahalios (University of Illinois)",
+        "Geraldine Fitzpatrick (Vienna University of Technology)",
+        "Andrés Monroy-Hernández (Microsoft Research)"
+      ]
     }
   ]
 };
 
-homeImportantNow.content = homeImportantNow.content.map((n) => {
+homeNews.content = homeNews.content.map((n) => {
   n.a = marked(n.a);
+  return n;
+});
+
+homeImportantNow.content = homeImportantNow.content.map((n) => {
+  n = marked(n);
   return n;
 });
