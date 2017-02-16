@@ -48,14 +48,14 @@ const homeNews = {
 const homeCfp = {
   title: "Call for participation",
   content: marked(
-    "CSCW invites submission to a wide range of venues including papers, posters, demos, panels, workshops, and a doctoral consortium. The scope of CSCW spans socio-technical domains including work, home, education, healthcare, the arts, leisure, and entertainment. The conference seeks novel research results or new ways of thinking about, studying, or supporting shared activities in these and related areas. We are currently accepting paper submissions for an early, Online First, deadline. See more information on [this page](submit.html)."
+    "CSCW invites submission to a wide range of venues including papers, posters, demos, panels, workshops, and a doctoral consortium. The scope of CSCW spans socio-technical domains including work, home, education, healthcare, the arts, leisure, and entertainment. The conference seeks novel research results or new ways of thinking about, studying, or supporting shared activities in these and related areas. We are currently accepting paper submissions for an early, Online First paper deadline in April 2017. More info on [this page](submit.html)."
   )
 };
 
 const homeSponsors = {
   title: "Call for sponsors",
   content: marked(
-    "Sponsorships are a unique opportunity to support the CSCW conference including student attendees, and benefit the research community. Moreover, sponsorships help organizations be recognized and gain visibility in the community, creating ties and providing a backdrop for recruitment. Sponsorship benefits include acknowledgment in conference materials, website, and presentations; support in hosting special events for all conference participants; and opportunities to provide information and demonstrations directly to CSCW attendees. More information about sponsorship level, starting at $5000, is coming soon; email [chairs2018@acm.cscw.org](mailto:chairs2018@acm.cscw.org) for details." 
+    "Sponsorships are a unique opportunity to support the CSCW conference including student attendees, and benefit the research community. Moreover, sponsorships help organizations be recognized and gain visibility in the community, creating ties and providing a backdrop for recruitment. Sponsorship benefits include acknowledgment in conference materials, website, and presentations; support in hosting special events for all conference participants; and opportunities to provide information and demonstrations directly to CSCW attendees. More information about sponsorship level, starting at $5000, is coming soon; email [chairs2018@cscw.acm.org](mailto:chairs2018@cscw.acm.org) for details." 
   )
 };
 
@@ -72,8 +72,8 @@ const homeCommittee = {
     {
       title: "Paper chairs",
       names: [
-        "Karrie Karahalios (University of Illinois)",
         "Geraldine Fitzpatrick (Vienna University of Technology)",
+        "Karrie Karahalios (University of Illinois)",
         "Andrés Monroy-Hernández (Microsoft Research)"
       ]
     }
