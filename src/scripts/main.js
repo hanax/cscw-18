@@ -2,7 +2,7 @@ import 'normalize-css';
 import '../styles/main.styl';
 
 const backgroundImages = [
-  'https://upload.wikimedia.org/wikipedia/commons/3/30/Piet_Mondrian,_1942_-_Broadway_Boogie_Woogie.jpg',
+  // 'https://upload.wikimedia.org/wikipedia/commons/3/30/Piet_Mondrian,_1942_-_Broadway_Boogie_Woogie.jpg',
   'http://www.newyorker.com/wp-content/uploads/2015/12/Veix-Goodbye-New-York-Color-1200.jpg',
   'http://cdn.images.cunard.com/webimage/HeroImage/Global/Images/Destinations/New-York2.jpg',
   'https://upload.wikimedia.org/wikipedia/commons/e/ee/New_York_City-Manhattan-Central_Park_(Gentry).jpg'
@@ -40,7 +40,7 @@ $(() => {
     });
 
   $('.logo')
-    .css('background-image', `url(${backgroundImages[parseInt(Math.random() * backgroundImages.length)]})`);
+    .css('background-image', `url("${backgroundImages[parseInt(Math.random() * backgroundImages.length)]}")`);
 
   drawHeaderAnimation();
 
