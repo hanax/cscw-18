@@ -20,17 +20,7 @@ const homeNews = {
   title: "New for 2018",
   content: [
     {
-      q: "Why did CSCW move to the Fall?",
-      a: "<p>This change has been considered over many years. Prior to 2010, CSCW occurred in the Fall, moving to the Spring when it became an annual conference. The Spring time frame was problematic, however, for two reasons:"
-        + "<ol>"
-        + "<li> There was too long a gap between when papers were submitted to the conference and when they were presented. Because the community wanted paper decisions before the CHI deadline, there was often a 5-month gap between final paper decisions and presentations, and a 9-month gap between paper submissio and presentation. </li>"
-        + "<li> Through a fairly broad community survey, we have tried to assess the impact of moving to the Fall. Obvious concerns have included the overlap not only with the ECSCW and GROUP conferences, but also with UIST, UBICOMP, HCOMP, and RecSYS, among other Fall conferences. However, it turned out that our biggest overlap was with CHI, and that having CSCW and CHI in the same general time period was problematic for many. </li>"
-        + "</ol> <p>"
-        + "It was the combination of the timing of submissions and representation, as well as the overlap with CHI, that drove the steering committee to present the change to a Fall timeline, and to receive enough positive feedback to make the change."
-        + "</p>"
-    },
-    {
-      q: "What will happen with papers submitted in 2017?",
+      q: "What will happen with papers submitted for the 2017 Online First deadline?",
       a: "<p>The papers will go through a normal CSCW review cycle, with accepted papers to be published Online First in fall of 2017."
         + "</p> <p>"
     },
@@ -41,6 +31,16 @@ const homeNews = {
         + "Most interesting is that automatic indexing services like ISI will read our work as a journal, not as a conference proceedings. This should not only heighten the visibility of work of authors in this community, but also allow for better comparability with fields outside of Computer Science. </p>"
         + "</p> <p>"
         + "It is the intention to move all future CSCW conferences to the PACM publishing model. </p>"
+    },
+    {
+      q: "Why did CSCW move to the Fall?",
+      a: "<p>This change has been considered over many years. Prior to 2010, CSCW occurred in the Fall, moving to the Spring when it became an annual conference. The Spring time frame was problematic, however, for two reasons:"
+        + "<ol>"
+        + "<li> There was too long a gap between when papers were submitted to the conference and when they were presented. Because the community wanted paper decisions before the CHI deadline, there was often a 5-month gap between final paper decisions and presentations, and a 9-month gap between paper submissio and presentation. </li>"
+        + "<li> Through a fairly broad community survey, we have tried to assess the impact of moving to the Fall. Obvious concerns have included the overlap not only with the ECSCW and GROUP conferences, but also with UIST, UBICOMP, HCOMP, and RecSYS, among other Fall conferences. However, it turned out that our biggest overlap was with CHI, and that having CSCW and CHI in the same general time period was problematic for many. </li>"
+        + "</ol> <p>"
+        + "It was the combination of the timing of submissions and representation, as well as the overlap with CHI, that drove the steering committee to present the change to a Fall timeline, and to receive enough positive feedback to make the change."
+        + "</p>"
     }
   ]
 };
