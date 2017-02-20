@@ -99,7 +99,7 @@ const committeeChairs = [
     title: "Student Volunteer Co-Chairs",
     names: [
       "Xiao Ma (Cornell Tech)",
-      "Christina Zaga (University of Twente)"
+      "Cristina Zaga (University of Twente)"
     ],
     email: "sv2018@cscw.acm.org"
   }
