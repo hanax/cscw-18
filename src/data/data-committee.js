@@ -96,12 +96,18 @@ const committeeChairs = [
     email: "web2018@cscw.acm.org"
   },
   {
-    title: "Student Volunteer Co-Chairs",
+    title: "Student Volunteer co-Chairs",
     names: [
       "Xiao Ma (Cornell Tech)",
       "Cristina Zaga (University of Twente)"
     ],
     email: "sv2018@cscw.acm.org"
+  },
+  {
+    title: "Student Reviewer Mentoring co-Chairs",
+    names: [
+      "Michael Muller (IBM Research)"
+    ],
   }
 ].map((c) => {
   c.names = c.names.map((n) => {
