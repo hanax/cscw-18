@@ -164,8 +164,6 @@ Authors will be expected to prepare a camera-ready version of their paper in acc
 
 The CSCW Proceedings is a peer-reviewed archival publication. Note: The official publication date is the date the proceedings are made available in the ACM Digital Library. For *Online First *submissions, this date would be in late 2017. The official publication date affects the deadline for any patent filings related to published work.
 
-At least one author of each accepted CSCW 2018* Online First *paper must register for, attend, and present the paper as a poster at the CSCW 2018 conference. Failure to meet this requirement may result in withdrawal of the work from the proceedings published in the ACM Digital Library. However, given the large gap between *Online First* submissions and the conference, the conference chairs may consider exceptional cases where authors are not able to present due to unexpected circumstances.
-
 Authors of accepted papers will have to choose whether to pay for open-access publication (this decision is made after acceptance and will not affect the review decision). Authors also will have to choose among three options for rights management: copyright transfer (or government copyright), a limited exclusive right to publish, or author-retained rights (only for author-paid open access articles). All authors of ACM-published articles retain substantial rights, see http://authors.acm.org for more details.
 
 ### Program Committee Members
