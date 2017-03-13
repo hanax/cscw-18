@@ -25,6 +25,11 @@ const homeNews = {
         + "</p> <p>"
     },
     {
+      q: "How will Online First accepted papers be presented at the conference?",
+      a: "<p>Papers accepted in the 2017 Online First deadline will be presented with full recognition as CSCW regular track full papers, with an oral presentation at the conference. Based on the final conference size constraints, Online First oral presentations may be shorter, perhaps significantly, in which case the presentations will be augmented by additional exposure such as a dedicated poster session. In all other ways, Online First papers will be treated equally to papers accepted in the spring 2018 (the final, regular) conference deadline, including eligibility for best paper awards, archival status, and citation style."
+        + "</p> <p>"
+    },
+    {
       q: "What is PACM, and what does it mean for CSCW?",
       a: "<p>PACM (Proceedings of the ACM) is shorthand for a journal series -- attached mainly to ACM special interest groups -- that will change our publication format to something more closely resembling a journal article. In general, the paper submission process and assessment ofr CSCW will remain much the same. The main difference lies in how the work will be referenced."
         + "</p> <p>"
