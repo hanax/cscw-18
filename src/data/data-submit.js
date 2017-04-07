@@ -166,7 +166,7 @@ The CSCW Proceedings is a peer-reviewed archival publication. Note: The official
 
 Authors of accepted papers will have to choose whether to pay for open-access publication (this decision is made after acceptance and will not affect the review decision). Authors also will have to choose among three options for rights management: copyright transfer (or government copyright), a limited exclusive right to publish, or author-retained rights (only for author-paid open access articles). All authors of ACM-published articles retain substantial rights, see http://authors.acm.org for more details.
 
-All papers accepted for CSCW 2018 from either the Online First or subsequent final deadline are expected to be presented at CSCW 2018 by at least one of the authors. The presentation format may differ for Online First papers but is guaranteed to include some form of oral presentation at the conference.
+All papers accepted for CSCW 2018 from either the Online First or subsequent final deadline are expected to be presented at CSCW 2018 by at least one of the authors. The presentation format may differ for Online First papers but is guaranteed to include some form of oral presentation at the conference. The conference will find ways to accommodate those who are unable to travel to the United States due to geo-political reasons.
 
 ### Program Committee Members
 
