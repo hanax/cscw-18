@@ -67,7 +67,7 @@ const committeeChairs = [
     title: "Communication and Outreach co-chairs",
     names: [
       "Casey Fiesler (University of Colorado)",
-      "Yuvi Panda (Wikimedia Foundation)"
+      "Alex Leavitt (Facebook, Inc.)"
     ],
     email: "comm2018@cscw.acm.org"
   },
