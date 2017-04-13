@@ -116,6 +116,7 @@ const committeeChairs = [
       "Michael Muller (IBM Research)",
       "Stephan Lukosh (T.U. Delft)"
     ],
+    email: "studentmentoring2018@cscw.acm.org"
   }
 ].map((c) => {
   c.names = c.names.map((n) => {
