@@ -96,6 +96,13 @@ const committeeChairs = [
     email: "web2018@cscw.acm.org"
   },
   {
+    title: "Sponsorship co-chairs",
+    names: [
+      "N Sadat Sadami (IBM)"
+      // "TBD"
+    ],
+  },
+  {
     title: "Student Volunteer co-Chairs",
     names: [
       "Xiao Ma (Cornell Tech)",
@@ -106,7 +113,8 @@ const committeeChairs = [
   {
     title: "Student Reviewer Mentoring co-Chairs",
     names: [
-      "Michael Muller (IBM Research)"
+      "Michael Muller (IBM Research)",
+      "Stephan Lukosh (T.U. Delft)"
     ],
   }
 ].map((c) => {
