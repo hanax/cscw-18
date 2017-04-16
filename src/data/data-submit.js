@@ -86,7 +86,7 @@ papers2018@cscw.acm.org
 
 ### Submission Process
 
-Abstracts must be submitted via the Precision Conference System (PCS) by 5:00 pm Pacific Daylight Time (PDT) on Thursday, April 20, 2017. Papers must be submitted via PCS by 5:00 pm Pacific Daylight TIme (PDT) on Thursday, April 27, 2017. Papers in the "Revise & Resubmit" category must be re-submitted via the PCS system by 11:59 PM PDT on July 10, 2017.
+Abstracts must be submitted via the new version of Precision Conference System (PCS 2.0, [https://new.precisionconference.com/](https://new.precisionconference.com/); note that you will need to create a new login/password) by 5:00 pm Pacific Daylight Time (PDT) on Thursday, April 20, 2017. Papers must be submitted via PCS by 5:00 pm Pacific Daylight TIme (PDT) on Thursday, April 27, 2017. Papers in the "Revise & Resubmit" category must be re-submitted via the PCS system by 11:59 PM PDT on July 10, 2017.
 
 Authors submitting papers for peer-review to ACM publications make the following representations (see [http://www.acm.org/publications/policies/author_representations](http://www.acm.org/publications/policies/author_representations) for full policy statement):
 

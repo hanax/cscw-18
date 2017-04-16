@@ -11,7 +11,7 @@ const homeWelcome = {
 const homeImportantNow = {
   title: "What\'s important now?",
   content: [
-    "The Online First paper submission deadline is Thursday, April 27 2017, with abstracts due April 20. For more details, see http://cscw.acm.org/2018/submit.html",
+    "The Online First paper submission deadline is Thursday, April 27 2017, with abstracts due April 20. Submission is now open at https://new.precisionconference.com/. For more details, see http://cscw.acm.org/2018/submit.html",
     "The CSCW Web site is officially launched; stay tuned or sign up for the mailing list below for news and updates."
   ]
 };
