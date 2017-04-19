@@ -51,7 +51,7 @@ const committeeChairs = [
   {
     title: "Panels co-chairs",
     names: [
-      "Airi Lampinen (Mobile Life Centre, Stockholm University)"
+      "Airi Lampinen (Stockholm University)"
       // "TBD"
     ],
   },
