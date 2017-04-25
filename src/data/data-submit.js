@@ -108,7 +108,7 @@ Confidentiality of submitted material will be maintained. Upon acceptance, the t
 
 ### Formatting and Length
 
-Please use the SIGCHI papers template to format your submission (there is a [Word version](https://cscw.acm.org/2017/submit/sigchi-word-proceedings.zip) and a [Latex version](https://github.com/sigchi/Document-Formats)). Papers should be converted to PDF before submission.
+Please use the SIGCHI papers template to format your submission (there is a [Word version](https://cscw.acm.org/2017/submit/sigchi-word-proceedings.zip) and a [Latex version](https://github.com/sigchi/Document-Formats)). We ask that you use the templates provided here and not the proceedings template provided on the ACM official site. Papers should be converted to PDF before submission.
 
 There is no minimum or maximum length imposed on papers. Rather, reviewers will be instructed to weigh the contribution of a paper relative to its length. Papers should report research thoroughly but succinctly: brevity is a virtue. A typical length is 10 pages (formerly the maximum length limit), but may be shorter if the contribution can be described and supported in fewer pages — shorter, more focused papers (called Notes in prior years) are encouraged and will be reviewed like any other paper. While we will review papers longer than 10 pages, the contribution must warrant the extra length. Papers whose length is incommensurate with their contribution will be rejected.
 
