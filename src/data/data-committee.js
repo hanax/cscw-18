@@ -51,9 +51,10 @@ const committeeChairs = [
   {
     title: "Panels co-chairs",
     names: [
-      "Airi Lampinen (Stockholm University)"
-      // "TBD"
+      "Airi Lampinen (Stockholm University)",
+      "Tawanna Dillahunt (University of Michigan)"
     ],
+    email: "panels2018@cscw.acm.org"
   },
   {
     title: "Treasurers",
