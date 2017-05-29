@@ -1,6 +1,6 @@
 const homeHeader = {
   h1: "The 21st ACM Conference on Computer-Supported Cooperative Work and Social Computing",
-  h2: "Oct/Nov 2018, Location TBD"
+  h2: "November 3-7, 2018, New York City's Hudson River (Jersey City)"
 };
 
 const homeWelcome = {
@@ -11,19 +11,14 @@ const homeWelcome = {
 const homeImportantNow = {
   title: "What\'s important now?",
   content: [
-    "The Online First paper submission deadline is Thursday, April 27 2017, with abstracts due April 20. Submission is now open at https://new.precisionconference.com/. For more details, see http://cscw.acm.org/2018/submit.html",
-    "The CSCW Web site is officially launched; stay tuned or sign up for the mailing list below for news and updates."
+    "The Online First paper revision period is June 12th to July 10th.",
+    "The venue and dates for CSCW 2018 have been announced. See you in New York in 2018!"
   ]
 };
 
 const homeNews = {
   title: "New for 2018",
   content: [
-    {
-      q: "What will happen with papers submitted for the 2017 Online First deadline?",
-      a: "<p>The papers will go through a normal CSCW review cycle, with accepted papers to be published Online First in fall of 2017."
-        + "</p> <p>"
-    },
     {
       q: "How will Online First accepted papers be presented at the conference?",
       a: "<p>Papers accepted in the 2017 Online First deadline will be presented with full recognition as CSCW regular track full papers, with an oral presentation at the conference. Based on the final conference size constraints, Online First oral presentations may be shorter, perhaps significantly, in which case the presentations will be augmented by additional exposure such as a dedicated poster session. In all other ways, Online First papers will be treated equally to papers accepted in the spring 2018 (the final, regular) conference deadline, including eligibility for best paper awards, archival status, and citation style."
