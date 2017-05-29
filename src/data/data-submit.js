@@ -19,10 +19,6 @@ This is an interim deadline for CSCW 2018 papers —  papers submitted for this 
 
 ### Important Dates
 
-* *April 20, 2017*: Abstract due (5:00pm PDT)
-
-* *April 27, 2017*: Submission due (5:00pm PDT)
-
 * *June 12, 2017*: First-round notifications (Revise & Resubmit or Reject)
 
 * *July 10, 2017*: Revised papers due (5:00pm PDT)
