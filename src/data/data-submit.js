@@ -174,8 +174,203 @@ All papers accepted for CSCW 2018 from either the Online First or subsequent fin
 
 ### Program Committee Members
 
-TBD
-      `
+Morgan Ames, UC Berkeley
+
+Gabriela Avram, University of Limerick
+
+Shiri Azenkot, Cornell Tech
+
+Brian Bailey, UIUC
+
+Saeideh Bakhshi, Facebook
+
+Eric Baumer, Lehigh University
+
+Alexander Boden, Fraunhofer
+
+Claus Bossen, Aarhus University
+
+Nina Boulus-Rødje, University of Copenhagen
+
+Barry Brown, KTH
+
+Joel Chan, CMU
+
+Rumi Chunara, NYU
+
+Adrian Clear, Northumbria
+
+Rob Comber, Newcastle
+
+Andy Crabtree, Nottingham
+
+Kevin Crowston, Syracuse
+
+Munmun de Choudhury, Georgia Tech
+
+Cleidson de Souza, Vale Institute of Technology & Federal University of Pará
+
+Nicola Dell, Cornell Tech
+
+Jana Diesner, UIUC
+
+Jesus Favela, CICESE
+
+Joel Fischer, Nottingham
+
+Benjamin Fonseca, UTAD
+
+Andrea Forte, Drexel
+
+Guo Freeman, Cincinnati
+
+Wai-Tat Fu, UIUC
+
+Ge Gao, Cornell
+
+Jorge Goncalves, Université du Luxembourg
+
+Nitesh Goyal, Google
+
+Antonietta Grasso, Xerox Research Centre Europe
+
+Nir Grinberg, Harvard IQSS
+
+Shion Guha, Cornell
+
+Francisco Gutierrez, University of Chile
+
+Carl Gutwin, Saskatchewan
+
+Aaron Halfaker, Wikimedia
+
+Benjamin Hanrahan, Penn State
+
+Brent Hecht, Northwestern
+
+Yun Huang, Syracuse
+
+Shah Rukh Humayoun, University of Kaiserslautern
+
+Quentin Jones, NJIT
+
+Bridget Kane, Karlstad University Sweden, Informatik
+
+David Karger, MIT
+
+Brian Keegan, Boulder
+
+Ryan Kelly, Bath
+
+Juho Kim, KAIST
+
+Matthias Korn, Siegen
+
+Jess Kropczynski, Penn State
+
+Neha Kumar, Georgia Tech
+
+Walter Lasecki, U. Michigan
+
+Alex Leavitt, Facebook
+
+Vera Liao, IBM
+
+Janne Lindqvist, Rutgers
+
+Kurt Luther, Virginia Tech
+
+Jonathan Morgan, Wikimedia
+
+Michael Muller, IBM
+
+Sean Munson, Washington
+
+Naja L. Holten Møller
+
+Claudia Müller, Siegen
+
+Oded Nov, NYU
+
+Nicole Novielli, University of Bari
+
+Aisling Ann O’Kane, University College London
+
+Thomas Olsson, Tampere University of Technology
+
+Gerald Oster, Université de Lorraine
+
+Konstantinos Papangelis, University of Liverpool
+
+Sameer Patil, Irvine
+
+Fabiano Pinatti, University of Siegen
+
+Nathaniel Poor
+
+Michael Prilla, TU Clausthal
+
+Daniele Quercia, Bell Labs
+
+Emilee Rader, Michigan State
+
+Dave Randall, University of Siegen
+
+Katharina Reinecke, University of Washington
+
+Lionel Peter Robert, U. Michigan
+
+Alan Said, University of Skövde
+
+Antti Salovaara, University of Helsinki
+
+Nithya Sambasivan, Google
+
+Christian Sandvig, U. Michigan
+
+Saiph Savage, WVU
+
+Gerhard Schwabe, University of Zurich
+
+Patrick Shih, Indiana
+
+Vivek Singh, Rutgers University
+
+Jaime Snyder, University of Washington
+
+Kate Starbird, University of Washington
+
+John Tang, MSR
+
+Loren Terveen, U. Minnesota
+
+Jenn Thom, Spotify
+
+Peter Tolmie, University of Siegen
+
+Jessica Vitak, U. Maryland
+
+Dhaval Vyas, QUT
+
+James Wallace, Waterloo
+
+Dakuo Wang, IBM
+
+Leon Watts, Bath
+
+Jason Wiese, University of Utah
+
+Paweł W. Woźniak, University of Stuttgart
+
+Volker Wulf, Siegen
+
+Naomi Yamashita, NTT Communication Science Lab
+
+Haoqi Zhang, Northwestern
+
+Haiyi Zhu, U. Minnesota
+
+`
     }
   ]
 };
