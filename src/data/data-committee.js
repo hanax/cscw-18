@@ -85,8 +85,9 @@ const committeeChairs = [
     title: "Local Arrangements co-chairs",
     names: [
       "Victoria Sosik (Google)"
-      // "TBD"
+      "Joelle Alcaidinho (Intel)"
     ],
+    email: "local2018@cscw.acm.org"
   },
   {
     title: "Design and Web co-chairs",
@@ -100,6 +101,13 @@ const committeeChairs = [
     title: "Sponsorship co-chairs",
     names: [
       "N Sadat Sadami (IBM)"
+      // "TBD"
+    ],
+  },
+  {
+    title: "Diversity and Inclusion Co-Chairs",
+    names: [
+      "Niloufar Salehi (Stanford)"
       // "TBD"
     ],
   },
