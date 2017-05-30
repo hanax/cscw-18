@@ -37,6 +37,10 @@ html
 			each n in homeImportantNow.content
 				li!= n
 
+	.section.venue
+		a(href='location.html')
+			.title= homeVenue.title
+
 	.section.news
 		.column.news-twitter
 			//- a.twitter-timeline(href='https://twitter.com/ACM_CSCW') Tweets by ACM_CSCW

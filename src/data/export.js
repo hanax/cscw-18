@@ -5,6 +5,7 @@ module.exports = {
   // data-home
   homeHeader,
   homeWelcome,
+  homeVenue,
   homeImportantNow,
   homeNews,
   homeCfp,
@@ -13,6 +14,9 @@ module.exports = {
 
   // data-submit
   submitContents,
+
+  // data-location
+  locationIntro,
 
   // data-committee
   committeeChairs,

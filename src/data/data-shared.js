@@ -11,6 +11,10 @@ const sharedNavi = {
     {
       link: "committee.html",
       title: "committee"
+    },
+    {
+      link: "location.html",
+      title: "location and venue"
     }
   ]
 };

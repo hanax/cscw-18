@@ -147,7 +147,8 @@ ul.nav
     height 100%
   li
     display inline-block
-    width 120px
+    min-width 120px
+    padding 0 10px
     text-align center
     transition all .3s
     &:hover
@@ -246,6 +247,17 @@ ul.nav
 .welcome
   padding 0 140px 70px 140px
   text-align center
+
+.venue
+  background-image url('/2018/assets/venue.jpg')
+  background-color light-yellow
+  background-size 100% auto
+  background-position center
+  .title
+    line-height 60px
+  a
+    color #fff
+    text-decoration none
 
 .importantNow
   background-color light-grey

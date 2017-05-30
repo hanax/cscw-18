@@ -8,6 +8,10 @@ const homeWelcome = {
   content: "CSCW is the premier venue for research in the design and use of technologies that affect groups, organizations, communities, and networks. Bringing together top researchers and practitioners, CSCW explores the technical, social, material, and theoretical challenges of designing technology to support collaborative work and life activities. Join us as we explore how technologies can enable new ways of living and working together."
 };
 
+const homeVenue = {
+  title: "Know more about the location"
+};
+
 const homeImportantNow = {
   title: "What\'s important now?",
   content: [
