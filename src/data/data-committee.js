@@ -84,7 +84,7 @@ const committeeChairs = [
   {
     title: "Local Arrangements co-chairs",
     names: [
-      "Victoria Sosik (Google)"
+      "Victoria Sosik (Google)",
       "Joelle Alcaidinho (Intel)"
     ],
     email: "local2018@cscw.acm.org"
