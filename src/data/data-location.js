@@ -1,5 +1,5 @@
 const locationIntro = {
-  content: `
+  content: marked(`
 
 CSCW 2018 will take place at the **Hyatt Regency Jersey City on the Hudson** located in Jersey City, New Jersey. With its waterfront location, the venue has easy access to attractions, dining, and entertainment in Jersey City and nearby New York City.
 
@@ -18,4 +18,4 @@ With 2,000 bridges and tunnels in the Greater NYC area and one of the busiest pu
 ## Local Attractions
 
 `
-};
+)};
