@@ -100,7 +100,7 @@ const committeeChairs = [
   {
     title: "Sponsorship co-chairs",
     names: [
-      "N Sadat Sadami (IBM)"
+      "N. Sadat Shami (IBM)"
       // "TBD"
     ],
   },
