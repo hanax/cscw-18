@@ -9,7 +9,7 @@ const homeWelcome = {
 };
 
 const homeVenue = {
-  title: "Know more about the location"
+  title: "Location and Venue: Learn More"
 };
 
 const homeImportantNow = {
