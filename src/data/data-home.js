@@ -11,14 +11,20 @@ const homeWelcome = {
 const homeImportantNow = {
   title: "What\'s important now?",
   content: [
-    "The Online First paper revision period is June 12th to July 10th.",
-    "The venue and dates for CSCW 2018 have been announced. See you in New York in 2018!"
+    "The official venue and dates for CSCW 2018 have been announced, see you in New York in 2018!",
+    "The next opportunity to submit to CSCW 2018 will be in Spring 2018. Sign up to the mailing list below to be the first to know.",
+    ""
   ]
 };
 
 const homeNews = {
   title: "New for 2018",
   content: [
+    {
+      q: "What will happen with papers submitted for the 2017 Online First deadline?",
+      a: "<p>The papers will go through a normal CSCW review cycle, with accepted papers to be published Online First in fall of 2017. The next submission deadline would be the regular conference submission, in spring 2018."
+        + "</p> <p>"
+    },
     {
       q: "How will Online First accepted papers be presented at the conference?",
       a: "<p>Papers accepted in the 2017 Online First deadline will be presented with full recognition as CSCW regular track full papers, with an oral presentation at the conference. Based on the final conference size constraints, Online First oral presentations may be shorter, perhaps significantly, in which case the presentations will be augmented by additional exposure such as a dedicated poster session. In all other ways, Online First papers will be treated equally to papers accepted in the spring 2018 (the final, regular) conference deadline, including eligibility for best paper awards, archival status, and citation style."
