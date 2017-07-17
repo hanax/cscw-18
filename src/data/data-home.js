@@ -12,8 +12,7 @@ const homeImportantNow = {
   title: "What\'s important now?",
   content: [
     "The official venue and dates for CSCW 2018 have been announced, see you in New York in 2018!",
-    "The next opportunity to submit to CSCW 2018 will be in Spring 2018. Sign up to the mailing list below to be the first to know.",
-    ""
+    "The next opportunity to submit to CSCW 2018 will be in Spring 2018. Sign up to the mailing list below to be the first to know."
   ]
 };
 
