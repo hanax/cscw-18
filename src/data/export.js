@@ -11,6 +11,9 @@ module.exports = {
   homeSponsors,
   homeCommittee,
 
+  // data-location
+  locationIntro,
+
   // data-submit
   submitContents,
 
