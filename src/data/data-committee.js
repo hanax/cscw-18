@@ -12,7 +12,7 @@ const committeeChairs = [
     names: [
       "Karrie Karahalios (University of Illinois)",
       "Geraldine Fitzpatrick (Vienna University of Technology)",
-      "Andrés Monroy-Hernández (Microsoft Research)"
+      "Andrés Monroy-Hernández (Snap, Inc.)"
     ],
     email: "papers2018@cscw.acm.org"
   },
