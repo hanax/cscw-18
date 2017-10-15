@@ -1,6 +1,7 @@
 const homeHeader = {
   h1: "The 21st ACM Conference on Computer-Supported Cooperative Work and Social Computing",
-  h2: "November 3-7, 2018, New York City's Hudson River (Jersey City)"
+  h2: "November 3-7, 2018",
+  highlight: "New York City's Hudson River (Jersey City)"
 };
 
 const homeWelcome = {
