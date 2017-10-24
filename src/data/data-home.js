@@ -1,11 +1,16 @@
 const homeHeader = {
   h1: "The 21st ACM Conference on Computer-Supported Cooperative Work and Social Computing",
-  h2: "November 3-7, 2018, New York City's Hudson River (Jersey City)"
+  h2: "November 3-7, 2018",
+  highlight: "New York City's Hudson River (Jersey City)"
 };
 
 const homeWelcome = {
   title: "Welcome to CSCW 2018!",
   content: "CSCW is the premier venue for research in the design and use of technologies that affect groups, organizations, communities, and networks. Bringing together top researchers and practitioners, CSCW explores the technical, social, material, and theoretical challenges of designing technology to support collaborative work and life activities. Join us as we explore how technologies can enable new ways of living and working together."
+};
+
+const homeVenue = {
+  title: "Location and Venue: Learn More"
 };
 
 const homeImportantNow = {

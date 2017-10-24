@@ -14,7 +14,7 @@ const sharedNavi = {
     },
     {
       link: "location.html",
-      title: "location"
-    },
+      title: "location and venue"
+    }
   ]
 };

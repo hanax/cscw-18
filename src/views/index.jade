@@ -21,11 +21,17 @@ html
 		.content-wrapper
 			img(src='./assets/logo-home-header.svg')
 			h3= homeHeader.h1
-			p= homeHeader.h2
+			p
+				span= homeHeader.h2
+				a(href='#venue').highlight= homeHeader.highlight
 
 	.section.welcome
 		.separator-bar
 		p!= homeWelcome.content
+
+	.section.venue#venue
+		a(href='location.html')
+			.title= homeVenue.title
 
 	.section.importantNow
 		.title= homeImportantNow.title

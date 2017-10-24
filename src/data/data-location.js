@@ -1,7 +1,5 @@
 const locationIntro = {
-  content : marked(
-
-`
+  content: marked(`
 CSCW 2018 will take place at the **[Hyatt Regency Jersey City on the Hudson](https://jerseycity.regency.hyatt.com/)** located in Jersey City, New Jersey, minutes away from Manhattan via train or ferry. With its waterfront location, the venue has easy access to attractions, dining, and entertainment in New York City.
 
 Lovingly nicknamed the Big Apple, New York is home to some of the most driven, creative, adaptive, and passionate people in the world. There is always something going on and always somewhere to go! New York City is conveniently surrounded by 3 international airports (Newark is recommended for this venue) and connected by multiple train, ferry, and subway systems. It’s no wonder that despite being the most densely populated city in the US, residents and visitors frequently mention feeling connected to the city and the neighborhoods they explore!
