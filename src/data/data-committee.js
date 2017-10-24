@@ -10,8 +10,9 @@ const committeeChairs = [
   {
     title: "Paper chairs",
     names: [
-      "Karrie Karahalios (University of Illinois)",
       "Geraldine Fitzpatrick (Vienna University of Technology)",
+      "Karrie Karahalios (University of Illinois)",
+      "Airi Lampinen (Stockholm University)",
       "Andrés Monroy-Hernández (Snap, Inc.)"
     ],
     email: "papers2018@cscw.acm.org"
@@ -51,8 +52,8 @@ const committeeChairs = [
   {
     title: "Panels co-chairs",
     names: [
-      "Airi Lampinen (Stockholm University)",
-      "Tawanna Dillahunt (University of Michigan)"
+      "Tawanna Dillahunt (University of Michigan)",
+      "Daniele Quercia (Bell Labs Cambridge)"
     ],
     email: "panels2018@cscw.acm.org"
   },
