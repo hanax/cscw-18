@@ -16,8 +16,7 @@ const homeVenue = {
 const homeImportantNow = {
   title: "What\'s important now?",
   content: [
-    "The official venue and dates for CSCW 2018 have been announced, see you in New York in 2018!",
-    "The next opportunity to submit to CSCW 2018 will be in Spring 2018. Sign up to the mailing list below to be the first to know."
+    "The next opportunity to submit to CSCW 2018 will be in Spring 2018, with dates now available on the Submission page. Sign up to the mailing list below to be the first to know."
   ]
 };
 
@@ -25,8 +24,8 @@ const homeNews = {
   title: "New for 2018",
   content: [
     {
-      q: "What will happen with papers submitted for the 2017 Online First deadline?",
-      a: "<p>The papers will go through a normal CSCW review cycle, with accepted papers to be published Online First in fall of 2017. The next submission deadline would be the regular conference submission, in spring 2018."
+      q: "What will happen with papers accepted in the 2017 Online First deadline?",
+      a: "<p>Accepted papers will be available 'Online First' in fall 2017. The next submission deadline would be the regular conference submission, in spring 2018."
         + "</p> <p>"
     },
     {
@@ -46,7 +45,7 @@ const homeNews = {
       q: "Why did CSCW move to the Fall?",
       a: "<p>This change has been considered over many years. Prior to 2010, CSCW occurred in the Fall, moving to the Spring when it became an annual conference. The Spring time frame was problematic, however, for two reasons:"
         + "<ol>"
-        + "<li> There was too long a gap between when papers were submitted to the conference and when they were presented. Because the community wanted paper decisions before the CHI deadline, there was often a 5-month gap between final paper decisions and presentations, and a 9-month gap between paper submissio and presentation. </li>"
+        + "<li> There was too long a gap between when papers were submitted to the conference and when they were presented. Because the community wanted paper decisions before the CHI deadline, there was often a 5-month gap between final paper decisions and presentations, and a 9-month gap between paper submission and presentation. </li>"
         + "<li> Through a fairly broad community survey, we have tried to assess the impact of moving to the Fall. Obvious concerns have included the overlap not only with the ECSCW and GROUP conferences, but also with UIST, UBICOMP, HCOMP, and RecSYS, among other Fall conferences. However, it turned out that our biggest overlap was with CHI, and that having CSCW and CHI in the same general time period was problematic for many. </li>"
         + "</ol> <p>"
         + "It was the combination of the timing of submissions and representation, as well as the overlap with CHI, that drove the steering committee to present the change to a Fall timeline, and to receive enough positive feedback to make the change."
@@ -65,7 +64,7 @@ const homeCfp = {
 const homeSponsors = {
   title: "Call for sponsors",
   content: marked(
-    "Sponsorships are a unique opportunity to support the CSCW conference including student attendees, and benefit the research community. Moreover, sponsorships help organizations be recognized and gain visibility in the community, creating ties and providing a backdrop for recruitment. Sponsorship benefits include acknowledgment in conference materials, website, and presentations; support in hosting special events for all conference participants; and opportunities to provide information and demonstrations directly to CSCW attendees. More information about sponsorship level, starting at $5000, is coming soon; email [chairs2018@cscw.acm.org](mailto:chairs2018@cscw.acm.org) for details." 
+    "Sponsorships are a unique opportunity to support the CSCW conference including student attendees, and benefit the research community. Moreover, sponsorships help organizations be recognized and gain visibility in the community, creating ties and providing a backdrop for recruitment. Sponsorship benefits include acknowledgment in conference materials, website, and presentations; support in hosting special events for all conference participants; and opportunities to provide information and demonstrations directly to CSCW attendees. More information about sponsorship level is coming soon; email [chairs2018@cscw.acm.org](mailto:chairs2018@cscw.acm.org) for details." 
   )
 };
 
@@ -84,7 +83,8 @@ const homeCommittee = {
       names: [
         "Geraldine Fitzpatrick (Vienna University of Technology)",
         "Karrie Karahalios (University of Illinois)",
-        "Andrés Monroy-Hernández (Microsoft Research)"
+        "Airi Lampinen (Stockholm University)",
+        "Andrés Monroy-Hernández (Snap, Inc.)"
       ]
     }
   ]

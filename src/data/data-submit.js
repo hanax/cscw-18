@@ -5,27 +5,22 @@ const submitContents = {
       content: `
 
 The ACM conference on Computer-Supported Cooperative Work and Social Computing is an international and interdisciplinary conference focused on how technology intersects with social practices. The conference will offer several types of submission including papers, posters, demos, workshops, panels, doctoral colloquium in 2018, with details to be posted on this page in early 2018.
-To bridge the gap until the 2018 paper deadline, we offer an _Online First_ call for paper participation.
+To bridge the gap until the 2018 paper deadline, we offered an _Online First_ call for paper participation. The Online First deadline has passed, but details about this process can be found [here](http://https://cscw.acm.org/2018/submit_online.html).
 
-## CSCW 2018 _Online First_ Call for Paper Participation
 
-The ACM conference on Computer-Supported Cooperative Work and Social Computing is an international and interdisciplinary conference focused on how technology intersects with social practices.  
+### Important 2018 Dates
 
-This is an interim deadline for CSCW 2018 papers —  papers submitted for this deadline will be published *Online First*, before the CSCW 2018 annual conference, in the inaugural November 2017 Proceedings of the ACM: Human Computer Interaction (PACM). Accepted *Online First* papers will be presented in a format to be determined with recognition as CSCW full papers at the 2018 ACM Conference on Computer-Supported Cooperative Work and Social Computing in November, 2018. (Final location details will be announced soon). 
+* *April 16, 2018*: Paper Abstracts Due
 
-**The CSCW 2018 Conference will have a second submission deadline and separate review process during Spring 2018.**
+* *April 19, 2018*: Paper Submissions Due
 
-*Online First* paper deadlines and decision notification dates are as follows. Note that this year, abstract submissions are required one week prior to the paper submission.
+* *June 15, 2018*: First-Round Notifications (Revise & Resubmit, or Reject)
 
-### Important Dates
+* *August 8, 2018*: Final Notifications
 
-* *June 12, 2017*: First-round notifications (Revise & Resubmit or Reject)
+* *September 3, 2018*: Camera-Ready Deadline
 
-* *July 10, 2017*: Revised papers due (5:00pm PDT)
-
-* *August 6, 2017*: Final notifications *CSCW 2018 Online First*
-
-Camera ready date and publication dates for *Online First* papers will be published soon. 
+* *November 3, 2018*: CSCW 2018
 
 ### Call for Papers
 
@@ -55,26 +50,19 @@ Contributions to CSCW across a variety of research techniques, approaches, and d
 
 * Crossing boundaries. Studies, prototypes, or other investigations that explore interactions across disciplines, distance, languages, generations, and cultures, to help better understand how to transcend social, temporal, and/or spatial boundaries.
 
-Note that CSCW is moving all publications to the Proceedings of the ACM (PACM). Hence, papers for this interim *Online First* call will be part of Proceedings of the ACM : Human-Computer Interaction: Volume 1: Issue 1: Computer-Supported Cooperative Work and Social Computing 2017. This will be the inaugural issue of the PACM.
-
-A second CSCW 2018 review process will take place in Spring 2018 (date to be announced). Papers submitted to that deadline will be referred to as Spring 2018 papers.
-
-The CSCW 2018 *Online First* published papers will be archived in the ACM Digital Library and will be free for download for up to two years after publication. For more information on this open access model, see:  
-
-http://www.sigchi.org/news/open-table-of-contents-a-new-way-to-access-acm-sigchi-publications.
-
-CSCW does not accept submissions that were published previously in formally reviewed publications or that are currently submitted elsewhere.
+Note that CSCW is moving all publications to the Proceedings of the ACM (PACM). All CSCW papers (including Online First papers) will be include in the Proceedings of the ACM (PACM) journal.
 
 Send queries about Paper submissions to papers2018@cscw.acm.org.
 
 ### Papers Co-Chairs
 
-Geraldine Fitzpatrick, TU Wien (Vienna University of Technology)
+Geraldine Fitzpatrick (TU Wien; Vienna University of Technology)
 
-Karrie Karahalios, University of Illinois
+Karrie Karahalios (University of Illinois)
 
-Andrés Monroy-Hernández, Microsoft Research
+Airi Lampinen (Stocholm University)
 
+Andrés Monroy-Hernández (Snap, Inc.)
 
 papers2018@cscw.acm.org
 
@@ -83,8 +71,6 @@ papers2018@cscw.acm.org
 ### Submission Process
 
 CSCW 2018 is using a new version of Precision Conference System (PCS 2.0): [https://new.precisionconference.com/](https://new.precisionconference.com/). Please note that you will need to create a new login/password for this system.
-
-Abstracts must be submitted via PCS 2.0by 5:00 pm Pacific Daylight Time (PDT) on Thursday, April 20, 2017. Papers must be submitted via PCS by 5:00 pm Pacific Daylight TIme (PDT) on Thursday, April 27, 2017. Papers in the "Revise & Resubmit" category must be re-submitted via the PCS system by 11:59 PM PDT on July 10, 2017.
 
 PCS 2.0 is still in development, and you are encouraged to report problems or to make interface suggestions to [support@precisionconference.com](mailto:support@precisionconference.com).
 
@@ -120,251 +106,11 @@ Papers are subject to blind reviewing. Your submission should have authors' name
 
 Consider submitting a video that illustrates your work, either as a video figure judged as part of your submission (no more than three minutes long and 50MB in size), or as a longer stand-alone submission to the video track. Videos are not required for paper submissions, but are strongly encouraged, particularly for papers contributing novel systems or interaction techniques.
 
-## CSCW 2018 _Online First_ Review process
-
-*Note: The review process described below applies to the Online First submissions only, not CSCW Spring 2018 submissions.*
-
-### Revision Cycle
-
-Papers will undergo two review cycles. After the first round of review, a submission will receive either a "Revise & Resubmit" or a "Reject" notification (along with the reviews themselves). Authors of papers designated "Revise & Resubmit" will have two weeks to revise their paper in response to the reviewers' comments. Authors will need to allocate time for possible revisions during the period between June 12th and July 10, 2017. Revised papers must be re-submitted via the PCS system by 11:59 PM PDT on July 10, 2017. Note that an invitation to "Revise & Resubmit" is not a guarantee of acceptance--the revision will be re-reviewed as the basis for the final decision. This is similar to a journal process, except that it is limited to a single revision with a strict deadline.
-
-The revision cycle enables authors to address issues raised by reviewers that may have been a cause for rejection under prior conference reviewing schemes, such as the need to improve readability/grammar, discuss missing citations, redo some analyses, adopt terminology familiar to the field, and/or reframe ideas more clearly. It also allows authors of papers that may have been accepted under a single-cycle approach to further strengthen their papers, perhaps better positioning themselves for consideration for "Best of CSCW 2018" recognition. Along with their revised paper, authors submit a letter explaining the key changes they have made, allowing more interaction between authors and reviewers.
-
-With the resubmission of R&R papers, authors are asked to provide a letter explaining how they approached the comments by the reviewers and incorporated the changes in the revision. See examples of "change summary" documents submitted with papers in past CSCWs.
-
-This is not an invitation to submit extended abstracts or incomplete papers; please submit only work of publishable quality. Incomplete or otherwise inappropriate submissions will be desk-rejected without review. Based on prior years’ experience with this process, we anticipate that roughly half of submissions will be rejected after the first round of this process. Note that the dual-round review process is not inherently tied to any target acceptance rates.
-
-### Review Criteria
-
-Authors will be able to indicate the primary methodological orientation of their paper, when they upload the paper to the PCS reviewing system:
-
-* Technical/Systems, e.g. building novel systems, algorithms, implementing novel features in existing systems, etc.
-
-* Empirical-Qualitative, e.g. ethnography, workplace studies, qualitative user studies, etc.
-
-* Empirical-Quantitative, e.g. "big data," quantitative user studies, statistical methods, etc.
-
-* Design, e.g. design implications, guidelines, methods, techniques, etc.
-
-* Mixed Methods, e.g., combined qualitative and quantitative empirical research, design explorations combined with technical feature development.
-
-* Theoretical, e.g. conceptual frameworks, theory underpinning CSCW studies/domains, theoretical analysis.
-
-* This information will be used to match the paper with a program committee member who is experienced with work of that character. CSCW values work from a variety of interdisciplinary and methodological perspectives - specific evaluation types are not a prerequisite for acceptance (Greenberg & Buxton, 2008).
-
-Greenberg, S., and Buxton, B. "Usability evaluation considered harmful (Some of the time)" in: CHI, ACM, Florence, Italy, 2008, pp. 111-120.
-
-### "Best of CSCW 2018" Awards
-
-CSCW 2018 *Online First* papers will be considered for "Best of CSCW" awards with the full set of 2018 accepted papers in accordance with SIGCHI guidelines. Papers that have been nominated as noteworthy by reviewers or Program Committee members will receive additional review by the Best Papers Committee, who will identify "Honorable Mention" and "Best" awards. Approximately 5% of submissions may be nominated and 1% of total submissions awarded Best Paper. 
-
-### Accepted Papers
-
-Authors will be expected to prepare a camera-ready version of their paper in accordance with ACM’s Digital Library formatting guidelines. Authors may be asked to identify funding sources (to assist in compliance with government access mandates). Further information will be provided at the time of acceptance.
-
-The CSCW Proceedings is a peer-reviewed archival publication. Note: The official publication date is the date the proceedings are made available in the ACM Digital Library. For *Online First *submissions, this date would be in late 2017. The official publication date affects the deadline for any patent filings related to published work.
-
-Authors of accepted papers will have to choose whether to pay for open-access publication (this decision is made after acceptance and will not affect the review decision). Authors also will have to choose among three options for rights management: copyright transfer (or government copyright), a limited exclusive right to publish, or author-retained rights (only for author-paid open access articles). All authors of ACM-published articles retain substantial rights, see http://authors.acm.org for more details.
-
-All papers accepted for CSCW 2018 from either the Online First or subsequent final deadline are expected to be presented at CSCW 2018 by at least one of the authors. The presentation format may differ for Online First papers but is guaranteed to include some form of oral presentation at the conference. The conference will find ways to accommodate those who are unable to travel to the United States due to geo-political reasons.
+All papers accepted for CSCW 2018 from the Online First or the subsequent final deadline are expected to be presented at CSCW 2018 by at least one of the authors. Presentation format for Online First papers may be different but is guaranteed to include some form of oral presentation at the conference. The conference will find ways to accommodate those who are unable to travel to the United States due to geo-political reasons. 
 
 ### Program Committee Members
 
-Morgan Ames, UC Berkeley
-
-Gabriela Avram, University of Limerick
-
-Shiri Azenkot, Cornell Tech
-
-Brian Bailey, UIUC
-
-Saeideh Bakhshi, Facebook
-
-Eric Baumer, Lehigh University
-
-Alexander Boden, Fraunhofer
-
-Claus Bossen, Aarhus University
-
-Nina Boulus-Rødje, University of Copenhagen
-
-Barry Brown, KTH
-
-Joel Chan, CMU
-
-Rumi Chunara, NYU
-
-Adrian Clear, Northumbria
-
-Rob Comber, Newcastle
-
-Andy Crabtree, Nottingham
-
-Kevin Crowston, Syracuse
-
-Munmun de Choudhury, Georgia Tech
-
-Cleidson de Souza, Vale Institute of Technology & Federal University of Pará
-
-Nicola Dell, Cornell Tech
-
-Jana Diesner, UIUC
-
-Jesus Favela, CICESE
-
-Joel Fischer, Nottingham
-
-Benjamin Fonseca, UTAD
-
-Andrea Forte, Drexel
-
-Guo Freeman, Cincinnati
-
-Wai-Tat Fu, UIUC
-
-Ge Gao, Cornell
-
-Jorge Goncalves, Université du Luxembourg
-
-Nitesh Goyal, Google
-
-Antonietta Grasso, Xerox Research Centre Europe
-
-Nir Grinberg, Harvard IQSS
-
-Shion Guha, Cornell
-
-Francisco Gutierrez, University of Chile
-
-Carl Gutwin, Saskatchewan
-
-Aaron Halfaker, Wikimedia
-
-Benjamin Hanrahan, Penn State
-
-Brent Hecht, Northwestern
-
-Yun Huang, Syracuse
-
-Shah Rukh Humayoun, University of Kaiserslautern
-
-Quentin Jones, NJIT
-
-Bridget Kane, Karlstad University Sweden, Informatik
-
-David Karger, MIT
-
-Brian Keegan, Boulder
-
-Ryan Kelly, Bath
-
-Juho Kim, KAIST
-
-Matthias Korn, Siegen
-
-Jess Kropczynski, Penn State
-
-Neha Kumar, Georgia Tech
-
-Walter Lasecki, U. Michigan
-
-Alex Leavitt, Facebook
-
-Vera Liao, IBM
-
-Janne Lindqvist, Rutgers
-
-Kurt Luther, Virginia Tech
-
-Jonathan Morgan, Wikimedia
-
-Michael Muller, IBM
-
-Sean Munson, Washington
-
-Naja L. Holten Møller
-
-Claudia Müller, Siegen
-
-Oded Nov, NYU
-
-Nicole Novielli, University of Bari
-
-Aisling Ann O’Kane, University College London
-
-Thomas Olsson, Tampere University of Technology
-
-Gerald Oster, Université de Lorraine
-
-Konstantinos Papangelis, University of Liverpool
-
-Sameer Patil, Irvine
-
-Fabiano Pinatti, University of Siegen
-
-Nathaniel Poor
-
-Michael Prilla, TU Clausthal
-
-Daniele Quercia, Bell Labs
-
-Emilee Rader, Michigan State
-
-Dave Randall, University of Siegen
-
-Katharina Reinecke, University of Washington
-
-Lionel Peter Robert, U. Michigan
-
-Alan Said, University of Skövde
-
-Antti Salovaara, University of Helsinki
-
-Nithya Sambasivan, Google
-
-Christian Sandvig, U. Michigan
-
-Saiph Savage, WVU
-
-Gerhard Schwabe, University of Zurich
-
-Patrick Shih, Indiana
-
-Vivek Singh, Rutgers University
-
-Jaime Snyder, University of Washington
-
-Kate Starbird, University of Washington
-
-John Tang, MSR
-
-Loren Terveen, U. Minnesota
-
-Jenn Thom, Spotify
-
-Peter Tolmie, University of Siegen
-
-Jessica Vitak, U. Maryland
-
-Dhaval Vyas, QUT
-
-James Wallace, Waterloo
-
-Dakuo Wang, IBM
-
-Leon Watts, Bath
-
-Jason Wiese, University of Utah
-
-Paweł W. Woźniak, University of Stuttgart
-
-Volker Wulf, Siegen
-
-Naomi Yamashita, NTT Communication Science Lab
-
-Haoqi Zhang, Northwestern
-
-Haiyi Zhu, U. Minnesota
+To be announced soon...
 
 `
     }
