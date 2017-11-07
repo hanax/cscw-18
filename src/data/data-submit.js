@@ -5,11 +5,12 @@ const submitContents = {
       content: `
 
 The ACM conference on Computer-Supported Cooperative Work and Social Computing is an international and interdisciplinary conference focused on how technology intersects with social practices. The conference will offer several types of submission including papers, posters, demos, workshops, panels, doctoral colloquium in 2018, with details to be posted on this page in early 2018.
-To bridge the gap until the 2018 paper deadline, we offered an _Online First_ call for paper participation. The Online First deadline has passed, but details about this process can be found [here](http://https://cscw.acm.org/2018/submit_online.html).
-
-
-### Important 2018 Dates
-
+To bridge the gap until the 2018 paper deadline, we offered an _Online First_ call for paper participation. The Online First deadline has passed, but details about this process can be found [here](http://https://cscw.acm.org/2018/archivedSubmit.html).
+`
+    }, {
+      title: 'Important Dates',
+      content: 
+`
 * *April 16, 2018*: Paper Abstracts Due
 
 * *April 19, 2018*: Paper Submissions Due
@@ -21,9 +22,11 @@ To bridge the gap until the 2018 paper deadline, we offered an _Online First_ ca
 * *September 3, 2018*: Camera-Ready Deadline
 
 * *November 3, 2018*: CSCW 2018
-
-### Call for Papers
-
+`
+    }, {
+      title: 'Call for Papers',
+      content: 
+`
 CSCW is an international and interdisciplinary peer reviewed conference seeking the best research on all topics relevant to collaborative and social computing.  We invite authors to submit papers that inform the design or deployment of collaborative or social systems; introduce novel systems, interaction techniques, or algorithms; or study existing collaborative or social practices. The scope of CSCW *Online First* includes social computing and social media, crowdsourcing, open collaboration, technologically-enabled or enhanced communication, CSCL, MOOCs, and related educational technologies, multi-user input technologies, collaboration, awareness, information sharing, and coordination. This scope spans socio-technical domains of work, home, education, healthcare, the arts, socializing, and entertainment. Papers can report on novel research results, systems, or new ways of thinking about, studying, or supporting shared activities.
 
 CSCW encourages papers that make a contribution to building CSCW systems including (but not limited to) technical enablers for CSCW applications; methods and techniques for new CSCW services and applications; and evaluation of fully-built CSCW systems and lab and field settings. 
@@ -52,7 +55,7 @@ Contributions to CSCW across a variety of research techniques, approaches, and d
 
 Note that CSCW is moving all publications to the Proceedings of the ACM (PACM). All CSCW papers (including Online First papers) will be include in the Proceedings of the ACM (PACM) journal.
 
-Send queries about Paper submissions to papers2018@cscw.acm.org.
+Send queries about Paper submissions to [papers2018@cscw.acm.org](mailto:papers2018@cscw.acm.org).
 
 ### Papers Co-Chairs
 
@@ -64,10 +67,13 @@ Airi Lampinen (Stocholm University)
 
 Andrés Monroy-Hernández (Snap, Inc.)
 
-papers2018@cscw.acm.org
+[papers2018@cscw.acm.org](mailto:papers2018@cscw.acm.org)
 
-## Format and Submission Process Details
-
+`
+    }, {
+      title: 'Format and Submission Process Details',
+      content: 
+`
 ### Submission Process
 
 CSCW 2018 is using a new version of Precision Conference System (PCS 2.0): [https://new.precisionconference.com/](https://new.precisionconference.com/). Please note that you will need to create a new login/password for this system.

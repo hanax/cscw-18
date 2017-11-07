@@ -17,6 +17,7 @@ module.exports = {
 
   // data-submit
   submitContents,
+  archivedSubmitContents,
 
   // data-location
   locationIntro,

@@ -11,11 +11,11 @@ html
 	.section.main
 		.column.main-left-menu
 			ul
-				each n in submitContents.items
+				each n in archivedSubmitContents.items
 					a(href='#'+n.title)
 						li(id='menu-item-'+n.title)!= n.title
 		.column.main-right-content
-			each n in submitContents.items
+			each n in archivedSubmitContents.items
 				.content-item
 					.title(id=n.title)= n.title
 					.separator

@@ -1,13 +1,12 @@
-const submitContents = {
+const archivedSubmitContents = {
   items: [
     {
-      title: "overview",
+      title: 'Overview',
       content: `
-
 The ACM conference on Computer-Supported Cooperative Work and Social Computing is an international and interdisciplinary conference focused on how technology intersects with social practices. The conference will offer several types of submission including papers, posters, demos, workshops, panels, doctoral colloquium in 2018, with details to be posted on this page in early 2018.
 To bridge the gap until the 2018 paper deadline, we offer an _Online First_ call for paper participation.
 
-## CSCW 2018 _Online First_ Call for Paper Participation
+### CSCW 2018 _Online First_ Call for Paper Participation
 
 The ACM conference on Computer-Supported Cooperative Work and Social Computing is an international and interdisciplinary conference focused on how technology intersects with social practices.  
 
@@ -16,9 +15,11 @@ This is an interim deadline for CSCW 2018 papers —  papers submitted for this 
 **The CSCW 2018 Conference will have a second submission deadline and separate review process during Spring 2018.**
 
 *Online First* paper deadlines and decision notification dates are as follows. Note that this year, abstract submissions are required one week prior to the paper submission.
-
-### Important Dates
-
+`
+    }, {
+      title: 'Important Dates',
+      content: 
+`
 * *June 12, 2017*: First-round notifications (Revise & Resubmit or Reject)
 
 * *July 10, 2017*: Revised papers due (5:00pm PDT)
@@ -26,9 +27,11 @@ This is an interim deadline for CSCW 2018 papers —  papers submitted for this 
 * *August 6, 2017*: Final notifications *CSCW 2018 Online First*
 
 Camera ready date and publication dates for *Online First* papers will be published soon. 
-
-### Call for Papers
-
+`
+    }, {
+      title: 'Call for Papers',
+      content: 
+`
 CSCW is an international and interdisciplinary peer reviewed conference seeking the best research on all topics relevant to collaborative and social computing.  We invite authors to submit papers that inform the design or deployment of collaborative or social systems; introduce novel systems, interaction techniques, or algorithms; or study existing collaborative or social practices. The scope of CSCW *Online First* includes social computing and social media, crowdsourcing, open collaboration, technologically-enabled or enhanced communication, CSCL, MOOCs, and related educational technologies, multi-user input technologies, collaboration, awareness, information sharing, and coordination. This scope spans socio-technical domains of work, home, education, healthcare, the arts, socializing, and entertainment. Papers can report on novel research results, systems, or new ways of thinking about, studying, or supporting shared activities.
 
 CSCW encourages papers that make a contribution to building CSCW systems including (but not limited to) technical enablers for CSCW applications; methods and techniques for new CSCW services and applications; and evaluation of fully-built CSCW systems and lab and field settings. 
@@ -66,20 +69,23 @@ http://www.sigchi.org/news/open-table-of-contents-a-new-way-to-access-acm-sigchi
 CSCW does not accept submissions that were published previously in formally reviewed publications or that are currently submitted elsewhere.
 
 Send queries about Paper submissions to papers2018@cscw.acm.org.
-
-### Papers Co-Chairs
-
+`
+    }, {
+      title: 'Papers Co-Chairs',
+      content: 
+`
 Geraldine Fitzpatrick, TU Wien (Vienna University of Technology)
 
 Karrie Karahalios, University of Illinois
 
 Andrés Monroy-Hernández, Microsoft Research
 
-
 papers2018@cscw.acm.org
-
-## Format and Submission Process Details
-
+`
+    }, {
+      title: 'Format and Submission Process Details',
+      content: 
+`
 ### Submission Process
 
 CSCW 2018 is using a new version of Precision Conference System (PCS 2.0): [https://new.precisionconference.com/](https://new.precisionconference.com/). Please note that you will need to create a new login/password for this system.
@@ -119,9 +125,11 @@ Papers are subject to blind reviewing. Your submission should have authors' name
 ### Video Figures
 
 Consider submitting a video that illustrates your work, either as a video figure judged as part of your submission (no more than three minutes long and 50MB in size), or as a longer stand-alone submission to the video track. Videos are not required for paper submissions, but are strongly encouraged, particularly for papers contributing novel systems or interaction techniques.
-
-## CSCW 2018 _Online First_ Review process
-
+`
+    }, {
+      title: 'CSCW 2018 Online First Review process',
+      content: 
+`
 *Note: The review process described below applies to the Online First submissions only, not CSCW Spring 2018 submissions.*
 
 ### Revision Cycle
@@ -371,7 +379,7 @@ Haiyi Zhu, U. Minnesota
   ]
 };
 
-submitContents.items = submitContents.items.map((n) => {
+archivedSubmitContents.items = archivedSubmitContents.items.map((n) => {
   n.content = marked(n.content);
   return n;
 });
