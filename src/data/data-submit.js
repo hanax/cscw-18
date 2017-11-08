@@ -5,7 +5,7 @@ const submitContents = {
       content: `
 
 The ACM conference on Computer-Supported Cooperative Work and Social Computing is an international and interdisciplinary conference focused on how technology intersects with social practices. The conference will offer several types of submission including papers, posters, demos, workshops, panels, doctoral colloquium in 2018, with details to be posted on this page in early 2018.
-To bridge the gap until the 2018 paper deadline, we offered an _Online First_ call for paper participation. The Online First deadline has passed, but details about this process can be found [here](http://https://cscw.acm.org/2018/archivedSubmit.html).
+To bridge the gap until the 2018 paper deadline, we offered an _Online First_ call for paper participation. The Online First deadline has passed, but details about this process can be found [here](https://cscw.acm.org/2018/archivedSubmit.html).
 `
     }, {
       title: 'Important Dates',
