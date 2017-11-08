@@ -27,7 +27,7 @@ To bridge the gap until the 2018 paper deadline, we offered an _Online First_ ca
       title: 'Call for Papers',
       content: 
 `
-CSCW is an international and interdisciplinary peer reviewed conference seeking the best research on all topics relevant to collaborative and social computing.  We invite authors to submit papers that inform the design or deployment of collaborative or social systems; introduce novel systems, interaction techniques, or algorithms; or study existing collaborative or social practices. The scope of CSCW *Online First* includes social computing and social media, crowdsourcing, open collaboration, technologically-enabled or enhanced communication, CSCL, MOOCs, and related educational technologies, multi-user input technologies, collaboration, awareness, information sharing, and coordination. This scope spans socio-technical domains of work, home, education, healthcare, the arts, socializing, and entertainment. Papers can report on novel research results, systems, or new ways of thinking about, studying, or supporting shared activities.
+CSCW is an international and interdisciplinary peer reviewed conference seeking the best research on all topics relevant to collaborative and social computing. We invite authors to submit papers that inform the design or deployment of collaborative or social systems; introduce novel systems, interaction techniques, or algorithms; or study existing collaborative or social practices. The scope of CSCW 2018 includes social computing and social media, crowdsourcing, open collaboration, technologically-enabled or enhanced communication, CSCL, MOOCs, and related educational technologies, multi-user input technologies, collaboration, awareness, information sharing, and coordination. This scope spans socio-technical domains of work, home, education, healthcare, the arts, sociality, entertainment, and ethics. Papers can report on novel research results, systems, or new ways of thinking about, studying, or supporting shared activities.
 
 CSCW encourages papers that make a contribution to building CSCW systems including (but not limited to) technical enablers for CSCW applications; methods and techniques for new CSCW services and applications; and evaluation of fully-built CSCW systems and lab and field settings. 
 
@@ -39,7 +39,7 @@ Contributions to CSCW across a variety of research techniques, approaches, and d
 
 * Theories. Critical analysis or theory with clear relevance to the design or study of social and collaborative systems.
 
-* Empirical investigations. Findings, guidelines, and/or studies related to communication, collaboration, and social technologies, practices, or use. CSCW *Online First *welcomes diverse methods and approaches.
+* Empirical investigations. Findings, guidelines, and/or studies related to communication, collaboration, and social technologies, practices, or use. CSCW 2018 welcomes diverse methods and approaches.
 
 * Mining and Modeling. Studies, analyses and infrastructures for making use of large- and small-scale data.
 
@@ -88,11 +88,11 @@ Authors submitting papers for peer-review to ACM publications make the following
 
 * That the authors have the rights and intent to publish the work in the venue to which it is submitted, if the work is accepted. For conference papers, this includes the expected ability and intent to have an author of the paper register for and attend the conference to present the paper, if required.
 
-* That any prior publications on which this work is based are documented appropriately in the paper and/or in a cover letter available to reviewers. This documentation includes providing an explanation of the incremental contribution of the submitted CSCW *Online First* paper that extends prior results published elsewhere. (In cases of double blind review, this information should be supplied to the program chairs only.)
+* That any prior publications on which this work is based are documented appropriately in the paper and/or in a cover letter available to reviewers. This documentation includes providing an explanation of the incremental contribution of the submitted CSCW 2018 paper that extends prior results published elsewhere. (In cases of double blind review, this information should be supplied to the program chairs only.)
 
 In cases where an author feels a particular representation cannot be made, but that submission is appropriate, the author should contact the program chairs prior to submission to discuss the situation and determine whether submission will be permitted.
 
-All submissions must be new work that has not been published in a peer reviewed conference or journal. Work previously published in workshops that do not have published proceedings may be submitted (as-is or extended) to CSCW *Online First*. Work previously published in workshops that do have published proceedings may only be submitted if the work is substantially extended from the workshop paper. In any case where part of a submitted paper has been previously published, the authors should contact the Papers Chairs to inform them of the prior publication, including its citation and a brief description of the changes incorporated into the CSCW *Online First*-submitted version.
+All submissions must be new work that has not been published in a peer reviewed conference or journal. Work previously published in workshops that do not have published proceedings may be submitted (as-is or extended) to CSCW 2018. Work previously published in workshops that do have published proceedings may only be submitted if the work is substantially extended from the workshop paper. In any case where part of a submitted paper has been previously published, the authors should contact the Papers Chairs to inform them of the prior publication, including its citation and a brief description of the changes incorporated into the CSCW 2018 submitted version.
 
 Regarding the re-publication in English of work previously published in another language, please refer to the statement by ACM SIGCHI regarding specialized conferences: [http://www.sigchi.org/conferences/organizing-a-sigchi-sponsored-conference](http://www.sigchi.org/conferences/organizing-a-sigchi-sponsored-conference)
 
