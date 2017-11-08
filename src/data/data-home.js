@@ -16,7 +16,7 @@ const homeVenue = {
 const homeImportantNow = {
   title: "What\'s important now?",
   content: [
-    "The next opportunity to submit to CSCW 2018 will be in Spring 2018, with dates now available on the Submission page. Sign up to the mailing list below to be the first to know."
+    "The next opportunity to submit to CSCW 2018 will be on April 19, 2018, with important dates now detailed on the [Submission page](http://cscw.acm.org/2018/submit.html). Sign up to the mailing list below to be the first to receive new information about CSCW 2018 as it’s released."
   ]
 };
 
