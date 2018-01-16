@@ -119,6 +119,27 @@ All papers accepted for CSCW 2018 from the Online First or the subsequent final 
 To be announced soon...
 
 `
+    }, {
+      title: 'Financial Support for Students',
+      content :
+`
+### SIGCHI Student Travel Grant 
+
+The SIGCHI Student Travel Grant (SSTG) program is intended to enable students who lack other funding opportunities to attend SIGCHI sponsored or co-sponsored conferences. This travel grant is intended to support students whose intention is to *present* at a SIGCHI sponsored conference, not just attend.
+
+*Deadline:* February 1st, 2018
+
+[More information on the SIGCHI Student Travel Grants](http://www.sigchi.org/conferences/funding/student-travel-grant)
+
+### Gary Marsden Student Development Fund 
+
+In recognition of Gary Marsden’s contributions and inspiration in HCI4D and support of HCI in the developing world, ACM SIGCHI established the Gary Marsden Student Development Fund in 2015. This fund is especially intended for sponsoring postgraduate students (Master or PhD degree) from and currently based in developing countries to attend SIGCHI (co)sponsored conferences as well as other HCI relevant conferences. In the last one year, 21 students were awarded by the fund.
+
+*Deadlines:* 15th of February, May, and August 2018
+
+[More information on the Gary Marsden Student Development Fund](https://sigchi.org/get-involved/funding/gary-marsden-student-development-fund/)
+
+`
     }
   ]
 };
