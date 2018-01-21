@@ -42,7 +42,10 @@ $(() => {
   $('.logo')
     .css('background-image', `url("${backgroundImages[parseInt(Math.random() * backgroundImages.length)]}")`);
 
+  // home
   drawHeaderAnimation();
+  // location
+  drawInverseHeaderAnimation();
 
   // Debounce window resize and redraw
   let resizeTimer;
@@ -52,19 +55,6 @@ $(() => {
       drawHeaderAnimation();
     }, 250);
   });
-
-  // A hack to hover event
-  // $('.header').on('mousemove', function(e) {
-  //   const sW = $('#anim-pg').width();
-  //   const mX = e.pageX < sW / 2
-  //     ? e.pageX - e.pageX % smallRectSize
-  //     : sW - ((sW - e.pageX) - (sW - e.pageX) % smallRectSize);
-  //   const mY = e.pageY - e.pageY % smallRectSize;
-
-  //   $('#' + mX + '__' + mY)
-  //     .addClass('square--hover')
-  //     .removeAttr('id');
-  // });
 });
 
 const drawHeaderAnimation = function() {
@@ -81,13 +71,6 @@ const drawHeaderAnimation = function() {
     for (let i = 0; i < sH / 2 - centerOffset + centerBase; i += smallRectSize) {
       drawSquare($s, j, sH - i);
     }
-
-    // for (let j = 0; j < sW / 4 - centerOffset + centerBase; j += smallRectSize) {
-    //   drawSquare($s, j, i, 0);
-    // }
-    // for (let j = sW; j >= sW / 2 + centerOffset + centerBase; j -= smallRectSize) {
-    //   drawSquare($s, j, i, sW);
-    // }
   }
 
   for (let i = 0; i < sH / 2; i += smallRectSize) {
@@ -100,14 +83,39 @@ const drawHeaderAnimation = function() {
   }
 }
 
-const drawSquare = function($s, x, y, hasId = true) {
+const drawInverseHeaderAnimation = function() {
+  const $s = $('#anim-inverse-pg').empty();
+  const sW = $s.width();
+  const sH = $s.height();
+
+  for (let j = 0; j < sW; j += smallRectSize) {
+    if (Math.random() < 0.3) continue;
+
+    const centerBase = Math.random() * sH / 4;
+    const centerOffset = (1 - Math.abs((j + 100) / sW - 0.5) * 3) / 3 * sH;
+
+    for (let i = 0; i < sH / 2 - centerOffset - centerBase; i += smallRectSize) {
+      drawSquare($s, j, sH - i, true, true);
+    }
+  }
+
+  for (let i = 0; i < sH / 2; i += smallRectSize) {
+    for (let j = 0; j < sW; j += smallRectSize * 3) {
+      if (Math.random() > 0.97) {
+        drawSquare($s, j, i, false, true);
+      }
+    }
+  }
+}
+
+const drawSquare = function($s, x, y, hasId = true, allWhite = false) {
   const $square = $('<div class="square" />')
     .attr('id', hasId ? x + '__' + y : '')
     .css({
       left: x,
       top: y,
-      'background-color': fillColors[parseInt(fillColors.length * Math.random())],
-      'opacity': Math.random() * 0.6,
+      'background-color': allWhite ? '#fff' : fillColors[parseInt(fillColors.length * Math.random())],
+      'opacity': Math.random() * (allWhite ? 0.9 : 0.6),
     })
     .appendTo($s);
 

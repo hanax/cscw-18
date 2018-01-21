@@ -4,9 +4,25 @@ html
 		title Location And Venue - CSCW 2018
 		include shared-head
 
-	body
+	body.inverse
 
-	include shared-small-header
+	ul.nav.stick-to-top
+		.nav-mobile
+			span.fa.fa-list-ul
+		.content-wrapper
+			each n in sharedNavi.content
+				a(href=n.link)
+					li= n.title
+
+	.section.header.inverse
+		.bg-layer.header-animation#anim-inverse-pg
+		.bg-layer.overlay-gradient
+		.content-wrapper
+			img(src='./assets/logo-home-header-inverse.svg')
+			h3= homeHeader.h1
+			p
+				span= homeHeader.h2
+				a(href='#venue').highlight= homeHeader.highlight
 
 	.section.main
 		p!= locationIntro.content

@@ -229,6 +229,39 @@ ul.nav
   a:hover:before
     width 100%
 
+body.inverse
+  background-color #090a0a
+  color #d6d6d6
+
+.inverse
+  ul.nav
+    background-color rgba(255, 255, 255, .3)
+    a
+      color #090a0a
+  .main
+    background-color #090a0a
+    color #d6d6d6
+    font-weight 200
+  h2
+    color #fff
+    margin-top 40px
+  a
+    color #d6d6d6
+  &.header, .bg-layer
+    height 95vh
+  &.header
+    .content-wrapper
+      top 20%
+      img
+        size 90%
+  .header-animation
+    background-image url('/assets/location-header.jpg')
+    background-size cover
+    background-position center right
+  .overlay-gradient
+    z-index 1
+    background linear-gradient(rgba(9,10,10,0), rgba(9,10,10,1))
+
 .square
   position absolute
   width 18px
@@ -377,13 +410,8 @@ ul.nav
     #mc-embedded-subscribe
       width 80vw
 
-// .cfp
-//   background-color light-grey
-
 .sponsors
   background-color light-grey
-  // background-color theme-yellow
-  // color #fff
 
 .committee
   .content

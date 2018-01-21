@@ -6,35 +6,35 @@ html
 
 	body
 
-	ul.nav.stick-to-top
+	ul.nav.stick-to-top(aria-label='Menu' tabindex='0')
 		.nav-mobile
 			span.fa.fa-list-ul
 		.content-wrapper
 			each n in sharedNavi.content
-				a(href=n.link)
+				a(href=n.link tabindex='0')
 					li= n.title
 
 	.section.header
 		.bg-layer.header-animation#anim-pg
 		.bg-layer.overlay-gradient
 		.bg-layer.bg-extend
-		.content-wrapper
+		.content-wrapper(aria-labelledby='aria-header')
 			img(src='./assets/logo-home-header.svg')
-			h3= homeHeader.h1
+			h3#aria-header= homeHeader.h1
 			p
 				span= homeHeader.h2
 				a(href='#venue').highlight= homeHeader.highlight
 
-	.section.welcome
+	.section.welcome(aria-label='Welcome Text')
 		.separator-bar
 		p!= homeWelcome.content
 
-	.section.venue#venue
+	.section.venue#venue(aria-labelledby='aria-location')
 		a(href='location.html')
-			.title= homeVenue.title
+			.title#aria-location= homeVenue.title
 
-	.section.importantNow
-		.title= homeImportantNow.title
+	.section.importantNow(aria-labelledby='aria-important')
+		.title#aria-important= homeImportantNow.title
 		.separator
 			span.fa.fa-circle
 			span.fa.fa-circle
@@ -43,16 +43,16 @@ html
 			each n in homeImportantNow.content
 				li!= n
 
-	.section.news
-		.column.news-twitter
+	.section.news(aria-label='News')
+		.column.news-twitter(tabindex='-1')
 			//- a.twitter-timeline(href='https://twitter.com/ACM_CSCW') Tweets by ACM_CSCW
 			//- script(async='', src='//platform.twitter.com/widgets.js', charset='utf-8')
 			a.twitter-timeline(href='https://twitter.com/hashtag/cscw2018', data-widget-id='831545836899270656') #cscw2018 Tweets
 			script.
 				!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 
-		.column.news-local
-			.title= homeNews.title
+		.column.news-local(aria-labelledby='aria-news')
+			.title#aira-news= homeNews.title
 			ul
 				each f in homeNews.content
 					li
@@ -62,7 +62,7 @@ html
 						.a
 							p!= f.a
 
-	.section.subscribe
+	.section.subscribe(aria-label='Subscription')
 		.content
 			p Sign up for the CSCW 2018 mailing list to get all important updates!
 			#mailchimp
@@ -85,8 +85,8 @@ html
 					(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);
 				// End mc_embed_signup
 
-	.section.cfp
-		.title= homeCfp.title
+	.section.cfp(aria-labelledby='aria-cfp')
+		.title#aria-cfp= homeCfp.title
 		.separator
 			span.fa.fa-circle
 			span.fa.fa-circle
@@ -97,16 +97,16 @@ html
 				span.fa.fa-angle-right
 				span More Information
 
-	.section.sponsors
-		.title= homeSponsors.title
+	.section.sponsors(aria-labelledby='aria-sponsors')
+		.title#aria-sponsors= homeSponsors.title
 		.separator
 			span.fa.fa-circle
 			span.fa.fa-circle
 			span.fa.fa-circle
 		.content!= homeSponsors.content
 
-	.section.committee
-		.title= homeCommittee.title
+	.section.committee(aria-labelledby='aria-committee')
+		.title#aria-committee= homeCommittee.title
 		.separator
 			span.fa.fa-circle
 			span.fa.fa-circle
