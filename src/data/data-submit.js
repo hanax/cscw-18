@@ -8,10 +8,10 @@ The ACM conference on Computer-Supported Cooperative Work and Social Computing i
 To bridge the gap until the 2018 paper deadline, we offered an _Online First_ call for paper participation. The Online First deadline has passed, but details about this process can be found [here](https://cscw.acm.org/2018/archivedSubmit.html).
 `
     }, {
-      title: 'Important Dates',
+      title: 'Important Dates for CSCW 2018 Second Cycle',
       content: 
 `
-* *April 16, 2018*: Paper Abstracts Due
+* *April 16, 2018*: Paper Abstracts Due (ahead of paper submissions)
 
 * *April 19, 2018*: Paper Submissions Due
 
@@ -21,7 +21,7 @@ To bridge the gap until the 2018 paper deadline, we offered an _Online First_ ca
 
 * *September 3, 2018*: Camera-Ready Deadline
 
-* *November 3, 2018*: CSCW 2018
+* *November 3-7, 2018*: CSCW 2018
 `
     }, {
       title: 'Call for Papers',
@@ -63,7 +63,7 @@ Geraldine Fitzpatrick (TU Wien; Vienna University of Technology)
 
 Karrie Karahalios (University of Illinois)
 
-Airi Lampinen (Stocholm University)
+Airi Lampinen (Stockholm University)
 
 Andrés Monroy-Hernández (Snap, Inc.)
 
@@ -99,20 +99,32 @@ Regarding the re-publication in English of work previously published in another 
 Confidentiality of submitted material will be maintained. Upon acceptance, the titles, authorship, and abstracts of papers will be used in the Advance Program. Submissions should contain no information or material that will be proprietary or confidential at the time of publication, and should cite no publication that will be proprietary or confidential at that time. Final versions of accepted papers must be formatted according to detailed instructions provided by the publisher. Copyright release forms must be signed for inclusion in the proceedings and the ACM Digital Library.
 
 ### Formatting and Length
+CSCW has moved to the Proceedings of the ACM - HCI, which uses the ACM Small article template. This template is substantially different from the traditional two-column SIGCHI papers template, and may take extra time to typeset. The ACM Small template is available for download as part of the [ACM Master Template](http://www.acm.org/publications/proceedings-template). Please use the most recent version of the master template, even if you have previously downloaded it. Several issues identified during the CSCW 2017 process have been addressed in recent updates. Authors using the Overleaf platform can use the templates provided within Overleaf. Papers should be converted to PDF before submission.
 
-CSCW has moved to the Proceedings of the ACM - HCI, which uses the ACM Small article template. This template is substantially different from the traditional two-column SIGCHI papers template, and may take extra time to typeset. The ACM Small template is available for download as part of the [ACM Master Template](http://www.acm.org/publications/proceedings-template). Please use the most recent version of the master template, even if you have previously downloaded it. Several issues identified during the CSCW 2017 process have been addressed in recent updates. Authors using the Overleaf platform can use the templates provided within Overleaf. Papers should be converted to PDF before submission. 
-
-There is no minimum or maximum length imposed on papers. Rather, reviewers will be instructed to weigh the contribution of a paper relative to its length. Papers should report research thoroughly but succinctly: brevity is a virtue. A typical length is 10 pages (formerly the maximum length limit), but may be shorter if the contribution can be described and supported in fewer pages — shorter, more focused papers (called Notes in prior years) are encouraged and will be reviewed like any other paper. While we will review papers longer than 10 pages, the contribution must warrant the extra length. Papers whose length is incommensurate with their contribution will be rejected.
+There is no minimum or maximum length imposed on papers. Rather, reviewers will be instructed to weigh the contribution of a paper relative to its length. Papers should report research thoroughly but succinctly: brevity is a virtue. A typical length with the new template is about 13 pages. Papers may be shorter if the contribution can be described and supported in fewer pages. Shorter, more focused papers (called Notes in prior years) are encouraged and will be reviewed like any other paper. While we will review papers longer than 13 pages, the contribution must warrant the extra length. Papers whose length is incommensurate with their contribution will be rejected.
 
 ### Blind Review Policy
 
 Papers are subject to blind reviewing. Your submission should have authors' names and affiliations removed, and avoid obvious identifying statements. Citations to your own relevant work should not be anonymous, but rather should be done without identifying yourself as the author. For example, say "Prior work by [authors]" instead of "In our prior work."
+
+CSCW does not have a policy against uploading preprints to SSRN or arXiv before they are submitted for review at the conference. Authors may choose to do this at their own risk but they should be aware that this can have implications for the anonymity of their work during the review process.
+
+
+### Open Review Summaries
+
+In an effort to increase transparency and openness, CSCW will this year publish review summaries of accepted papers as supplementary material in the ACM Digital Library. The review summary will be based on the final meta-review for each paper. This is an experiment that we hope will turn into a tradition within our community. As such, we expect that the process will be improved over time as we learn together from our experiences. Review summaries (edited meta-review) of accepted papers will be published by default. However, when submitting a paper, authors will have the option to opt-out from this experiment. This choice will not impact how the paper is reviewed. (Meta-reviews of rejected papers will not be made public.)
 
 ### Video Figures
 
 Consider submitting a video that illustrates your work, either as a video figure judged as part of your submission (no more than three minutes long and 50MB in size), or as a longer stand-alone submission to the video track. Videos are not required for paper submissions, but are strongly encouraged, particularly for papers contributing novel systems or interaction techniques.
 
 All papers accepted for CSCW 2018 from the Online First or the subsequent final deadline are expected to be presented at CSCW 2018 by at least one of the authors. Presentation format for Online First papers may be different but is guaranteed to include some form of oral presentation at the conference. The conference will find ways to accommodate those who are unable to travel to the United States due to geo-political reasons. 
+
+### At the Conference
+
+All papers accepted for CSCW 2018 from the Online First or the subsequent Second Cycle final deadline are expected to be presented at CSCW 2018 by at least one of the authors. However, the conference will find ways to accommodate those who are unable to travel to the United States due to geo-political reasons. Such papers will be included in the proceedings regardless of the author registration status, and we will seek ways for authors to present their work remotely at the conference.
+
+Presentation format for Online First papers may be different but is guaranteed to include some form of oral presentation at the conference.
 
 ### Program Committee Members
 

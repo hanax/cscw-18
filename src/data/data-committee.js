@@ -45,7 +45,7 @@ const committeeChairs = [
     title: "Doctoral Colloquium Co-Chairs",
     names: [
       "Kate Starbird (University of Washington)",
-      "Astrid Weiss (Vienna University of Technology)"
+      "Aleksandra Sarcevic (Drexel)"
     ],
     email: "dc2018@cscw.acm.org"
   },
@@ -104,6 +104,7 @@ const committeeChairs = [
       "N. Sadat Shami (IBM)"
       // "TBD"
     ],
+    email: "sponsors2018@cscw.acm.org"
   },
   {
     title: "Diversity and Inclusion Co-Chairs",
