@@ -246,23 +246,51 @@ const submitPostersContents = {
     {
       title: "Important Dates",
       content: `
-Important dates for poster submissions will be coming soon.
+* **Sunday, July 1, 2018**: Submission due
+* **Friday, August 10, 2018**: Final notifications
+* **Monday, November 5 , 2018**: Posters reception at CSCW
 `
     },
     {
-      title: "Interactive Posters",
+      title: "Call for Participation",
       content: `
 CSCW 2018 will include an interactive poster category for late-breaking and preliminary results, smaller results not suitable for a full or short paper, contributions by collaborative (inter-)national research projects, innovative ideas not yet validated through user studies, early student research, and other research best presented in an interactive forum.
 
 Posters will be presented in a special Poster session where researchers will interact directly with conference attendees. The posters will then remain up throughout the remainder of the conference.
 
 Accepted Interactive Poster abstracts will be published in ACM Digital Library and distributed to conference attendees as part of the Conference Extended Abstracts.
+`
+    },
+    {
+      title: "Poster Submission Requirements",
+      content: `
+Interactive Poster submissions should include an extended abstract no longer than 4 pages, including all figures and references, in the SIGCHI Extended Abstract Format ([Word](https://cscw.acm.org/2017/submit/sigchi-word-extended-abstracts.zip), [Latex](https://github.com/sigchi/Document-Formats)). This extended abstract will be published in the ACM Digital Library as part of the Conference Extended Abstracts. In addition, submissions should also include a separate Tabloid sized draft of the poster for review purposes. A Tabloid is an 11 × 17 inches (27 x 43 cm) format. Please submit the 4-page paper in PDF format and name this file ContactAuthorsLastName.pdf. Please submit the poster draft in PDF format and name this file ContactAuthorsLastName_poster.pdf. Both the extended abstract and the poster draft should include author names (not anonymous submission).
 
-## Interactive Poster Submission Requirements ##
+Interactive poster abstract submissions (extended abstract and poster draft) must be uploaded online at the [PCS submission system](https://new.precisionconference.com/submissions) to be considered. Please note that CSCW 2018 is using a new version of Precision Conference System (PCS 2.0, which is still in development, and you are encouraged to report problems or to make interface suggestions to support@precisionconference.com), and you will need to create a new login/password for this system. All attachments must be less than 5MB. 
 
-Interactive Poster submissions should include an extended abstract no longer than 4 pages, including all figures and references, in the SIGCHI Extended Abstract Format. This extended abstract will be published in the ACM Digital Library as part of the Conference Extended Abstracts. In addition, submissions should also include a separate Tabloid sized draft of the poster for review purposes. A Tabloid is an 11 × 17 inches (27 x 43 cm) format. Please submit the 4-page paper in PDF format and name this file ContactAuthorsLastName.pdf. Please submit the poster draft in PDF format and name this file ContactAuthorsLastName_poster.pdf. Both the extended abstract and the poster draft should include author names (not anonymous submission).
+All questions about poster submissions should be directed to [posters2018@cscw.acm.org](mailto:posters2018@cscw.acm.org).
+`
+    },
+    {
+      title: "Interactive Poster Authoring Tips",
+      content: `
+The following tips may help you prepare a successful Interactive Poster abstract:
 
-All questions should be directed to [posters2018@cscw.acm.org](mailto:posters2018@cscw.acm.org).
+* State the contribution and originality of your work clearly and explicitly: What is the problem? How does your approach help? Why is it better than other available approaches?
+
+* Interactive posters abstracts may be chosen based on either the significance of the problem or the originality of your approach.
+
+* Focus on the contribution of your work rather than the background, including just enough background to make clear how your work differs from significant prior research.
+
+* Include the major graphical elements that will likely be used in the poster itself.
+`
+    },
+    {
+      title: "Printing and Displaying Your Poster",
+      content: `
+The space allocated for each poster is 48 inches by 48 inches (121 x 121 cm). Posters are recommended to be no longer or wider than 45 inches (114 cm) in either dimension; however, up to 47 inches (119 cm) is allowable. Smaller posters are acceptable. For example, either A0 (vertical format) or A1 is an acceptable size for the poster.
+
+Posters should be affixed to the poster boards with push pins, not tape. The conference will provide push pins. Each board will have a label indicating where your poster should be placed; please allow time to find your board and set up your poster.
 `
     },
     {
@@ -330,7 +358,7 @@ const submitDCContents = {
 `
     },
     {
-      title: "Call for Participation: Doctoral Colloquium at CSCW 2018",
+      title: "Call for Participation",
       content: `
 The CSCW 2018 Doctoral Colloquium provides an opportunity for doctoral students to discuss their research in an international forum under the guidance of a panel of experienced CSCW researchers. The Doctoral Colloquium will be held on Saturday and Sunday, November 3-4 2018 as part of the ACM 2018 Conference on Computer Supported Cooperative Work and Social Computing in New York City's Hudson River, Jersey City, USA. Selected applicants will be asked to give short, informal presentations during the Colloquium. These will be followed by extensive group discussion in a friendly and constructive workshop. Participants will also present their research in an interactive poster session during the main technical program of the conference.
 
