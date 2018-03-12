@@ -4,7 +4,7 @@ var nib = require('nib');
 
 var paths = {
   src: path.join(__dirname, 'src'),
-  dest: path.join(__dirname, 'dist'),
+  dest: path.join(__dirname, '2018'),
 };
 
 module.exports = {

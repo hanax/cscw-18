@@ -16,11 +16,30 @@ module.exports = {
   locationIntro,
 
   // data-submit
-  submitContents,
-  archivedSubmitContents,
+  submitNav,
+  submitOverviewContents,
+  submitPapersContents,
+  submitWorkshopsContents,
+  submitPostersContents,
+  submitPanelsContents,
+  submitDCContents,
+  submitDemosContents,
+  submitTravelContents,
+  submitArchivedContents,
 
   // data-location
   locationIntro,
+
+  // data-sponsors
+  sponsorNav,
+  sponsorOverviewContents,
+  sponsorBenefitsContents,
+
+  // data-volunteer
+  volunteerNav,
+  volunteerOverviewContents,
+  volunteerSVContents,
+  volunteerMentorContents,
 
   // data-committee
   committeeChairs,

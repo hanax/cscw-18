@@ -1,20 +1,28 @@
 const sharedNavi = {
   content: [
     {
-      link: "index.html",
+      link: "/2018/index.html",
       title: "home"
     },
     {
-      link: "submit.html",
+      link: "/2018/submit/",
       title: "submit"
     },
     {
-      link: "committee.html",
+      link: "/2018/committee/",
       title: "committee"
     },
     {
-      link: "location.html",
-      title: "location and venue"
+      link: "/2018/sponsors/",
+      title: "sponsors"
+    },
+    {
+      link: "/2018/volunteer/",
+      title: "volunteer"
+    },
+    {
+      link: "/2018/location.html",
+      title: "location"
     }
   ]
 };
