@@ -16,7 +16,7 @@ const homeVenue = {
 const homeImportantNow = {
   title: "What\'s important now?",
   content: [
-    "The next opportunity to submit to CSCW 2018 will be on April 19, 2018, with important dates now detailed on the [Submission page](http://cscw.acm.org/2018/submit.html). Sign up to the mailing list below to be the first to receive new information about CSCW 2018 as it’s released."
+    "The next opportunity to submit to CSCW 2018 will be on April 19, 2018, with important dates now detailed on the [Submission page](/2018/submit/). Sign up to the mailing list below to be the first to receive new information about CSCW 2018 as it’s released."
   ]
 };
 
@@ -57,7 +57,7 @@ const homeNews = {
 const homeCfp = {
   title: "Call for participation",
   content: marked(
-    "CSCW invites submission to a wide range of venues including papers, posters, demos, panels, workshops, and a doctoral consortium. The scope of CSCW spans socio-technical domains including work, home, education, healthcare, the arts, leisure, and entertainment. The conference seeks novel research results or new ways of thinking about, studying, or supporting shared activities in these and related areas. We are currently accepting paper submissions for an early, Online First paper deadline in April 2017. More info on [this page](submit.html)."
+    "CSCW invites submission to a wide range of venues including papers, posters, demos, panels, workshops, and a doctoral consortium. The scope of CSCW spans socio-technical domains including work, home, education, healthcare, the arts, leisure, and entertainment. The conference seeks novel research results or new ways of thinking about, studying, or supporting shared activities in these and related areas. We are currently accepting paper submissions for an early, Online First paper deadline in April 2017. More info on [this page](/2018/submit/)."
   )
 };
 

@@ -30,7 +30,7 @@ html
 		p!= homeWelcome.content
 
 	.section.venue#venue(aria-labelledby='aria-location')
-		a(href='location.html')
+		a(href='/2018/location.html')
 			.title#aria-location= homeVenue.title
 
 	.section.importantNow(aria-labelledby='aria-important')
@@ -93,7 +93,7 @@ html
 			span.fa.fa-circle
 		.content!= homeCfp.content
 		.link-more
-			a(href='submit.html')
+			a(href='/2018/submit/')
 				span.fa.fa-angle-right
 				span More Information
 
@@ -117,7 +117,7 @@ html
 				each n in c.names
 					p!= n
 		.link-more
-			a(href='committee.html')
+			a(href='/2018/committee/')
 				span.fa.fa-angle-right
 				span More Information
 

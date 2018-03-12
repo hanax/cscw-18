@@ -45,7 +45,7 @@ const committeeChairs = [
     title: "Doctoral Colloquium Co-Chairs",
     names: [
       "Kate Starbird (University of Washington)",
-      "Aleksandra Sarcevic (Drexel)"
+      "Aleksandra Sarcevic (Drexel University)"
     ],
     email: "dc2018@cscw.acm.org"
   },

@@ -2,20 +2,16 @@ doctype html
 html
 	head
 		title Submit - CSCW 2018
-		include shared-head
+		include ../shared-head
 
 	body
 
-	include shared-small-header
+	include ../shared-small-header
 
 	.section.main
-		.column.main-left-menu
-			ul
-				each n in submitContents.items
-					a(href='#'+n.title)
-						li(id='menu-item-'+n.title)!= n.title
+		include leftnav
 		.column.main-right-content
-			each n in submitContents.items
+			each n in submitOverviewContents.items
 				.content-item
 					.title(id=n.title)= n.title
 					.separator
@@ -24,4 +20,4 @@ html
 						span.fa.fa-circle
 					.content!= n.content
 
-	include shared-footer
+	include ../shared-footer

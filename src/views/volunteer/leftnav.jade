@@ -1,0 +1,5 @@
+.column.main-left-menu
+	ul
+		each n in volunteerNav.items
+			a(href=n.url)
+				li(id='menu-item-'+n.title)!= n.title

@@ -9,7 +9,7 @@ var run = require('run-sequence');
 
 var paths = {
   src: './src',
-  dist: './dist',
+  dist: './2018',
 };
 
 gulp.task('webpack', function(callback) {
@@ -33,7 +33,7 @@ gulp.task('data', function() {
 });
 
 gulp.task('jade', ['data'], function() {
-  return gulp.src(paths.src + '/views/*.jade')
+  return gulp.src(paths.src + '/views/**/*.jade')
     .pipe($.plumber())
     .pipe($.jade({ data: require(paths.src + '/tmp/data.js') }))
     .pipe(gulp.dest(paths.dist));
