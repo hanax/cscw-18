@@ -9,16 +9,24 @@ const sharedNavi = {
       title: "submit"
     },
     {
+      link: "/2018/attend/",
+      title: "attend"
+    },
+    {
+      link: "/2018/program/",
+      title: "program"
+    },
+    {
       link: "/2018/committee/",
       title: "committee"
     },
     {
-      link: "/2018/sponsors/",
-      title: "sponsors"
-    },
-    {
       link: "/2018/volunteer/",
       title: "volunteer"
+    },
+    {
+      link: "/2018/sponsors/",
+      title: "sponsors"
     },
     {
       link: "/2018/location.html",

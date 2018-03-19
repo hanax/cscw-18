@@ -1,0 +1,23 @@
+doctype html
+html
+	head
+		title Attend - CSCW 2018
+		include ../shared-head
+
+	body
+
+	include ../shared-small-header
+
+	.section.main
+		include leftnav
+		.column.main-right-content
+			each n in submitTravelContents.items
+				.content-item
+					.title(id=n.title)= n.title
+					.separator
+						span.fa.fa-circle
+						span.fa.fa-circle
+						span.fa.fa-circle
+					.content!= n.content
+
+	include ../shared-footer

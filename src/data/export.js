@@ -43,4 +43,22 @@ module.exports = {
 
   // data-committee
   committeeChairs,
+
+  // data-attend
+  attendNav,
+  attendOverviewContents,
+  attendRegistrationContents,
+  attendHotelContents,
+  attendVisasContents,
+  attendTravelContents,
+  attendLocalContents,
+  attendParentContents,
+
+  // data-program
+  programNav,
+  programOverviewContents,
+  programKeynoteContents,
+  programWorkshopContents,
+  programImpactContents,
+  programBirdsContents,
 };
