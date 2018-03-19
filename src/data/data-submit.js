@@ -472,7 +472,7 @@ The demo system summary is a short description of the demo, the team, and the re
 
 * Please note if this is a demo of a system described in a CSCW paper accepted for this year’s conference or that has appeared at a past CSCW conference. There’s nothing wrong with this, but it’s useful for us to know. If the system has been demonstrated before, describe if there are any changes for the proposed CSCW demo.
 
-* Do you plan to gather data about attendees’ interactions with the system? If so, describe what data you plan to gather, and an example of the release form that you would ask attendees to sign. If the demo is accepted, proof of final IRB approval must be submitted by February 17th (if your home institution has an IRB). CSCW can provide a "letter of cooperation" to assist with your IRB application, if needed. If your institution does not require IRB approval, a letter stating so from the demo presenters must be submitted instead.
+* Do you plan to gather data about attendees’ interactions with the system? If so, describe what data you plan to gather, and an example of the release form that you would ask attendees to sign. If the demo is accepted, proof of final IRB approval must be submitted by October 21st (if your home institution has an IRB). CSCW can provide a "letter of cooperation" to assist with your IRB application, if needed. If your institution does not require IRB approval, a letter stating so from the demo presenters must be submitted instead.
 
 Optionally, the demo submission can be supported by a short Video Figure. The video should be at most two minutes long.
 `
