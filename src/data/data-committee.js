@@ -101,8 +101,8 @@ const committeeChairs = [
   {
     title: "Sponsorship co-chairs",
     names: [
-      "N. Sadat Shami (IBM)"
-      // "TBD"
+      "N. Sadat Shami (IBM)",
+      "Nir Grinberg (Harvard/Northeastern)"
     ],
     email: "sponsors2018@cscw.acm.org"
   },

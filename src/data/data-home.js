@@ -16,13 +16,17 @@ const homeVenue = {
 const homeImportantNow = {
   title: "What\'s important now?",
   content: [
-    "The next opportunity to submit to CSCW 2018 will be on April 19, 2018, with important dates now detailed on the [Submission page](/2018/submit/). Sign up to the mailing list below to be the first to receive new information about CSCW 2018 as it’s released."
+      "The next opportunity to submit to CSCW 2018 will be on April 19, 2018, with important dates now detailed on the [Submission page](/2018/submit/). Sign up to the mailing list below to be the first to receive new information about CSCW 2018 as it’s released."
   ]
 };
 
 const homeNews = {
   title: "New for 2018",
   content: [
+    {
+      q: "I'm having difficulty with the new reference format. What should I do?",
+      a:"<p>In preparing initial submissions, authors should make their best effort at matching the ACM-Small template styles and conventions, but please don’t worry about perfect formatting at this stage! Any smaller formatting issues can be addressed during the revision cycle and camera-ready preparation stage.</p>"
+    },
     {
       q: "What will happen with papers accepted in the 2017 Online First deadline?",
       a: "<p>Accepted papers will be available 'Online First' in fall 2017. The next submission deadline would be the regular conference submission, in spring 2018."

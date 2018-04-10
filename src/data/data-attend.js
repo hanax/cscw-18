@@ -41,7 +41,11 @@ const attendOverviewContents = {
       title: "Overview",
       content: 
 `
-CSCW 2018 will take place at the [Hyatt Regency Jersey City](https://jerseycity.regency.hyatt.com/) on the Hudson located in Jersey City, New Jersey, minutes away from Manhattan via train or ferry. For a general overview of the New York / New Jersey area where the conference will be held, please visit the [Location](../location.html) page. For questions about specific aspects of attending the conference, please consult the links in the sidebar.
+CSCW 2018 will take place at the [Hyatt Regency Jersey City](https://jerseycity.regency.hyatt.com/) on the Hudson located in Jersey City, New Jersey, minutes away from Manhattan via train or ferry. 
+
+**To get rooms at the discounted conference rate, please make sure to reserve using [this link](https://book.passkey.com/gt/213270399?gtid=570359b68372dacbd03f45b4fdbf629c).**
+
+For a general overview of the New York / New Jersey area where the conference will be held, please visit the [Location](../location.html) page. For questions about specific aspects of attending the conference, please consult the links in the sidebar.
 
 For other questions not answered on this page, please contact the Local Arrangements Co-Chairs at [local2018@cscw.acm.org](mailto:local2018@cscw.acm.org).
 `
@@ -76,13 +80,13 @@ const attendHotelContents = {
       title: "Conference Hotel",
       content: 
 `
-CSCW 2018 will be held at the [Hyatt Regency Jersey City](https://jerseycity.regency.hyatt.com/) on the Hudson located in Jersey City, New Jersey, minutes away from Manhattan via train or ferry.
+CSCW 2018 will be held at the [Hyatt Regency Jersey City](https://jerseycity.regency.hyatt.com/) (reserve via [this link](https://book.passkey.com/gt/213270399?gtid=570359b68372dacbd03f45b4fdbf629c)) on the Hudson located in Jersey City, New Jersey, minutes away from Manhattan via train or ferry.
 
-[Hyatt Regency Jersey City](https://jerseycity.regency.hyatt.com/)
+Hyatt Regency Jersey City
 2 Exchange Place, Jersey City, NJ 07302
 +1 (201).469.1234
 
-Rooms at the discounted conference rate may be reserved using [this link](https://book.passkey.com/gt/213270399?gtid=570359b68372dacbd03f45b4fdbf629c). We strongly encourage attendees to book early in order to secure this discounted rate. More information will be posted about the Conference Hotel closer to the conference.
+To get rooms at the discounted conference rate, please make sure to reserve using [this link](https://book.passkey.com/gt/213270399?gtid=570359b68372dacbd03f45b4fdbf629c). We strongly encourage attendees to book early in order to secure this discounted rate. More information will be posted about the Conference Hotel closer to the conference.
 `
     },
   ]

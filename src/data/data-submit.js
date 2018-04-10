@@ -78,11 +78,13 @@ const submitPapersContents = {
       title: "Important Dates",
       content: `
 The following are important dates for the CSCW 2018 Second Cycle:
-* **April 16, 2018**: Paper Abstracts Due (ahead of paper submissions)
+* **April 16, 2018, 5:00 p.m. PDT**: Paper Abstracts Due (ahead of paper submissions)
 
-* **April 19, 2018**: Paper Submissions Due
+* **April 19, 2018, 5:00 p.m. PDT**: Paper Submissions Due
 
 * **June 15, 2018**: First-Round Notifications (Revise & Resubmit, or Reject)
+
+* **July 11, 2018, 5:00 p.m. PDT**: Revised Papers Due
 
 * **August 8, 2018**: Final Notifications
 
@@ -159,9 +161,11 @@ Confidentiality of submitted material will be maintained. Upon acceptance, the t
     {
       title: "Formatting and Length",
       content: `
-CSCW has moved to the Proceedings of the ACM - HCI, which uses the ACM Small article template. This template is substantially different from the traditional two-column SIGCHI papers template, and may take extra time to typeset. The ACM Small template is available for download as part of the [ACM Master Template](http://www.acm.org/publications/proceedings-template). Please use the most recent version of the master template, even if you have previously downloaded it. Several issues identified during the CSCW 2017 process have been addressed in recent updates. Authors using the Overleaf platform can use the templates provided within Overleaf. Papers should be converted to PDF before submission.
+CSCW has moved to the Proceedings of the ACM - HCI, which uses the ACM Small article template. This template is substantially different from the traditional two-column SIGCHI papers template, and may take extra time to typeset. The ACM Small template is available for download as part of the [ACM Master Template](http://www.acm.org/publications/proceedings-template). Please use the most recent version of the master template, even if you have previously downloaded it. Several issues identified during the CSCW 2017 process have been addressed in recent updates. Word users: if the typefaces are not showing up correctly, be sure you have installed the fonts included in the ACM template download. Authors using the Overleaf platform can use the templates provided within Overleaf. Papers should be converted to PDF before submission.
 
-There is no minimum or maximum length imposed on papers. Rather, reviewers will be instructed to weigh the contribution of a paper relative to its length. Papers should report research thoroughly but succinctly: brevity is a virtue. A typical length with the new template is about 13 pages. Papers may be shorter if the contribution can be described and supported in fewer pages. Shorter, more focused papers (called Notes in prior years) are encouraged and will be reviewed like any other paper. While we will review papers longer than 13 pages, the contribution must warrant the extra length. Papers whose length is incommensurate with their contribution will be rejected.
+_Note:_ In preparing initial submissions, authors should make their best effort at matching the ACM-Small template styles and conventions, but please don’t worry about perfect formatting at this stage! Any smaller formatting issues can be addressed during the revision cycle and camera-ready preparation stage.
+
+There is no minimum or maximum length imposed on papers. Rather, reviewers will be instructed to weigh the contribution of a paper relative to its length. Papers should report research thoroughly but succinctly: brevity is a virtue. A typical length with the new template is about 13-15 pages (excluding images and references). Last year, most papers were under 10,000 words. Papers may be shorter if the contribution can be described and supported in fewer pages. Shorter, more focused papers (called Notes in prior years) are encouraged and will be reviewed like any other paper. While we will review papers that exceed the typical length, the contribution must warrant the extra length. Papers whose length is incommensurate with their contribution will be rejected.
 `
     }, 
     {
@@ -195,7 +199,120 @@ Presentation format for Online First papers may be different but is guaranteed t
     {
       title: "Program Committee Members",
       content : `
-To be announced soon...
+Morgan Ames, University of California, Berkeley, USA
+Gabriela Avram, University of Limerick, Ireland
+Saeideh Bakhshi, Facebook, USA
+Louise Barkhuus, IT University of Copenhagen, Denmark
+Eric Baumer, Lehigh University, USA
+Andrew Begel, Microsoft Research, USA
+Ana Cristina Bicharra, Universidade Federal Fluminense, Brazil
+Claus Bossen, Aarhus University, Denmark
+Barry Brown, Stockholm University, Sweden
+Matthew Chalmers, Glasgow University, UK
+Joel Chan, University of Maryland, USA
+Marshini Chetty, Princeton University, USA
+Rumi Chunara, NYU, USA
+Luigina Ciolfi, Sheffield Hallam University, UK
+Adrian Clear, Northumbria University, UK
+Rob Comber, Royal Institute of Technology KTH, Sweden
+Andy Crabtree, University of Nottingham, UK
+Kevin Crowston, Syracuse University, USA
+Munmun De Choudhury, Georgia Tech, USA
+Giorgio De Michelis, University of Milano - Bicocca, Italy
+Cleidson de Souza, Vale Institute of Technology & Federal University of Pará, Brazil
+Jana Diesner, University of Illinois Urbana-Champaign, USA
+Mateusz Dolata, University of Zurich, Switzerland
+Rosta Farzan, University of Pittsburgh, USA
+Casey Fiesler, University of Colorado Boulder, USA
+Joel Fischer, University of Nottingham, UK
+Benjamin Fonseca, University of Trás-os-Montes e Alto Douro (UTAD), Portugal
+Andrea Forte, Drexel University, USA
+Guo Freeman, University of Cincinnati, USA
+Ge Gao, University of California, Irvine, USA
+Eric Gilbert, University of Michigan, USA
+Jorge Goncalves, University of Melbourne, Australia
+Nitesh Goyal, Cornell University, USA
+Antonietta Grasso, Xerox Research Centre Europe, France
+Shion Guha, Marquette University, USA
+Francisco J. Gutierrez, University of Chile, Chile
+Carl Gutwin, University of Saskatchewan, Canada
+Aaron Halfaker, Wikimedia, USA
+Benjamin Hanrahan, Penn State University, USA
+Mako Hill, University of Washington, USA
+Pam Hinds, Stanford, USA
+Yun Huang, Syracuse University, USA
+Elaine Huang, University of Zurich, Switzerland
+Jina Huh, University of California, San Diego, USA
+Shah Rukh Humayoun, Tufts University, USA
+Netta IIvari, University of Oulu, Finland
+Tomoo Inoue, University of Tsukuba, Japan
+Bridget Kane, Karlstad University, Sweden
+David Karger, MIT, USA
+Brian Keegan, University of Colorado Boulder, USA
+Ryan Kelly, University of Melbourne, Australia
+Emre Kiciman, Microsoft Research, USA
+Juho Kim, KAIST, South Korea
+Joy Kim, Adobe, USA
+Jess Kropczynski, University of Cincinnati, USA
+Neha Kumar, Georgia Tech, USA
+Edith Law, University of Waterloo, Canada
+Vera Liao, IBM, USA
+Janne Lindqvist, Rutgers University, USA
+Silvia Lindtner, University of Michigan, USA
+Donny McMillan, Stockholm University, Sweden
+Jonathan Morgan, Wikimedia, USA
+Michael Muller, IBM, USA
+Oded Nov, NYU, USA
+Nicole Novielli, University of Bari, Italy
+Francisco Nunes, Fraunhofer Portugal AICOS, Portugal
+Gerald Oster, TELECOM Nancy, University of Lorraine, France
+Konstantinos Papangelis, Xi'an Jiaotong-Liverpool University (PRC), China
+Andrea Parker, Northeastern University, USA
+Sameer Patil, Indiana University Bloomington, USA
+Aparecido Fabiano Pinatti de Carvalho, University of Siegen, Germany
+Nathaniel Poor, Independent scholar, USA
+Michael Prilla, TU Clausthal, Germany
+Emilee Rader, Michigan State University, USA
+Dave Randall, University of Siegen, Germany
+Lionel Robert, University of Michigan, USA
+Chiara Rossitto, Stockholm University, Sweden
+Mark Rouncefield, Lancaster University, UK
+Alan Said, University of Skövde, Sweden
+Antti Salovaara, University of Helsinki, Finland
+Nithya Sambasivan, Google, USA
+Christian Sandvig, University of Michigan, USA
+Saiph Savage, West Virginia University, USA
+David Shamma, FXPAL, USA
+Patrick Shih, Indiana University Bloomington, USA
+Vivek Singh, Rutgers University, USA
+Petr Slovak, University College London, UK
+Jaime Snyder, University of Washington, USA
+Emily Sun, Airbnb, USA
+John Tang, Microsoft Research, USA
+Alex Taylor, City, University of London, UK
+Maurizio Teli, Madeira Institute of Technology, Portugal
+Hilda Tellioglu, Vienna University of Technology, Austria
+Jenn Thom, Spotify, USA
+Peter Tolmie, University of Siegen, Germany
+Rajan Vaish, Snap Inc., USA
+Nervo Verdezoto, University of Leicester, UK
+Jessica Vitak, University of Maryland, USA
+Dhaval Vyas, Queensland University of Technology, Australia
+Jim Wallace, University of Waterloo, Canada
+Dakuo Wang, IBM, USA
+Hao-Chuan Wang, University of California, Davis, USA
+Yi Wang, Rochester Institute of Technology, USA
+Leon Watts, University of Bath, UK
+Jenny Waycott, University of Melbourne, Australia
+Mark Whiting, Stanford, USA
+Pamela Wisniewski, University of Central Florida, USA
+Christine Wolf, IBM Research, USA
+Paweł Woźniak, University of Stuttgart, Germany
+Volker Wulf, University of Siegen, Germany
+Naomi Yamashita, NTT Communication Science Laboratories, Japan
+Dongwook Yoon, University of British Columbia, Canada
+Haoqi Zhang, Northwestern University, USA
+Haiyi Zhu, University of Minnesota, USA
 `
     }, 
     {
@@ -226,7 +343,7 @@ Workshop proposals should consist of both an abstract and a detailed proposal. T
 
 Please note that workshops receive minimal technology support, which is reflected in the low fee for attending them. This means that organizers should plan to bring their own equipment insofar as it is possible to do so (e.g., projector, laptops, portable supplies) and will be responsible for the security of their own equipment. We encourage workshop organizers to create web-based resources for their workshops so that advertising, submission and organization can be handled online.
 
-Questions concerning workshop proposals should be directed to the CSCW 2017 Workshop Co-Chairs via email: [workshops2018@cscw.acm.org](mailto:workshops2018@cscw.acm.org).
+Questions concerning workshop proposals should be directed to the CSCW 2018 Workshop Co-Chairs via email: [workshops2018@cscw.acm.org](mailto:workshops2018@cscw.acm.org).
 `
     },
     {
@@ -850,6 +967,8 @@ All papers accepted for CSCW 2018 from either the Online First or subsequent fin
 ### Program Committee Members
 
 Morgan Ames, UC Berkeley
+
+Carmelo Ardito, University of Bari
 
 Gabriela Avram, University of Limerick
 
