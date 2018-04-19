@@ -129,6 +129,13 @@ const committeeChairs = [
       "Stephan Lukosh (T.U. Delft)"
     ],
     email: "studentmentoring2018@cscw.acm.org"
+  },
+  {
+    title: "Program Committee",
+    names: [
+      "[Online First PC Members](https://cscw.acm.org/2018/submit/archived.html)",
+      "[Second Cycle PC Members](https://cscw.acm.org/2018/submit/papers.html)"
+    ]
   }
 ].map((c) => {
   c.names = c.names.map((n) => {

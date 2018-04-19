@@ -259,12 +259,14 @@ Edith Law, University of Waterloo, Canada
 Vera Liao, IBM, USA
 Janne Lindqvist, Rutgers University, USA
 Silvia Lindtner, University of Michigan, USA
+Thomas Ludwig, University of Siegen, Germany
 Donny McMillan, Stockholm University, Sweden
 Jonathan Morgan, Wikimedia, USA
 Michael Muller, IBM, USA
 Oded Nov, NYU, USA
 Nicole Novielli, University of Bari, Italy
 Francisco Nunes, Fraunhofer Portugal AICOS, Portugal
+Thomas Olsson, University of Tampere, Finland
 Gerald Oster, TELECOM Nancy, University of Lorraine, France
 Konstantinos Papangelis, Xi'an Jiaotong-Liverpool University (PRC), China
 Andrea Parker, Northeastern University, USA
@@ -333,7 +335,11 @@ const submitWorkshopsContents = {
     {
       title: "Important Dates",
       content: `
-Important dates for workshop submissions will be coming soon.
+* **27 July 2018 11:59pm PDT**: Workshop proposal deadline
+* **10 August 2018**: Notification of acceptance
+* **17 August 2018**: Website description and camera-ready abstracts due
+* **August-October 2018**: Workshop submissions due, accepted, and notified by respective workshop organizers
+* **3-4 November 2018**: Workshops take place at CSCW 2018
 `
     },
     {
@@ -342,6 +348,12 @@ Important dates for workshop submissions will be coming soon.
 Workshop proposals should consist of both an abstract and a detailed proposal. The abstract should be no more than 200 words. The body of the proposal should be no more than 3000 words, and should include a description of the theme(s) of the workshop, the workshop activities and goals, the duration of the workshop (one or two full days), the background of the organizer(s), the maximum number of participants, the means of recruiting and selecting participants, and the equipment and supplies needed to run the workshop.
 
 Please note that workshops receive minimal technology support, which is reflected in the low fee for attending them. This means that organizers should plan to bring their own equipment insofar as it is possible to do so (e.g., projector, laptops, portable supplies) and will be responsible for the security of their own equipment. We encourage workshop organizers to create web-based resources for their workshops so that advertising, submission and organization can be handled online.
+
+Workshop proposals should be e-mailed to the Workshop Co-Chairs at [workshops2018@cscw.acm.org](mailto:workshops2018@cscw.acm.org) by 11:59pm PDT on **Monday, 27 July 2018**. Submissions will be acknowledged via email.
+
+Accepted workshops will need to provide a short description of the workshop for publication on the conference web site containing the workshop title, names and affiliations of organizers, 200-word abstract, workshop web site, and position paper submission or other participation requirements. The due date for the web description and workshop link is **17 August 2018**.
+
+A final workshop description will be published in the ACM Digital Library and will be distributed to all conference attendees in the Conference Proceedings Companion. This description must be submitted by **17 August 2018** and be formatted in [Extended Abstract Format](https://sigchi.org/templates/).
 
 Questions concerning workshop proposals should be directed to the CSCW 2018 Workshop Co-Chairs via email: [workshops2018@cscw.acm.org](mailto:workshops2018@cscw.acm.org).
 `

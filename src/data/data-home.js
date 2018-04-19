@@ -16,7 +16,8 @@ const homeVenue = {
 const homeImportantNow = {
   title: "What\'s important now?",
   content: [
-      "The next opportunity to submit to CSCW 2018 will be on April 19, 2018, with important dates now detailed on the [Submission page](/2018/submit/). Sign up to the mailing list below to be the first to receive new information about CSCW 2018 as it’s released."
+      "Paper submissions deadlines! Abstracts are due Monday April 16, 2018, 5:00 p.m. PDT, and your full paper is due Thursday April 19, 2018, 5:00 p.m. PDT. [Head to the paper submission page for details](https://cscw.acm.org/2018/submit/papers.html).",
+      "Sign up to the mailing list below to be the first to receive new information about CSCW 2018 as it’s released."
   ]
 };
 
