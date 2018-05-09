@@ -78,9 +78,9 @@ const submitPapersContents = {
       title: "Important Dates",
       content: `
 The following are important dates for the CSCW 2018 Second Cycle:
-* **April 16, 2018, 5:00 p.m. PDT**: Paper Abstracts Due (ahead of paper submissions)
+* ~~**April 16, 2018, 5:00 p.m. PDT**: Paper Abstracts Due (ahead of paper submissions)~~
 
-* **April 19, 2018, 5:00 p.m. PDT**: Paper Submissions Due
+* ~~**April 19, 2018, 5:00 p.m. PDT**: Paper Submissions Due~~
 
 * **June 15, 2018**: First-Round Notifications (Revise & Resubmit, or Reject)
 
@@ -307,6 +307,7 @@ Yi Wang, Rochester Institute of Technology, USA
 Leon Watts, University of Bath, UK
 Jenny Waycott, University of Melbourne, Australia
 Mark Whiting, Stanford, USA
+Jason Wiese, University of Utah, USA
 Pamela Wisniewski, University of Central Florida, USA
 Christine Wolf, IBM Research, USA
 Paweł Woźniak, University of Stuttgart, Germany
