@@ -6,6 +6,7 @@ module.exports = {
   homeHeader,
   homeWelcome,
   homeVenue,
+  homeDeadlines,
   homeImportantNow,
   homeNews,
   homeCfp,

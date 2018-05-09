@@ -68,9 +68,24 @@ const attendRegistrationContents = {
       title: "Important Dates",
       content: 
 `
-Conference registration deadlines will be posted shortly.
+To register, visit the CSCW 2018 [conference registration page](https://www.regonline.com/cscw18). Rates can be found below. Please note that Early registration rates are available through September 10 and Advance registration rates through October 25. You can register for a workshop only if you have successfully applied for permission to participate in the workshop.
+
 `
     },
+    {
+      title: "Conference Fees",
+      content:
+`
+To appear soon.
+`
+    },
+    {
+      title: "Workshop Fees",
+      content:
+`
+To appear soon.
+`
+    }
   ]
 };
 
@@ -80,13 +95,13 @@ const attendHotelContents = {
       title: "Conference Hotel",
       content: 
 `
-CSCW 2018 will be held at the [Hyatt Regency Jersey City](https://jerseycity.regency.hyatt.com/) (reserve via [this link](https://book.passkey.com/gt/213270399?gtid=570359b68372dacbd03f45b4fdbf629c)) on the Hudson located in Jersey City, New Jersey, minutes away from Manhattan via train or ferry.
+CSCW 2018 will be held at the Hyatt Regency Jersey City (reserve via [this link](https://book.passkey.com/gt/213270399?gtid=570359b68372dacbd03f45b4fdbf629c)) on the Hudson located in Jersey City, New Jersey, minutes away from Manhattan via train or ferry.
 
 Hyatt Regency Jersey City
 2 Exchange Place, Jersey City, NJ 07302
 +1 (201).469.1234
 
-To get rooms at the discounted conference rate, please make sure to reserve using [this link](https://book.passkey.com/gt/213270399?gtid=570359b68372dacbd03f45b4fdbf629c). We strongly encourage attendees to book early in order to secure this discounted rate. More information will be posted about the Conference Hotel closer to the conference.
+To get rooms at the discounted conference rate, **please make sure to reserve using [this link](https://book.passkey.com/gt/213270399?gtid=570359b68372dacbd03f45b4fdbf629c) before October 4th, 2018**. We strongly encourage attendees to book early in order to secure this discounted rate as the number of rooms is limited. More information about the Conference Hotel [can be found here](https://jerseycity.regency.hyatt.com/).
 `
     },
   ]

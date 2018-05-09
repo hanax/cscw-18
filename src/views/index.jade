@@ -33,6 +33,16 @@ html
 		a(href='/2018/location.html')
 			.title#aria-location= homeVenue.title
 
+	.section.deadlines#deadlines(aria-labelledby='aria-deadlines')
+		.title#aria-important= homeDeadlines.title
+		.separator
+			span.fa.fa-circle
+			span.fa.fa-circle
+			span.fa.fa-circle
+		ul.content
+			each n in homeDeadlines.content
+				li!= n
+
 	.section.importantNow(aria-labelledby='aria-important')
 		.title#aria-important= homeImportantNow.title
 		.separator

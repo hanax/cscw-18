@@ -201,6 +201,7 @@ Presentation format for Online First papers may be different but is guaranteed t
       content : `
 Morgan Ames, University of California, Berkeley, USA
 Gabriela Avram, University of Limerick, Ireland
+Naveen Bagalkot, Srishti Institute of Art, Design, & Technology, India
 Saeideh Bakhshi, Facebook, USA
 Louise Barkhuus, IT University of Copenhagen, Denmark
 Eric Baumer, Lehigh University, USA
@@ -208,6 +209,7 @@ Andrew Begel, Microsoft Research, USA
 Ana Cristina Bicharra, Universidade Federal Fluminense, Brazil
 Claus Bossen, Aarhus University, Denmark
 Barry Brown, Stockholm University, Sweden
+John Carroll, Penn State University, USA
 Matthew Chalmers, Glasgow University, UK
 Joel Chan, University of Maryland, USA
 Marshini Chetty, Princeton University, USA
@@ -222,6 +224,7 @@ Giorgio De Michelis, University of Milano - Bicocca, Italy
 Cleidson de Souza, Vale Institute of Technology & Federal University of Pará, Brazil
 Jana Diesner, University of Illinois Urbana-Champaign, USA
 Mateusz Dolata, University of Zurich, Switzerland
+Sheena Erete, DePaul University, USA
 Rosta Farzan, University of Pittsburgh, USA
 Casey Fiesler, University of Colorado Boulder, USA
 Joel Fischer, University of Nottingham, UK
@@ -242,27 +245,33 @@ Mako Hill, University of Washington, USA
 Pam Hinds, Stanford, USA
 Yun Huang, Syracuse University, USA
 Elaine Huang, University of Zurich, Switzerland
-Jina Huh, University of California, San Diego, USA
 Shah Rukh Humayoun, Tufts University, USA
 Netta IIvari, University of Oulu, Finland
 Tomoo Inoue, University of Tsukuba, Japan
 Bridget Kane, Karlstad University, Sweden
 David Karger, MIT, USA
 Brian Keegan, University of Colorado Boulder, USA
+Wendy Kellogg, USA
 Ryan Kelly, University of Melbourne, Australia
 Emre Kiciman, Microsoft Research, USA
 Juho Kim, KAIST, South Korea
 Joy Kim, Adobe, USA
+René Kizilcec, Stanford, USA
 Jess Kropczynski, University of Cincinnati, USA
+Chinmay Kulkarni, Carnegie Mellon University, USA
 Neha Kumar, Georgia Tech, USA
+Hideaki Kuzuoka, University of Tsukuba, Japan
 Edith Law, University of Waterloo, Canada
+Gilly Leshed, Cornell University, USA
 Vera Liao, IBM, USA
 Janne Lindqvist, Rutgers University, USA
 Silvia Lindtner, University of Michigan, USA
 Thomas Ludwig, University of Siegen, Germany
 Donny McMillan, Stockholm University, Sweden
+Tanushree Mitra, Virginia Tech, USA
 Jonathan Morgan, Wikimedia, USA
 Michael Muller, IBM, USA
+Lisa Nathan, University of British Columbia, Canada
 Oded Nov, NYU, USA
 Nicole Novielli, University of Bari, Italy
 Francisco Nunes, Fraunhofer Portugal AICOS, Portugal
@@ -277,6 +286,8 @@ Michael Prilla, TU Clausthal, Germany
 Emilee Rader, Michigan State University, USA
 Dave Randall, University of Siegen, Germany
 Lionel Robert, University of Michigan, USA
+Markus Rohde, University of Siegen, Germany
+John Rooksby, University of Glasgow, UK
 Chiara Rossitto, Stockholm University, Sweden
 Mark Rouncefield, Lancaster University, UK
 Alan Said, University of Skövde, Sweden
@@ -284,6 +295,7 @@ Antti Salovaara, University of Helsinki, Finland
 Nithya Sambasivan, Google, USA
 Christian Sandvig, University of Michigan, USA
 Saiph Savage, West Virginia University, USA
+Bryan Semaan, Syracuse University, USA
 David Shamma, FXPAL, USA
 Patrick Shih, Indiana University Bloomington, USA
 Vivek Singh, Rutgers University, USA
@@ -293,8 +305,8 @@ Emily Sun, Airbnb, USA
 John Tang, Microsoft Research, USA
 Alex Taylor, City, University of London, UK
 Maurizio Teli, Madeira Institute of Technology, Portugal
-Hilda Tellioglu, Vienna University of Technology, Austria
 Jenn Thom, Spotify, USA
+John Thomas, USA
 Peter Tolmie, University of Siegen, Germany
 Rajan Vaish, Snap Inc., USA
 Nervo Verdezoto, University of Leicester, UK
@@ -308,12 +320,14 @@ Leon Watts, University of Bath, UK
 Jenny Waycott, University of Melbourne, Australia
 Mark Whiting, Stanford, USA
 Jason Wiese, University of Utah, USA
+Christo Wilson, Northeastern University, USA
 Pamela Wisniewski, University of Central Florida, USA
 Christine Wolf, IBM Research, USA
 Paweł Woźniak, University of Stuttgart, Germany
 Volker Wulf, University of Siegen, Germany
 Naomi Yamashita, NTT Communication Science Laboratories, Japan
 Dongwook Yoon, University of British Columbia, Canada
+Amy Zhang, MIT, USA
 Haoqi Zhang, Northwestern University, USA
 Haiyi Zhu, University of Minnesota, USA
 `
@@ -439,7 +453,10 @@ const submitPanelsContents = {
     {
       title: "Important Dates",
       content: `
-Important dates for panel submissions will be coming soon.
+* **Wednesday, June 27, 2018 (11:59 PM EST)**: Submissions due
+* **Monday, July 30, 2018**: Notification of acceptance
+
+Panels will take place during the CSCW conference.
 `
     },
     {
@@ -463,14 +480,33 @@ The best panels provide opportunities for audience participation. We especially 
 
 * Represent a diversity of individuals, who can bring multiple perspectives to the topic
 
+We also invite submitters to not only form panels with close colleagues who share similar points of view, but also to reach out to prospective panelists from across the CSCW community. Feel free to contact other CSCW scholars, or use media like the [#cscw2018](https://twitter.com/search?q=%23cscw2018) Twitter hashtag, the [CSCW Community](https://www.facebook.com/acmCSCW/) or [CSCW Meta](https://www.facebook.com/groups/1395400460684366/) Facebook groups to try and find panelists who might want to discuss a particular topic from various approaches.
+`
+
+    },
+    {
+      title: "Submitting a Proposal",
+      content: 
+`
+Panel proposals should be no longer than 4 pages in the SIGCHI Extended Abstract Format ([Word](https://cscw.acm.org/2017/submit/sigchi-word-extended-abstracts.zip), [Latex](https://github.com/sigchi/Document-Formats)). They should include:
+
+* An overview of the panel topic
+* One-paragraph biographical sketches of the panelists describing their expertise
+* Proposed structure and format of the panel, including how you intend to encourage interaction with the audience
+* Any technical requirements
+
+Panel submissions should be e-mailed to the Panels Co-Chairs at [panels2018@cscw.acm.org](panels2018@cscw.acm.org).
+
+All panel submissions are due by 11:59 pm EST on Wednesday, June 27th.
+
 All questions should be directed to [panels2018@cscw.acm.org](mailto:panels2018@cscw.acm.org).
 `
     },
     {
       title: "Panels Co-Chairs",
       content: `
-Tawanna Dillahunt (University of Michigan)
-Daniele Quercia (Bell Labs Cambridge)
+[Tawanna Dillahunt](http://www.tawannadillahunt.com/) (University of Michigan)
+[Daniele Quercia](http://researchswinger.org/index.html) (Bell Labs Cambridge)
 [panels2018@cscw.acm.org](mailto:panels2018@cscw.acm.org)
 `
     }
