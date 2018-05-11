@@ -56,3 +56,13 @@ N. Sadat Shami (IBM)
     }
   ]
 };
+
+sponsorOverviewContents.items = sponsorOverviewContents.items.map((n) => {
+  n.content = marked(n.content);
+  return n;
+});
+
+sponsorBenefitsContents.items = sponsorBenefitsContents.items.map((n) => {
+  n.content = marked(n.content);
+  return n;
+});

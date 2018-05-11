@@ -390,7 +390,7 @@ const submitPostersContents = {
     {
       title: "Important Dates",
       content: `
-* **Sunday, July 1, 2018**: Submission due
+* **Sunday, July 1, 2018**: Submissions due
 * **Friday, August 10, 2018**: Final notifications
 * **Monday, November 5 , 2018**: Posters reception at CSCW
 `

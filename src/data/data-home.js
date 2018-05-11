@@ -12,7 +12,7 @@ const homeWelcome = {
 const homeImportantNow = {
   title: "What\'s important now?",
   content: [
-      "First-round notifications for paper submissions will be available June 15th, with revised papers due July 11th  [Head to the paper submission page for details](https://cscw.acm.org/2018/submit/papers.html).",
+      "First-round notifications for paper submissions will be available June 15th, with revised papers due July 11th. Head to the [paper submission page](/submit/papers.html) for details.",
       "Sign up to the mailing list below to be the first to receive new information about CSCW 2018 as it’s released."
   ]
 };
@@ -20,15 +20,20 @@ const homeImportantNow = {
 const homeVenue = {
   title: "Location and Venue: New York City",
   content: [
-      "First-round notifications for paper submissions will be available June 15th, with revised papers due July 11th  [Head to the paper submission page for details](https://cscw.acm.org/2018/submit/papers.html).",
-      "Sign up to the mailing list below to be the first to receive new information about CSCW 2018 as it’s released."
+      ""
   ]
 };
 
 const homeDeadlines = {
-  title: "Important Deadlines",
+  title: "Upcoming Deadlines",
   content: [
-      "To be updated shortly."
+    "<b>June 1, 2018</b>: <a href='./submit/dc.html'>DC Submissions Due</a>",
+    "<b>June 5, 2018</b>: <a href='./volunteer/sv.html'>SV Lottery Deadline</a>",
+    "<b>June 15, 2018</b>: <a href='./submit/papers.html'>Papers First-Round Notifications</a>",
+    "<b>June 27, 2018</b>: <a href='./submit/demos.html'>Interactive Demo Submissions Due</a>",
+    "<b>June 27, 2018</b>: <a href='./submit/panels.html'>Panel Submissions Due</a>",
+    "<b>July 1, 2018</b>: <a href='./submit/posters.html'>Poster Submissions Due</a>",
+    "<b>July 27, 2018</b>: <a href='./submit/workshops.html'>Workshop Proposal Submissions Due</a>"
   ]
 };
 
@@ -107,6 +112,11 @@ homeNews.content = homeNews.content.map((n) => {
   n.a = marked(n.a);
   return n;
 });
+
+// homeDeadlines.content = homeDeadlines.content.map((n) => {
+//   n.a = marked(n.a);
+//   return n;
+// });
 
 homeImportantNow.content = homeImportantNow.content.map((n) => {
   n = marked(n);
