@@ -36,8 +36,10 @@ const volunteerSVContents = {
       content: 
 `
 * **May 14, 2018**: Student volunteer lottery registration system opens [here](http://chisv.org/CSCW2018/).
-* **June 5, 2018**: Deadline to register for volunteer lottery
-* **June 10, 2018**: Applicants will be informed of their acceptance or waitlist status
+* **June 16, 2018**: Deadline to register for volunteer lottery
+* **June 20, 2018**: Applicants will be informed of their acceptance or waitlist status
+
+Submit your application [at this link](http://chisv.org/CSCW2018/).
 `
     }, 
     {
@@ -70,6 +72,8 @@ A few student volunteer spots have been assigned to experienced student voluntee
 Those volunteers initially selected will be notified on June 10, 2018 so they can begin making any necessary arrangements and get involved in the online student volunteer community. The waiting list will consist of applications received by the deadline but not initially selected. Applications received after the deadline will be placed at the end of the waiting list in the order in which they are received.
 
 Historically, more students apply than can be accepted, so early application is encouraged. However, applicants on the waiting list are often accepted, so do not be discouraged if you are applying close to or after the preliminary deadline. Some volunteers always drop out, so we highly encourage students to continue checking the waitlist.
+
+Apply [here](http://chisv.org/CSCW2018/).
 `
     },
     {
