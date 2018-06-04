@@ -538,7 +538,7 @@ Applicants should be Ph.D. students with an already established direction of res
       content: `
 Applicants should submit the following items by email to [dc2018@cscw.acm.org](mailto:dc2018@cscw.acm.org) with the subject line “CSCW2018 DC Submission.” All items below should be collated into one PDF file named YOURNAME_CSCWDC2018.pdf (substitute your full name where it reads YOURNAME):
 
-* A FOUR-page overview of your doctoral research that describes your research question, work in progress, and expected contributions. This overview should also include (1) a paragraph that articulates what you hope to gain from attending the CSCW Doctoral Colloquium, and (2) an abstract of no more than 100 words. Your overview will be published in the ACM Digital Library and distributed to all attendees as part of the Conference Extended Abstracts. Please submit your overview in the SIGCHI Extended Abstract Format ([Word](https://cscw.acm.org/2017/submit/sigchi-word-extended-abstracts.zip), [Latex](https://github.com/sigchi/Document-Formats)).
+* A FOUR-page overview (including references) of your doctoral research that describes your research question, work in progress, and expected contributions. This overview should also include (1) a paragraph that articulates what you hope to gain from attending the CSCW Doctoral Colloquium, and (2) an abstract of no more than 100 words. Your overview will be published in the ACM Digital Library and distributed to all attendees as part of the Conference Extended Abstracts. Please submit your overview in the SIGCHI Extended Abstract Format ([Word](https://cscw.acm.org/2017/submit/sigchi-word-extended-abstracts.zip), [Latex](https://github.com/sigchi/Document-Formats)).
 
 * A short (2-3 paragraph) biographical sketch on another page, with a list of five top publications
 
@@ -646,7 +646,11 @@ Optionally, the demo submission can be supported by a short Video Figure. The vi
     {
       title: "Submission Instructions",
       content: `
-The extended abstract, system summary, and URL for accessing the video should be e-mailed to the Demonstrations Co-Chairs at [demos2018@cscw.acm.org](mailto:demos2018@cscw.acm.org) by June 27, 2018. Submissions received after the deadline will not be considered. All submissions will be acknowledged by e-mail.
+The extended abstract, system summary, and URL for accessing the video have to be submitted via PCS by **June 27, 2018 11:59pm PDT**. Submissions received after the deadline will not be considered. 
+
+CSCW 2018 is using a new version of Precision Conference System (PCS 2.0): [https://new.precisionconference.com/](https://new.precisionconference.com/). Please note that you will need to create a new login/password for this system.
+
+PCS 2.0 is still in development, and you are encouraged to report problems or to make interface suggestions to [support@precisionconference.com](mailto:support@precisionconference.com).
 
 Please direct all questions regarding the demo submissions to [demos2018@cscw.acm.org](mailto:demos2018@cscw.acm.org). We look forward to seeing you!
 `

@@ -21,7 +21,7 @@ const volunteerOverviewContents = {
       title: "Volunteering & Mentorship",
       content: 
 `
-Enrollment for CSCW 2018 student volunteers is now open! Go to [http://chisv.org/CSCW2018/](http://chisv.org/CSCW2018/) to submit your application. The deadline for registering is June 5, 2018. More information about student volunteering [here](https://cscw.acm.org/2018/volunteer/sv.html).
+Enrollment for CSCW 2018 student volunteers is now open! Go to [http://chisv.org/CSCW2018/](http://chisv.org/CSCW2018/) to submit your application. The deadline for registering is June 16, 2018. More information about student volunteering [here](https://cscw.acm.org/2018/volunteer/sv.html).
 
 
 `

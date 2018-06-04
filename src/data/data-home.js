@@ -27,7 +27,6 @@ const homeVenue = {
 const homeDeadlines = {
   title: "Upcoming Deadlines",
   content: [
-    "<b>June 1, 2018</b>: <a href='./submit/dc.html'>DC Submissions Due</a>",
     "<b>June 15, 2018</b>: <a href='./submit/papers.html'>Papers First-Round Notifications</a>",
     "<b>June 16, 2018</b>: <a href='./volunteer/sv.html'>SV Lottery Deadline</a>",
     "<b>June 27, 2018</b>: <a href='./submit/demos.html'>Interactive Demo Submissions Due</a>",

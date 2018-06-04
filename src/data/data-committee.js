@@ -115,6 +115,13 @@ const committeeChairs = [
     email: "diversity2018@cscw.acm.org"
   },
   {
+    title: "Accessibility Co-Chairs",
+    names: [
+      "AStrid Weber (Google)"
+    ],
+    email: "accessibility2018@cscw.acm.org"
+  },
+  {
     title: "Student Volunteer co-Chairs",
     names: [
       "Xiao Ma (Cornell Tech)",

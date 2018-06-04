@@ -68,22 +68,20 @@ const attendRegistrationContents = {
       title: "Important Dates",
       content: 
 `
-To register, visit the CSCW 2018 [conference registration page](https://www.regonline.com/cscw18). Rates can be found below. Please note that Early registration rates are available through September 10 and Advance registration rates through October 25. You can register for a workshop only if you have successfully applied for permission to participate in the workshop.
+* **Sept 10, 2018**: Early registration deadline
+* **Oct 25, 2018**: Advance registration deadline
+
+To register, visit the CSCW 2018 [conference registration page](https://www.regonline.com/cscw18). 
 
 `
     },
     {
-      title: "Conference Fees",
+      title: "Registration Fees",
       content:
 `
-To appear soon.
-`
-    },
-    {
-      title: "Workshop Fees",
-      content:
-`
-To appear soon.
+Rates can be found below. 
+
+Please note that Early registration rates are available through September 10 and Advance registration rates through October 25. You can register for a workshop only if you have successfully applied for permission to participate in the workshop.
 `
     }
   ]
@@ -214,6 +212,11 @@ Joelle Alcaidinho (Intel)
 
 
 attendOverviewContents.items = attendOverviewContents.items.map((n) => {
+  n.content = marked(n.content);
+  return n;
+});
+
+attendRegistrationContents.items = attendRegistrationContents.items.map((n) => {
   n.content = marked(n.content);
   return n;
 });
