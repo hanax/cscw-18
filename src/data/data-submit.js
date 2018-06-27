@@ -82,7 +82,7 @@ The following are important dates for the CSCW 2018 Second Cycle:
 
 * ~~**April 19, 2018, 5:00 p.m. PDT**: Paper Submissions Due~~
 
-* **June 15, 2018**: First-Round Notifications (Revise & Resubmit, or Reject)
+* ~~**June 15, 2018**: First-Round Notifications (Revise & Resubmit, or Reject)~~
 
 * **July 11, 2018, 5:00 p.m. PDT**: Revised Papers Due
 
@@ -247,6 +247,7 @@ Yun Huang, Syracuse University, USA
 Elaine Huang, University of Zurich, Switzerland
 Shah Rukh Humayoun, Tufts University, USA
 Netta IIvari, University of Oulu, Finland
+Nozomi Ikeya, Keio University, Japan
 Tomoo Inoue, University of Tsukuba, Japan
 Bridget Kane, Karlstad University, Sweden
 David Karger, MIT, USA

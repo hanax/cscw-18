@@ -12,7 +12,7 @@ const homeWelcome = {
 const homeImportantNow = {
   title: "What\'s important now?",
   content: [
-      "First-round notifications for paper submissions will be available June 15th, with revised papers due July 11th. Head to the [paper submission page](/submit/papers.html) for details.",
+      "First-round notifications for paper submissions were made available June 15th, with revised papers due July 11th. Head to the [paper submission page](/submit/papers.html) for details.",
       "Sign up to the mailing list below to be the first to receive new information about CSCW 2018 as it’s released."
   ]
 };
@@ -27,12 +27,14 @@ const homeVenue = {
 const homeDeadlines = {
   title: "Upcoming Deadlines",
   content: [
-    "<b>June 15, 2018</b>: <a href='./submit/papers.html'>Papers First-Round Notifications</a>",
-    "<b>June 16, 2018</b>: <a href='./volunteer/sv.html'>SV Lottery Deadline</a>",
     "<b>June 27, 2018</b>: <a href='./submit/demos.html'>Interactive Demo Submissions Due</a>",
     "<b>June 27, 2018</b>: <a href='./submit/panels.html'>Panel Submissions Due</a>",
     "<b>July 1, 2018</b>: <a href='./submit/posters.html'>Poster Submissions Due</a>",
-    "<b>July 27, 2018</b>: <a href='./submit/workshops.html'>Workshop Proposal Submissions Due</a>"
+    "<b>July 11, 2018</b>: <a href='./submit/papers.html'>Revised Papers Due</a>",
+    "<b>July 16, 2018</b>: <a href='./submit/dc.html'>Doctoral Colloquium Acceptance Notifications</a>",
+    "<b>July 27, 2018</b>: <a href='./submit/workshops.html'>Workshop Proposal Submissions Due</a>",
+    "<b>July 30, 2018</b>: <a href='./submit/panels.html'>Panel Acceptance Notifications</a>",
+    "<b>August 8, 2018</b>: <a href='./submit/papers.html'>Final Paper Notifications</a>"
   ]
 };
 
@@ -81,7 +83,7 @@ const homeCfp = {
 const homeSponsors = {
   title: "Call for sponsors",
   content: marked(
-    "Sponsorships are a unique opportunity to support the CSCW conference including student attendees, and benefit the research community. Moreover, sponsorships help organizations be recognized and gain visibility in the community, creating ties and providing a backdrop for recruitment. Sponsorship benefits include acknowledgment in conference materials, website, and presentations; support in hosting special events for all conference participants; and opportunities to provide information and demonstrations directly to CSCW attendees. More information about sponsorship level is coming soon; email [sponsors2018@cscw.acm.org](mailto:sponsors2018@cscw.acm.org) for details." 
+    "Sponsorships are a unique opportunity to support the CSCW conference including student attendees, and benefit the research community. Moreover, sponsorships help organizations be recognized and gain visibility in the community, creating ties and providing a backdrop for recruitment. Sponsorship benefits include acknowledgment in conference materials, website, and presentations; support in hosting special events for all conference participants; and opportunities to provide information and demonstrations directly to CSCW attendees. More information about sponsorship level is available on [this page](https://cscw.acm.org/2018/sponsors/); email [sponsors2018@cscw.acm.org](mailto:sponsors2018@cscw.acm.org) for details." 
   )
 };
 
