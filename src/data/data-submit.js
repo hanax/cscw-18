@@ -84,7 +84,7 @@ The following are important dates for the CSCW 2018 Second Cycle:
 
 * ~~**June 15, 2018**: First-Round Notifications (Revise & Resubmit, or Reject)~~
 
-* **July 11, 2018, 5:00 p.m. PDT**: Revised Papers Due
+* ~~**July 11, 2018, 5:00 p.m. PDT**: Revised Papers Due~~
 
 * **August 8, 2018**: Final Notifications
 
@@ -351,11 +351,11 @@ const submitWorkshopsContents = {
     {
       title: "Important Dates",
       content: `
-* **27 July 2018 11:59pm PDT**: Workshop proposal deadline
-* **10 August 2018**: Notification of acceptance
-* **17 August 2018**: Website description and camera-ready abstracts due
+* ~~**30 July, 2018 11:59pm PDT**: Workshop proposal deadline~~
+* **10 August, 2018**: Notification of acceptance
+* **17 August, 2018**: Website description and camera-ready abstracts due
 * **August-October 2018**: Workshop submissions due, accepted, and notified by respective workshop organizers
-* **3-4 November 2018**: Workshops take place at CSCW 2018
+* **3-4 November, 2018**: Workshops take place at CSCW 2018
 `
     },
     {
@@ -365,7 +365,7 @@ Workshop proposals should consist of both an abstract and a detailed proposal. T
 
 Please note that workshops receive minimal technology support, which is reflected in the low fee for attending them. This means that organizers should plan to bring their own equipment insofar as it is possible to do so (e.g., projector, laptops, portable supplies) and will be responsible for the security of their own equipment. We encourage workshop organizers to create web-based resources for their workshops so that advertising, submission and organization can be handled online.
 
-Workshop proposals should be e-mailed to the Workshop Co-Chairs at [workshops2018@cscw.acm.org](mailto:workshops2018@cscw.acm.org) by 11:59pm PDT on **Monday, 27 July 2018**. Submissions will be acknowledged via email.
+Workshop proposals should be e-mailed to the Workshop Co-Chairs at [workshops2018@cscw.acm.org](mailto:workshops2018@cscw.acm.org) by 11:59pm PDT on **Thursday, 30 July 2018**. Submissions will be acknowledged via email.
 
 Accepted workshops will need to provide a short description of the workshop for publication on the conference web site containing the workshop title, names and affiliations of organizers, 200-word abstract, workshop web site, and position paper submission or other participation requirements. The due date for the web description and workshop link is **17 August 2018**.
 
@@ -391,7 +391,7 @@ const submitPostersContents = {
     {
       title: "Important Dates",
       content: `
-* **Sunday, July 1, 2018**: Submissions due
+* ~~**Sunday, July 1, 2018**: Submissions due~~
 * **Friday, August 10, 2018**: Final notifications
 * **Monday, November 5 , 2018**: Posters reception at CSCW
 `
@@ -454,8 +454,8 @@ const submitPanelsContents = {
     {
       title: "Important Dates",
       content: `
-* **Wednesday, June 27, 2018 (11:59 PM EST)**: Submissions due
-* **Monday, July 30, 2018**: Notification of acceptance
+* **Friday, July 6, 2018 (11:59 PM EST)**: Submissions due
+* **Monday, July 9, 2018**: Notification of acceptance
 
 Panels will take place during the CSCW conference.
 `
@@ -519,8 +519,8 @@ const submitDCContents = {
     {
       title: "Important Dates",
       content: `
-* **Friday, June 1, 2018, 11:59pm PDT**: Submissions due
-* **Monday, July 16, 2018**: Notification of acceptance
+* ~~**Friday, June 1, 2018, 11:59pm PDT**: Submissions due~~
+* ~~**Monday, July 16, 2018**: Notification of acceptance~~
 * **November 3 (evening) and November 4, 2018**: Doctoral Colloquium
 `
     },
@@ -574,7 +574,7 @@ const submitDemosContents = {
     {
       title: "Important Dates",
       content: `
-* **Wednesday, June 27, 2018, 11:59pm PDT**: Submissions due
+* ~~**Wednesday, June 27, 2018, 11:59pm PDT**: Submissions due~~
 * **Wednesday, August 15, 2018**: Notification of acceptance (one week after papers final notifications)
 `
     },

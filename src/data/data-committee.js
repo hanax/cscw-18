@@ -117,9 +117,17 @@ const committeeChairs = [
   {
     title: "Accessibility Co-Chairs",
     names: [
-      "AStrid Weber (Google)"
+      "Astrid Weber (Google)"
     ],
     email: "accessibility2018@cscw.acm.org"
+  },
+  {
+    title: "Telepresence Co-Chairs",
+    names: [
+      "Sue Fussel (Cornell University)",
+      "Carman Neustadter (Simon Fraser University)"
+    ],
+    email: "tele2018@cscw.acm.org"
   },
   {
     title: "Student Volunteer co-Chairs",

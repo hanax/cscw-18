@@ -1,6 +1,6 @@
 const homeHeader = {
   h1: "The 21st ACM Conference on Computer-Supported Cooperative Work and Social Computing",
-  h2: "November 3-7, 2018",
+  h2: "November 3rd-7th, 2018",
   highlight: "New York City's Hudson River (Jersey City)"
 };
 
@@ -10,9 +10,10 @@ const homeWelcome = {
 };
 
 const homeImportantNow = {
-  title: "What\'s important now?",
+  title: "Announcements",
   content: [
-      "First-round notifications for paper submissions were made available June 15th, with revised papers due July 11th. Head to the [paper submission page](/submit/papers.html) for details.",
+      "The conference program will be published soon, with the main conference taking place from Monday Nov 5th to Wednesday Nov 7th.",
+      "We'd like to congratulate Erin Bradner, Steve Whittaker, and Bonnie Nardi on their 2018 CSCW Lasting Impact Award for their 2000 paper <a href='https://dl.acm.org/citation.cfm?id=358975'>Interaction and Outeraction: Instant Messaging in Action</a>!",
       "Sign up to the mailing list below to be the first to receive new information about CSCW 2018 as it’s released."
   ]
 };
@@ -27,14 +28,7 @@ const homeVenue = {
 const homeDeadlines = {
   title: "Upcoming Deadlines",
   content: [
-    "<b>June 27, 2018</b>: <a href='./submit/demos.html'>Interactive Demo Submissions Due</a>",
-    "<b>June 27, 2018</b>: <a href='./submit/panels.html'>Panel Submissions Due</a>",
-    "<b>July 1, 2018</b>: <a href='./submit/posters.html'>Poster Submissions Due</a>",
-    "<b>July 11, 2018</b>: <a href='./submit/papers.html'>Revised Papers Due</a>",
-    "<b>July 16, 2018</b>: <a href='./submit/dc.html'>Doctoral Colloquium Acceptance Notifications</a>",
-    "<b>July 27, 2018</b>: <a href='./submit/workshops.html'>Workshop Proposal Submissions Due</a>",
-    "<b>July 30, 2018</b>: <a href='./submit/panels.html'>Panel Acceptance Notifications</a>",
-    "<b>August 8, 2018</b>: <a href='./submit/papers.html'>Final Paper Notifications</a>"
+    "<b>November 3, 2018<b>: See you at CSCW 2018!"
   ]
 };
 

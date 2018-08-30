@@ -41,11 +41,11 @@ const attendOverviewContents = {
       title: "Overview",
       content: 
 `
-CSCW 2018 will take place at the [Hyatt Regency Jersey City](https://jerseycity.regency.hyatt.com/) on the Hudson located in Jersey City, New Jersey, minutes away from Manhattan via train or ferry. 
+CSCW 2018 will take place at the Hyatt Regency Jersey City [reserve here](https://book.passkey.com/gt/213270399?gtid=570359b68372dacbd03f45b4fdbf629c)) on the Hudson River, located in Jersey City, New Jersey, minutes away from Manhattan via train or ferry. For a general overview of the New York / New Jersey area where the conference will be held, please visit the [Location](../location.html) page. 
 
-**To get rooms at the discounted conference rate, please make sure to reserve using [this link](https://book.passkey.com/gt/213270399?gtid=570359b68372dacbd03f45b4fdbf629c).**
+**To get rooms at the discounted conference rate, please make sure to reserve using [this link](https://book.passkey.com/gt/213270399?gtid=570359b68372dacbd03f45b4fdbf629c). For more information about the hotel, [see here](https://jerseycity.regency.hyatt.com/).**
 
-For a general overview of the New York / New Jersey area where the conference will be held, please visit the [Location](../location.html) page. For questions about specific aspects of attending the conference, please consult the links in the sidebar.
+For questions about specific aspects of attending the conference, please consult the links in the sidebar.
 
 For other questions not answered on this page, please contact the Local Arrangements Co-Chairs at [local2018@cscw.acm.org](mailto:local2018@cscw.acm.org).
 `
@@ -108,7 +108,16 @@ To get rooms at the discounted conference rate, **please make sure to reserve us
 const attendVisasContents = {
   items: [
     {
-      title: "Visa Information",
+      title: "Overview",
+      content:
+`
+CSCW 2018 attendees may be affected by the Executive Order signed by the President of the United States in 2017, banning most people from entering the U.S. if they hold passports from a specific set of countries. We will accommodate remote participation by any presenting author denied entry for this reason, and will attempt to accommodate non-presenting attendees as well. 
+
+See Special Notice below for details.
+`
+    },
+    {
+      title: "General Visa Information",
       content: 
 `
 The sites [http://www.unitedstatesvisas.us/](http://www.unitedstatesvisas.us/) and [http://travel.state.gov](http://travel.state.gov) have information about obtaining a visa for those traveling to the United States. These sites have links to websites for U.S. embassies and consulates worldwide. The embassy and consulate websites have very helpful information about procedures, timelines, communities served, required documentation, and fees.
@@ -132,6 +141,22 @@ Please note visa support letters are issued via email by PDF and the original is
 
 For more information on Visa Support Letters, please consult the ACM page [here](http://www.acm.org/sigs/volunteer_resources/conference_manual/visas?searchterm=visa+support+letters).
 
+`
+    },
+    {
+      title: "Special Notice",
+      content:
+`
+CSCW 2018 attendees may be affected by the [Executive Order signed by the President of the United States in 2017](https://en.wikipedia.org/wiki/Trump_travel_ban). This Executive Order banned most people from entering the U.S. if they hold passports from a specific set of countries (Iran, Libya, North Korea, Syria, Venezuela, Yemen,and  Somalia). We will work to accommodate any presenting authors who cannot travel to the US for visa reasons related to the ban. These authors’ papers will be included in the proceedings regardless of the author registration and attendance status, and we will seek ways for authors to remotely present their work at the conference. If you are such an author, please email the general chairs at [chairs2018@cscw.acm.org](mailto:chairs2018@cscw.acm.org).
+
+In addition, we will attempt to accommodate interested attendees from those countries that are not able to attend for reasons related to the ban, though we may limited capacity to support such attendees. Email the telepresence chairs at [tele2018@cscw.acm.org](mailto:tele2018@cscw.acm.org) for details.
+
+We support statements made by the Association for Computing Machinery (ACM) and the International Science Council (ICSU) that the free and responsible practice of science is fundamental to scientific advancement and human and environmental well-being and, furthermore, that the practice of science requires freedom of movement, association, expression and communication. 
+
+We welcome questions and suggestions from the community about this topic.
+
+Vanessa Evers, Mor Naaman
+[chairs2018@cscw.acm.org](mailto:chairs2018@cscw.acm.org)
 `
     }
   ]

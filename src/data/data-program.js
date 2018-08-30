@@ -60,8 +60,30 @@ const programWorkshopContents = {
       title: "Workshops",
       content: 
  `
-Information about Workshops will be posted closer to the start of CSCW 2018.
- `
+Workshops will be held on Saturday, November 3 and Sunday, November 4. Here is a tentative schedule of workshops. Please follow the workshop organizers’ instructions on their websites for how to submit and participate in the workshop. 
+
+Workshop participants are required to register for their workshops (and pay the corresponding $175 fee per workshop) via the [conference registration website](https://www.regonline.com/registration/Checkin.aspx?EventID=2158075). The CSCW 2018 Organizing Committee cannot exempt or defray these registration fees for organizers or participants. Workshop registrations can be added at any time to existing conference registrations, including on the day of the workshop. There is a registration option for attendees who are only participating in a workshop but not the main conference.
+
+## Saturday workshops
+
+* [The Changing Contours of “Participation” in Data-driven, Algorithmic Ecosystems: Challenges, Tactics, and an Agenda](https://algorithmsworkshop.wixsite.com/mysite/organizers)
+* [Conducting Research with Stigmatized Populations: Practices, Challenges and Lessons Learned](https://sites.google.com/view/stigmaresearchworkshop2018/)
+* [The Industrial Internet of Things: New Perspectives on HCI and CSCW within Industry Settings](http://iiot.hci-workshop.org/)
+* [Latin America as a Place for CSCW Research](https://cscwlatinamerica.wordpress.com/)
+* [Navigating the Challenges of Multi-Site Research](https://multisitechallenges.wordpress.com/)
+* [Power Struggles in the Digital Economy: Platforms, Workers, and Markets](https://cscw2018digitaleconomy.wordpress.com)
+* [Privacy in Context: Critically Engaging with Theory to Guide Privacy Research and Design](https://networkedprivacycscw2018.wordpress.com)
+
+## Sunday workshops 
+
+* [Accessible Voice Interfaces](https://accessiblevoice.wordpress.com/)
+* [Collaborative Mixed Reality Games](https://collaborativemr.wordpress.com/)
+* [Hybrid events: mediating collocated participation](https://hybridevent.wordpress.com)
+* [Rural Computing: Beyond Access and Infrastructure](https://ruralcomputingworkshop.wordpress.com)
+* [Social Issues in Personal Informatics: Design, Data, and Infrastructure](https://tmilab.colorado.edu/socialpi/)
+* [Sociotechnical Systems of Care](https://hcdd.purdue.edu/sociotechnical-systems-of-care/)
+* [Solidarity Across Borders: Navigating Intersections Towards Equity and Inclusion](https://cscwsolidarity.wordpress.com)
+`
  	}
   ]
 };
