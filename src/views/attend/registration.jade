@@ -19,8 +19,25 @@ html
 						span.fa.fa-circle
 						span.fa.fa-circle
 					.content!= n.content
+			.reg-table
+				each t in attendRegTableContents.tables
+					.content-item
+						h3!= t.section
+						table
+							thead
+								tr
+									th 
+									th Early (through 9/17)
+									th Advance (9/18 -- 10/25)
+									th Late/Onsite (10/26 on)
+								tbody
+									each r in t.rates
+										tr
+											td!= r.name
+											td.center!= r.early
+											td.center!= r.advance
+											td.center!= r.late
 			.content-item
-				a(href='https://www.regonline.com/cscw18' target='_blank')
-					img(src='../assets/regtable.png')
+				h5!= attendRegTableContents.footnote
 
 	include ../shared-footer

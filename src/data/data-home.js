@@ -28,7 +28,12 @@ const homeVenue = {
 const homeDeadlines = {
   title: "Upcoming Deadlines",
   content: [
-    "<b>November 3, 2018<b>: See you at CSCW 2018!"
+    
+  "<del>Sept 10, 2018</del> <b>Sept 17, 2018</b>: Early registration deadline",
+  "<b>September 2018</b>: Multiple opportunities to participate through <a href='https://cscw.acm.org/2018/program/workshops.html'>workshop submissions</a>.",
+  "<b>Oct 25, 2018</b>: Advance registration deadline",
+  "<b>November 3-4, 2018</b>: CSCW 2018 workshop and doctoral consortium",
+  "<b>November 5-7, 2018</b>: Main conference"
   ]
 };
 
@@ -70,16 +75,41 @@ const homeNews = {
 const homeCfp = {
   title: "Call for participation",
   content: marked(
-    "CSCW invites submission to a wide range of venues including papers, posters, demos, panels, workshops, and a doctoral consortium. The scope of CSCW spans socio-technical domains including work, home, education, healthcare, the arts, leisure, and entertainment. The conference seeks novel research results or new ways of thinking about, studying, or supporting shared activities in these and related areas. We are currently accepting paper submissions for an early, Online First paper deadline in April 2017. More info on [this page](/2018/submit/)."
+    "CSCW invites submission to a wide range of venues including papers, posters, demos, panels, workshops, and a doctoral consortium. The scope of CSCW spans socio-technical domains including work, home, education, healthcare, the arts, leisure, and entertainment. The conference seeks novel research results or new ways of thinking about, studying, or supporting shared activities in these and related areas. We are no longer accepting paper submissions at this time. Please visit [this page](/2018/submit/) to find other ways to participate in the conference."
   )
 };
 
 const homeSponsors = {
-  title: "Call for sponsors",
-  content: marked(
-    "Sponsorships are a unique opportunity to support the CSCW conference including student attendees, and benefit the research community. Moreover, sponsorships help organizations be recognized and gain visibility in the community, creating ties and providing a backdrop for recruitment. Sponsorship benefits include acknowledgment in conference materials, website, and presentations; support in hosting special events for all conference participants; and opportunities to provide information and demonstrations directly to CSCW attendees. More information about sponsorship level is available on [this page](https://cscw.acm.org/2018/sponsors/); email [sponsors2018@cscw.acm.org](mailto:sponsors2018@cscw.acm.org) for details." 
-  )
+  title: "Sponsors",
+  content:[
+    {
+      title: "Champion sponsors",
+      items:[
+        "./assets/logo-facebook.png"
+      ]
+    },
+    {
+      title: "Contributors",
+      items:[
+        "./assets/logo-ibm.jpg"
+      ]
+    }
+  ]
 };
+
+//   content: marked(
+// `    
+// ### Champion Sponsors:
+// Facebook
+
+// ### Contributors:
+// IBM
+
+// #### To Join 
+// To inquire about sponsorships see [this page](https://cscw.acm.org/2018/sponsors/) or email [sponsors2018@cscw.acm.org](sponsors2018@cscw.acm.org).
+// `
+//   )
+// };
 
 const homeCommittee = {
   title: "Organizing committee",

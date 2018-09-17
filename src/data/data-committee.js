@@ -109,7 +109,7 @@ const committeeChairs = [
   {
     title: "Diversity and Inclusion Co-Chairs",
     names: [
-      "Niloufar Salehi (Stanford)",
+      "Niloufar Salehi (UC Berkeley)",
       "Hilda Tellioglu (Vienna University of Technology)"
     ],
     email: "diversity2018@cscw.acm.org"

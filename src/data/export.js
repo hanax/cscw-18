@@ -49,6 +49,7 @@ module.exports = {
   attendNav,
   attendOverviewContents,
   attendRegistrationContents,
+  attendRegTableContents,
   attendHotelContents,
   attendVisasContents,
   attendTravelContents,
@@ -58,8 +59,10 @@ module.exports = {
   // data-program
   programNav,
   programOverviewContents,
+  programScheduleContents,
   programKeynoteContents,
   programWorkshopContents,
+  programPanelContents,
   programImpactContents,
   programBirdsContents,
 };

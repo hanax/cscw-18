@@ -68,11 +68,12 @@ const attendRegistrationContents = {
       title: "Important Dates",
       content: 
 `
-* **Sept 10, 2018**: Early registration deadline
+* **Sept 17, 2018**: Early registration deadline
 * **Oct 25, 2018**: Advance registration deadline
 
-To register, visit the CSCW 2018 [conference registration page](https://www.regonline.com/cscw18). 
+To register, visit the CSCW 2018 [conference registration page](https://www.regonline.com/cscw18). Rates can be found below. Please note that Early registration rates are available through September 17 and Advance registration rates through October 25. You can register for a workshop only if you have successfully applied for permission to participate in the workshop.
 
+A limited number of press passes are available. Email [chairs2018@cscw.acm.org](mailto:chairs2018@cscw.acm.org) to request a pass. 
 `
     },
     {
@@ -81,11 +82,95 @@ To register, visit the CSCW 2018 [conference registration page](https://www.rego
 `
 Rates can be found below. 
 
-Please note that Early registration rates are available through September 10 and Advance registration rates through October 25. You can register for a workshop only if you have successfully applied for permission to participate in the workshop.
+Please note that Early registration rates are available through September 17 and Advance registration rates through October 25. You can register for a workshop only if you have successfully applied for permission to participate in the workshop.
 `
     }
   ]
 };
+
+const attendRegTableContents = {
+  tables: [
+    {
+      section: "Conference Fees",
+      header: [
+        {
+          early: "Early Registration (through 9/17)",
+          advance: "Advance Registration (9/18 - 10/25)",
+          late: "Late/Onsite Registration (10/26 on)"
+        }
+      ],
+      rates: [
+        {
+          name: "Student",
+          early: "$275",
+          advance: "$345",
+          late: "$395"
+        },
+        {
+          name: "One-Day*",
+          early: "$375",
+          advance: "$400",
+          late: "$425"
+        },
+        {
+          name: "ACM/SIG Members",
+          early: "$695",
+          advance: "$795",
+          late: "$895"
+        },
+        {
+          name: "Non-ACM/SIG Members",
+          early: "$795",
+          advance: "$895",
+          late: "$995"
+        },
+        {
+          name: "Emeritus (60+, Unemployed)",
+          early: "$275",
+          advance: "$345",
+          late: "$395"
+        }
+      ]
+    },
+   {
+      section: "Workshop Fees",
+      header: [
+        {
+          early: "Early Registration (through 9/17)",
+          advance: "Advance Registration (9/18 - 10/25)",
+          late: "Late/Onsite Registration (10/26 on)"
+        }
+      ],
+      rates: [
+        {
+          name: "ACM/SIG Member Workshop (w/ Conference)",
+          early: "$175",
+          advance: "$175",
+          late: "$175"
+        },
+        {
+          name: "ACM/SIG Non-Member Workshop (w/ Conference)",
+          early: "$200",
+          advance: "$200",
+          late: "$200"
+        },
+        {
+          name: "Student Workshop Registration (w/ Conference)",
+          early: "$150",
+          advance: "$150",
+          late: "$150"
+        },
+        {
+          name: "Workshop Only (no Conference)",
+          early: "Add $100+ to above fee schedule",
+          advance: "",
+          late: ""
+        }
+      ]
+    }
+  ],
+  footnote: "(*) One-day registrations do not include conference banquet on Tuesday ($110)"
+}
 
 const attendHotelContents = {
   items: [
