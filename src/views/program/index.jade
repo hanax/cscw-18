@@ -19,5 +19,22 @@ html
 						span.fa.fa-circle
 						span.fa.fa-circle
 					.content!= n.content
+			.program
+				each d in programScheduleContents.days
+					.content-item
+						h3!= d.date
+						table
+							thead
+								tr
+									th Start Time
+									th End Time
+									th Session
+							tbody
+								each s in d.sessions
+									tr
+										td!= s.start
+										td!= s.end
+										td!= s.name
+										
 
 	include ../shared-footer

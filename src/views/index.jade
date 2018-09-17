@@ -33,6 +33,16 @@ html
 		a(href='/2018/location.html')
 			.title#aria-location= homeVenue.title
 
+	.section.deadlines#deadlines(aria-labelledby='aria-deadlines')
+		.title#aria-important= homeDeadlines.title
+		.separator
+			span.fa.fa-circle
+			span.fa.fa-circle
+			span.fa.fa-circle
+		ul.content
+			each n in homeDeadlines.content
+				li!= n
+
 	.section.importantNow(aria-labelledby='aria-important')
 		.title#aria-important= homeImportantNow.title
 		.separator
@@ -103,7 +113,15 @@ html
 			span.fa.fa-circle
 			span.fa.fa-circle
 			span.fa.fa-circle
-		.content!= homeSponsors.content
+		.content
+			each c in homeSponsors.content
+				h3= c.title
+				each n in c.items
+					img.sponsors-logo(src=n)
+		.link-more
+			a(href='/2018/sponsors/')
+				span.fa.fa-angle-right
+				span More Information
 
 	.section.committee(aria-labelledby='aria-committee')
 		.title#aria-committee= homeCommittee.title

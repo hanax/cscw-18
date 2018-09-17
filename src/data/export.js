@@ -6,6 +6,7 @@ module.exports = {
   homeHeader,
   homeWelcome,
   homeVenue,
+  homeDeadlines,
   homeImportantNow,
   homeNews,
   homeCfp,
@@ -48,6 +49,7 @@ module.exports = {
   attendNav,
   attendOverviewContents,
   attendRegistrationContents,
+  attendRegTableContents,
   attendHotelContents,
   attendVisasContents,
   attendTravelContents,
@@ -57,8 +59,10 @@ module.exports = {
   // data-program
   programNav,
   programOverviewContents,
+  programScheduleContents,
   programKeynoteContents,
   programWorkshopContents,
+  programPanelContents,
   programImpactContents,
   programBirdsContents,
 };

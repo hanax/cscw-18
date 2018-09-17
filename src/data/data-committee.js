@@ -109,10 +109,25 @@ const committeeChairs = [
   {
     title: "Diversity and Inclusion Co-Chairs",
     names: [
-      "Niloufar Salehi (Stanford)",
+      "Niloufar Salehi (UC Berkeley)",
       "Hilda Tellioglu (Vienna University of Technology)"
     ],
     email: "diversity2018@cscw.acm.org"
+  },
+  {
+    title: "Accessibility Co-Chairs",
+    names: [
+      "Astrid Weber (Google)"
+    ],
+    email: "accessibility2018@cscw.acm.org"
+  },
+  {
+    title: "Telepresence Co-Chairs",
+    names: [
+      "Sue Fussel (Cornell University)",
+      "Carman Neustadter (Simon Fraser University)"
+    ],
+    email: "tele2018@cscw.acm.org"
   },
   {
     title: "Student Volunteer co-Chairs",
